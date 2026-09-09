@@ -155,8 +155,9 @@
 			"arty_support_level" : 20.0,
 			"unit_support_level" : 30.0,
 			"terrain_odds_modifier" : {
-				"Hills" : 10,
-				"Fortification" : 0
+				"Hills" : 15,
+				"Villages" : 15,
+				"Fortification" : -1
 			}
 		},
 		{
@@ -180,9 +181,9 @@
 			"arty_support_level" : 40.0,
 			"unit_support_level" : 50.0,
 			"terrain_odds_modifier" : {
-				"Hills" : 10,
-				"Villages" : 20,
-				"Fortification" : 0
+				"Hills" : 15,
+				"Villages" : 15,
+				"Fortification" : -1
 			}
 		},
 		{
@@ -213,6 +214,10 @@
 			"unit_support_level" : 60.0,
 			"enemy_class_odds_modifier" : {
 				"Tankette" : 20
+			},
+			"terrain_odds_modifier" : {
+				"Marsh" : 5,
+				"Fortification" : -1
 			}
 		}
 	]

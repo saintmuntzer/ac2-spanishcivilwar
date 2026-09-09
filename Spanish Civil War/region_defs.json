@@ -3,14 +3,14 @@
 		"cd_terrain_odds" : {
 			"Flat" : 15,
 			"Forest" : 15,
-			"Hills" : 40,
+			"Hills" : 25,
 			"Mountains" : 2,
-			"Mountain Pass" : 3,
-			"Fields" : 20,
+			"Mountain Pass" : 2,
+			"Fields" : 15,
 			"Scrub" : 10,
 			"Marsh" : 2,
 			"Villages" : 10,
-			"Lake" : 3,
+			"Lake" : 2,
 			"Fortification" : 2
 		},
 		"dirt_road_odds" : 80.0,
