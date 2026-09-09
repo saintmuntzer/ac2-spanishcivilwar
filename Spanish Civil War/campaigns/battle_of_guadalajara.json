@@ -1,0 +1,219 @@
+{
+	"name" : "Battle of Guadalajara",
+	"creator" : "saintmuntzer / sparksflyupward",
+	"comments" : "The roster of tanks on the Republican side is historically dubious, as the only documented model at the Battle of Guadalajara was the T-26. For the sake of variety, other tanks and armored cars used by the Republic in this period may be available.",
+	"last_updated" : "1.3.7",
+	"difficulty" : "6",
+	"start_date" : "1937.03.08",
+	"end_date" : "1937.03.27",
+	"player_nation" : "Second Spanish Republic",
+	"enemy_nations" : ["Italy", "Nationalist Spain"],
+	"region" : "Central Spain",
+	"desc" : "The Spanish Republican Army and International Brigades must repel an assault led by the Italian Corps of Volunteer Troops, who hope to encircle the defenders of Madrid from the northeast.",
+	"player_unit_list" : [
+		"BA-3 (RSP)",
+		"BA-6 (RSP)",
+		"Bilbao Modelo 1932",
+		"Carro IGC Sadurni",
+		"FAI (RSP)",
+		"Renault FT (RSP)",
+		"Renault FT (MG, RSP)",
+		"Schnieder CA 1",
+		"T-26 M33 (RSP)",
+		"Tractor Blindado Landesa",
+		"Trubia A4",
+		"Trubia-Naval"
+	],
+	"player_squad_list" : {
+		"T-26 M33 (RSP)" : ["T-26 M33 (RSP)"],
+
+		"Carro IGC Sadurni" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"Renault FT (RSP)" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"Renault FT (MG, RSP)" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"Schnieder CA 1" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"Tractor Blindado Landesa" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"Trubia A4" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"Trubia-Naval" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
+
+		"BA-3 (RSP)" : ["Bilbao Modelo 1932", "BA-3 (RSP)", "BA-6 (RSP)", "FAI (RSP)"],
+		"BA-6 (RSP)" : ["Bilbao Modelo 1932", "BA-3 (RSP)", "BA-6 (RSP)", "FAI (RSP)"],
+		"Bilbao Modelo 1932" : ["Bilbao Modelo 1932", "BA-3 (RSP)", "BA-6 (RSP)", "FAI (RSP)"],
+		"FAI (RSP)" : ["Bilbao Modelo 1932", "BA-3 (RSP)", "BA-6 (RSP)", "FAI (RSP)"]
+	},
+	"tank_vp_modifiers" : {
+		"BA-3 (RSP)" : 1.2,
+		"BA-6 (RSP)" : 1.1,
+		"Bilbao Modelo 1932" : 1.4,
+		"Carro IGC Sadurni" : 1.3,
+		"FAI (RSP)" : 1.4,
+		"Renault FT (RSP)" : 1.1,
+		"Renault FT (MG, RSP)" : 1.2,
+		"Schnieder CA 1" : 1.2,
+		"T-26 M33 (RSP)" : 0.7,
+		"Tractor Blindado Landesa" : 1.3,
+		"Trubia A4" : 1.2,
+		"Trubia-Naval" : 1.2
+	},
+	"campaign_skills" : [
+		"Defend the Motherland"
+	],
+	"player_air_support": [
+		"I-15", "I-16", "Tupolev SB (RSP)"
+	],
+	"player_arty_support": [
+		"76.2mm PP obr. 27", "76.2mm obr. 00/02P", "107mm obr. 10/30", "122mm G obr. 10/30",
+		"7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"
+	],
+	"player_unit_support" : {
+		"Armour" : ["T-26 M33 (RSP)"],
+		"Anti-Armour" : ["37mm M1917", "37mm obr. 30", "45mm obr. 32/37"],
+		"Anti-Infantry" : ["Chevrolet 4x2 RD", "ZIS-5 Truck", "3-ton Truck", "HMG Team", "Riflemen", "Militia"],
+		"Recon" : ["Bilbao Modelo 1932", "BA-3 (RSP)", "BA-6 (RSP)", "FAI (RSP)"],
+		"Artillery" : ["Light Mortar Team", "76.2mm PP obr. 27", "76.2mm obr. 00/02P", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912"]
+	},
+	"friendly_transported_units_by_class" : {
+		"Truck" : {
+			"Riflemen" : 80,
+			"Light Mortar Team" : 10,
+			"HMG Team" : 10
+		}
+	},
+	"enemy_air_support": {
+		"Italy" : ["Fiat CR.32"],
+		"Nationalist Spain" : ["Fiat CR.32"]
+	},
+	"enemy_arty_support": {
+		"Italy" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"],
+		"Nationalist Spain" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"]
+	},
+	"enemy_unit_list" : {
+		"Italy" : [
+			"L3/33", "L3/35", "L3 Lf", "L3 Lf (Trailer)",
+			"AB Lancia 1Z",
+			"37/45", "47/32",
+			"75/27",
+			"20/65",
+			"3-ton Truck",
+			"Riflemen",
+			"HMG Team", "Light Mortar Team",
+			"Motorcycle MG Team"
+		],
+		"Nationalist Spain" : [
+			"7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912",
+			"Chevrolet 4x2 RD", "3-ton Truck",
+			"Riflemen", "Militia",
+			"HMG Team", "Light Mortar Team",
+			"Motorcycle MG Team"
+		]
+	},
+	"enemy_unit_class_odds" : {
+		"Tankette" : 60,
+		"Light Tank" : 0,
+		"Medium Tank" : 0,
+		"Armoured Car" : 10,
+		"Anti-Tank Gun" : 50,
+		"Artillery Gun" : 20,
+		"Anti-Aircraft Gun" : 10,
+		"Truck" : 50,
+		"Infantry Squad" : 80,
+		"Support Weapon Team" : 50,
+		"Motorcycle Team" : 10
+	},
+	"enemy_transported_units_by_class" : {
+		"Italy": {
+			"Truck" : {
+				"Riflemen" : 80,
+				"HMG Team" : 10,
+				"Light Mortar Team" : 10
+			}
+		},
+		"Nationalist Spain": {
+			"Truck" : {
+				"Riflemen" : 50,
+				"Militia" : 30,
+				"HMG Team" : 10,
+				"Light Mortar Team" : 10
+			}
+		}
+	},
+	"combat_days" : 8,
+	"calendar_weeks": [
+		{
+			"start_date" : "1937.03.08",
+			"end_date" : "1937.03.11",
+			"location" : "40.63,3.16",
+			"combat_chance" : 100,
+			"average_resistance" : 8,
+			"week_title" : "Italian Offensive",
+			"week_description" : "The Fascists have unexpectedly attacked from the northeast, advancing toward Madrid. The People's Republican Army 12th Division must hold out against the Italian vanguard until reinforcements arrive.",
+			"mission_odds" : {
+				"Fighting Withdrawal" : 40,
+				"Hold the Line" : 60
+			},
+			"enemy_nations" : ["Italy"],
+			"air_support_level" : 0.0,
+			"arty_support_level" : 20.0,
+			"unit_support_level" : 30.0,
+			"terrain_odds_modifier" : {
+				"Hills" : 10,
+				"Fortification" : 0
+			}
+		},
+		{
+			"start_date" : "1937.03.12",
+			"end_date" : "1937.03.14",
+			"location" : "40.63,3.16",
+			"combat_chance" : 100,
+			"average_resistance" : 6,
+			"week_title" : "Halting the Advance",
+			"week_description" : "Though we were forced to withdraw southward, reinforcements have bolstered our strength and the Fascists are wavering. The Republican Air Force stands ready to support our counter-attack.",
+			"mission_odds" : {
+				"Battle" : 80,
+				"Hold the Line" : 20
+			},
+			"enemy_nations" : ["Italy", "Nationalist Spain"],
+			"enemy_nation_odds" : {
+				"Italy" : "80",
+				"Nationalist Spain" : "20"
+			},
+			"air_support_level" : 60.0,
+			"arty_support_level" : 40.0,
+			"unit_support_level" : 50.0,
+			"terrain_odds_modifier" : {
+				"Hills" : 10,
+				"Villages" : 20,
+				"Fortification" : 0
+			}
+		},
+		{
+			"start_date" : "1937.03.15",
+			"end_date" : "1937.03.17",
+			"refitting" : "TRUE"
+		},
+		{
+			"start_date" : "1937.03.18",
+			"end_date" : "1937.03.23",
+			"location" : "40.63,3.16",
+			"combat_chance" : 80,
+			"average_resistance" : 5,
+			"week_title" : "Crossing the Tajuña",
+			"week_description" : "We have concentrated our forces to cross the Tajuña River and retake this territory from the traitorous Fascists.",
+			"mission_odds" : {
+				"Advance" : 70,
+				"Battle": 20,
+				"Counterattack" : 10
+			},
+			"enemy_nations" : ["Italy", "Nationalist Spain"],
+			"enemy_nation_odds" : {
+				"Italy" : "70",
+				"Nationalist Spain" : "30"
+			},
+			"air_support_level" : 60.0,
+			"arty_support_level" : 50.0,
+			"unit_support_level" : 60.0,
+			"enemy_class_odds_modifier" : {
+				"Tankette" : 20
+			}
+		}
+	]
+}

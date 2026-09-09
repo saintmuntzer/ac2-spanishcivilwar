@@ -1,0 +1,386 @@
+{
+	"L3/35": {
+		"category" : "Vehicle",
+		"class" : "Tankette",
+		"origin_nation" : "Italy",
+		"portrait" : "unit_L3_35.xp",
+		"size_class" : "Very Small",
+		"movement_class" : "Fast Tank",
+		"ground_pressure" : "Light",
+		"turret" : "FXT",
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "0",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"rof" : "16.7",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0,
+				"unreliable" : true
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"Developed from the British Mark VI tankette, the L3/33 was adopted ",
+			"by Italian forces in 1933. The 1935 version replaced the single 6.5mm ",
+			"machine gun with twin 8mm machine guns."
+		],
+		"rarity" : {
+			"1935.01.01" : "80",
+			"1938.07.01" : "90",
+			"1940.06.01" : "100",
+			"1941.01.01" : "90",
+			"1941.02.01" : "80",
+			"1941.03.01" : "60",
+			"1941.04.01" : "80",
+			"1941.12.01" : "60",
+			"1942.01.01" : "50",
+			"1942.02.01" : "40"
+		}
+	},
+
+	"L3 Lf": {
+		"category" : "Vehicle",
+		"class" : "Tankette",
+		"origin_nation" : "Italy",
+		"portrait" : "unit_L3_Lf.xp",
+		"size_class" : "Very Small",
+		"movement_class" : "Fast Tank",
+		"ground_pressure" : "Light",
+		"turret" : "FXT",
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "0",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "Flame Thrower",
+				"name" : "Flame Thrower",
+				"fp" : "4",
+				"rof" : "40.0",
+				"max_range" : "1",
+				"flame_ammo" : 10,
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0
+			},
+			{
+				"type" : "TMG",
+				"fp" : "2",
+				"rof" : "16.7",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 1,
+				"unreliable" : true
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"Developed from the British Mark VI tankette, the L3/33 was adopted ",
+			"by Italian forces in 1933. The Lf variant is armed with a flamethrower, ",
+			"making it a highly effective anti-infantry vehicle. "
+		],
+		"rarity" : {
+			"1935.01.01" : "30",
+			"1940.06.01" : "50",
+			"1941.01.01" : "40",
+			"1941.03.01" : "30",
+			"1941.04.01" : "40",
+			"1942.02.01" : "10"
+		}
+	},
+
+	"L3 Lf (Trailer)": {
+		"category" : "Vehicle",
+		"class" : "Tankette",
+		"origin_nation" : "Italy",
+		"portrait" : "unit_L3_Lf_trailer.xp",
+		"size_class" : "Very Small",
+		"movement_class" : "Slow Tank",
+		"ground_pressure" : "Light",
+		"turret" : "FXT",
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "0",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "Flame Thrower",
+				"name" : "Flame Thrower",
+				"fp" : "4",
+				"rof" : "40.0",
+				"max_range" : "1",
+				"flame_ammo" : 16,
+				"external_fuel" : true,
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0
+			},
+			{
+				"type" : "TMG",
+				"fp" : "2",
+				"rof" : "16.7",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 1,
+				"unreliable" : true
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"Developed from the British Mark VI tankette, the L3/33 was adopted ",
+			"by Italian forces in 1933. The Lf variant is armed with a flamethrower, ",
+			"and this sub-variant has an external fuel tank mounted on a trailer ",
+			"giving it more ammo capacity."
+		],
+		"rarity" : {
+			"1935.01.01" : "15",
+			"1940.06.01" : "25",
+			"1941.01.01" : "20",
+			"1941.03.01" : "15",
+			"1941.04.01" : "20",
+			"1942.02.01" : "5"
+		}
+	},
+
+	"20/65": {
+		"category" : "Gun",
+		"class" : "Anti-Aircraft Gun",
+		"origin_nation" : "Italy",
+		"portrait" : "unit_20mm_aa_ITA.xp",
+		"size_class" : "Small",
+		"movement_class" : "Gun",
+		"turntable" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "20",
+				"fp" : "4",
+				"long_range" : "L",
+				"rof" : "50.0",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "180"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"First adopted in 1935, this is the standard Italian AA gun, but it's ",
+			"also used as an anti-personnel gun and as a light anti-tank gun."
+		],
+		"rarity" : {
+			"1935.07.01" : "30",
+			"1940.06.01" : "80",
+			"1941.06.01" : "90",
+			"1942.05.01" : "100",
+			"1943.06.01" : "0"
+		}
+	},
+
+    "37/45": {
+		"category" : "Gun",
+		"class" : "Anti-Tank Gun",
+		"origin_nation" : "Italy",
+		"portrait" : "unit_pak_35-36_ITA.xp",
+		"size_class" : "Small",
+		"movement_class" : "Gun",
+		"gun_shield" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "37",
+				"long_range" : "L",
+				"rof" : "50.0",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "180"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"This was an Italian licensed version of the German PaK 35/36."
+		],
+		"rarity" : {
+            "1935.07.01" : "40",
+			"1940.06.01" : "60",
+			"1941.03.01" : "50",
+			"1942.01.01" : "0"
+		}
+	},
+
+	"47/32": {
+		"nick_name" : "Elefantino",
+		"category" : "Gun",
+		"class" : "Anti-Tank Gun",
+		"origin_nation" : "Italy",
+		"portrait" : "unit_47_32_AT.xp",
+		"size_class" : "Small",
+		"movement_class" : "Gun",
+		"gun_shield" : false,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "47",
+				"rof" : "50.0",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["AP", "HE"],
+				"max_ammo" : "180"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander/Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"}
+		],
+		"description" : [
+			"An Austrian design produced under license in Italy, this gun was ",
+			"intended as an anti-tank and infantry support gun."
+		],
+		"rarity" : {
+			"1935.07.01" : "50",
+			"1940.06.01" : "80",
+			"1941.06.01" : "90",
+			"1941.11.01" : "100",
+			"1942.05.01" : "90"
+		}
+	},
+
+    "75/27": {
+		"category" : "Gun",
+		"class" : "Artillery Gun",
+		"origin_nation" : "Italy",
+		"portrait" : "unit_75mm_gun_ITA.xp",
+		"size_class" : "Small",
+		"movement_class" : "Gun",
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "75",
+				"long_range" : "S",
+				"rof" : "16.7",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "HEAT", "AP"],
+				"max_ammo" : "180",
+				"special_ammo" : {
+					"HEAT" : {
+						"1942.09.01" : "6"
+					}
+				},
+				"unreliable" : true
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"Originally built for the Great War, this was a licenced copy of the ",
+			"Krupp 1906 gun. It became the standard light artillery piece for ",
+			"Italian forces in the war."
+		],
+		"rarity" : {
+            "1935.07.01" : "60",
+			"1940.06.01" : "80",
+			"1943.10.01" : "0"
+		}
+	},
+
+	"Chevrolet 4x2 RD" : {
+		"category" : "Vehicle",
+		"class" : "Truck",
+		"portrait" : "unit_4x2_RD.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Wheeled",
+		"crew_positions" : [
+			{
+				"name" : "Driver",
+				"location" : "Hull"
+			}
+		],
+		"description" : [
+			"This design of truck was widespread during the 1930s and 1940s, ",
+			"produced by a number of different manufacturers around the world."
+		],
+		"rarity" : {
+			"1936.01.01" : "50",
+			"1940.05.11" : "75"
+		}
+	}
+}

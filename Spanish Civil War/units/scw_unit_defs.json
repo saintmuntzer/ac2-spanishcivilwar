@@ -1,0 +1,1860 @@
+{
+	"AAC-1937 (37mm)" : {
+		"category" : "Vehicle",
+		"class" : "Armoured Car",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_AAC-1937_37.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Wheeled",
+		"powerful_engine" : true,
+		"ground_pressure" : "Heavy",
+		"turret" : "RST",
+		"recce" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "37",
+				"long_range" : "S",
+				"rr_size" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"reloaded_by" : ["Gunner/Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "70",
+				"special_ammo" : {
+					"AP" : {
+						"1940.01.01" : "20"
+					}
+				}
+			},
+			{
+				"type" : "CMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"firing_group" : 0
+			},
+			{
+				"type" : "BMG",
+				"fp" : "2",
+				"mount" : "Hull",
+				"fired_by" : ["Assistant Driver"],
+				"firing_group" : 1
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner/Loader",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Assistant Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"The AAC-1937 was a Spanish Republican imitation of the Soviet BA-6 armoured car. ",
+			"Limited availability of weapons resulted in a diverse array of armaments. This ",
+			"configuration includes a short-barrelled 37mm cannon and coaxial machine gun."
+		],
+		"rarity" : {
+			"1937.05.01" : "20",
+			"1937.07.25" : "40",
+			"1938.11.16" : "5"
+		}
+	},
+
+	"AAC-1937 (MG)" : {
+		"category" : "Vehicle",
+		"class" : "Armoured Car",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_AAC-1937_mg.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Wheeled",
+		"powerful_engine" : true,
+		"ground_pressure" : "Heavy",
+		"turret" : "RST",
+		"recce" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner"],
+				"firing_group" : 0
+			},
+			{
+				"type" : "BMG",
+				"fp" : "2",
+				"mount" : "Hull",
+				"fired_by" : ["Assistant Driver"],
+				"firing_group" : 1
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Assistant Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"The AAC-1937 was a Spanish Republican imitation of the Soviet BA-6 armoured car. ",
+			"Limited availability of weapons resulted in a diverse array of armaments. This ",
+			"model's turret is equipped with only a machine gun."
+		],
+		"rarity" : {
+			"1937.05.01" : "30",
+			"1937.07.25" : "50",
+			"1938.11.16" : "10"
+		}
+	},
+
+	"AAC-1937 (45mm)" : {
+		"category" : "Vehicle",
+		"class" : "Armoured Car",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_AAC-1937_45.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Wheeled",
+		"powerful_engine" : true,
+		"ground_pressure" : "Heavy",
+		"turret" : "RST",
+		"recce" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "2",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "45",
+				"long_range" : "L",
+				"rof" : "16.7",
+				"rr_size" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"reloaded_by" : ["Gunner/Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "180",
+				"unreliable" : true
+			},
+			{
+				"type" : "CMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"firing_group" : 0
+			},
+			{
+				"type" : "BMG",
+				"fp" : "2",
+				"mount" : "Hull",
+				"fired_by" : ["Assistant Driver"],
+				"firing_group" : 1
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner/Loader",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Assistant Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"The AAC-1937 was a Spanish Republican imitation of the Soviet BA-6 armoured car. ",
+			"Limited availability of weapons resulted in a diverse array of armaments. The turrets ",
+			"from damaged or nonfunctional T-26 tanks were occasionally repurposed for this role."
+		],
+		"rarity" : {
+			"1937.05.01" : "5",
+			"1937.07.25" : "20",
+			"1938.11.16" : "0"
+		}
+	},
+
+	"BA-3 (RSP)": {
+		"category" : "Vehicle",
+		"class" : "Armoured Car",
+		"origin_nation" : "Soviet Union",
+		"portrait" : "scw_unit_BA-6.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Slow Wheeled",
+		"weak_engine" : true,
+		"ground_pressure" : "Heavy",
+		"unreliable" : true, 
+		"turret" : "RST",
+		"recce" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "2",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "45",
+				"long_range" : "L",
+				"rof" : "16.7",
+				"rr_size" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"reloaded_by" : ["Gunner/Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP", "APCR"],
+				"max_ammo" : "60",
+				"special_ammo" : {
+					"APCR" : {
+						"1942.01.01" : "4"
+					}
+				},
+				"unreliable" : true
+			},
+			{
+				"type" : "CMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"firing_group" : 0
+			},
+			{
+				"type" : "BMG",
+				"fp" : "2",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner/Loader"],
+				"firing_group" : 1
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner/Loader",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner/Loader",
+				"location" : "Hull",
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"The Soviet Union shipped a few BA-3 armored cars to the ",
+			"Spanish Republic, alongside the much more numerous and ",
+			"effective BA-6. This earlier model would struggle in the ",
+			"terrain and climate of Spain."
+		],
+		"rarity" : {
+			"1936.10.12" : "5",
+			"1938.01.01" : "0"
+		}
+	},
+
+	"BA-6 (RSP)": {
+		"category" : "Vehicle",
+		"class" : "Armoured Car",
+		"origin_nation" : "Soviet Union",
+		"portrait" : "scw_unit_BA-6.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Wheeled",
+		"turret" : "RST",
+		"recce" : true,
+		"armour" : {
+			"turret_front" : "2",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "45",
+				"long_range" : "L",
+				"rof" : "16.7",
+				"rr_size" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"reloaded_by" : ["Gunner/Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP", "APCR"],
+				"max_ammo" : "60",
+				"special_ammo" : {
+					"APCR" : {
+						"1942.01.01" : "4"
+					}
+				},
+				"unreliable" : true
+			},
+			{
+				"type" : "CMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"firing_group" : 0
+			},
+			{
+				"type" : "BMG",
+				"fp" : "2",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner/Loader"],
+				"firing_group" : 1
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner/Loader",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner/Loader",
+				"location" : "Hull",
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"The BA-6 was imported in substantial quantities at the ",
+			"beginning of the war and would serve as inspiration for ",
+			"Spanish designs such as the AAC-1937. Its 45mm gun was ",
+			"a threat to any armored vehicle of the time."
+		],
+		"rarity" : {
+			"1936.10.12" : "40",
+			"1938.07.01" : "20"
+		}
+	},
+
+	"Bilbao Modelo 1932": {
+		"category" : "Vehicle",
+		"class" : "Armoured Car",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_Bilbao_Modelo_1932.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Wheeled",
+		"ground_pressure" : "Heavy",
+		"turret" : "RST",
+		"recce" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "0",
+			"turret_side" : "0",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner"],
+				"firing_group" : 0
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Assistant Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"The official armored car of the Assault Guard, the paramilitary riot police of the ",
+			"Spanish Republic. The Bilbao Modelo 1932 is primarily suited to urban combat operations ",
+			"against soft targets."
+		],
+		"rarity" : {
+			"1932.06.01" : "40",
+			"1938.11.16" : "5"
+		}
+	},
+
+	"Blindado tipo ZIS": {
+		"category" : "Vehicle",
+		"class" : "Armoured Car",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_Blindado_Tipo_ZIS.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Wheeled",
+		"ground_pressure" : "Heavy",
+		"turret" : "RST",
+		"recce" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "0",
+			"turret_side" : "0",
+			"hull_front" : "0",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0
+			},
+			{
+				"type" : "BMG",
+				"fp" : "2",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"firing_group" : 1
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"Named for its use of the Soviet ZIS truck chassis, the Blindado tipo ZIS was the most ",
+			"capable and widely-produced armored car of the Spanish Republic for much of the civil war."
+		],
+		"rarity" : {
+			"1937.05.01" : "30",
+			"1937.09.01" : "70",
+			"1938.01.01" : "80",
+			"1939.01.01" : "30"
+		}
+	},
+
+	"BT-5 M34 (RSP)" : {
+		"category" : "Vehicle",
+		"class" : "Light Tank",
+		"origin_nation" : "Soviet Union",
+		"portrait" : "scw_unit_bt5_m34_RSP.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Fast Tank",
+		"ground_pressure" : "Light",
+		"turret" : "RST",
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "1",
+			"hull_front" : "2",
+			"hull_side" : "1"
+		},
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "45",
+				"long_range" : "L",
+				"rof" : "16.7",
+				"rr_size" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"reloaded_by" : ["Gunner/Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "115",
+				"unreliable" : true
+			},
+			{
+				"type" : "CMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"firing_group" : 0
+			},
+			{
+				"type" : "RMG",
+				"fp" : "2",
+				"mount" : "Turret",
+				"fired_by" : ["Commander", "Gunner/Loader"],
+				"firing_group" : 1,
+				"rear_facing" : true
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner/Loader",
+				"location" : "Turret",
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "1", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"The BT-5 tank was designed to move quickly, in order to exploit ",
+			"holes in enemy defensive lines. The Soviet Union delivered 50 of ",
+			"these tanks to the Spanish Republic in August of 1937."
+		],
+		"rarity" : {
+			"1937.08.10" : "40",
+			"1938.11.16" : "5"
+		}
+	},
+
+	"Carro IGC Sadurni": {
+		"category" : "Vehicle",
+		"class" : "Tankette",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_Carro_IGC_Sadurni.xp",
+		"size_class" : "Very Small",
+		"movement_class" : "Slow Tank",
+		"ground_pressure" : "Light",
+		"turret" : "FXT",
+		"unreliable" : true,
+		"no_radio" : true,
+		"no_turret" : true,
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "0",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"mount" : "Hull",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Hull",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"ce_visible" : ["0", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"The Carro IGC Sadurni was an armored conversion of the Benach tractor ",
+			"produced in the Catalan town of Sant Sadurni d'Anoia. Only a small number ",
+			"of prototypes were made at the behest of the War Industries Commission of ",
+			"Catalonia before the project was cancelled by the Republican government."
+		],
+		"rarity" : {
+			"1937.03.01" : "5"
+		}
+	},
+
+	"Carro IGC Sadurni Carrier": {
+		"category" : "Vehicle",
+		"class" : "APC",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_Carro_IGC_Sadurni_Carrier.xp",
+		"size_class" : "Very Small",
+		"movement_class" : "Slow Tank",
+		"ground_pressure" : "Light",
+		"no_radio" : true,
+		"no_turret" : true,
+		"armour" : {
+			"turret_front" : "0",
+			"turret_side" : "0",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"open_topped" : true,
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Hull",
+				"open_top" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"open_top" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
+			}
+		],
+		"description" : [
+			"The Carro IGC Sadurni was an armored conversion of the Benach tractor ",
+			"produced in the Catalan town of Sant Sadurni d'Anoia. A few prototypes ",
+			"were made into open-topped armored personnel carriers."
+		],
+		"rarity" : {
+			"1937.03.01" : "5"
+		}
+	},
+
+	"FAI (RSP)": {
+		"category" : "Vehicle",
+		"class" : "Armoured Car",
+		"origin_nation" : "Soviet Union",
+		"portrait" : "scw_unit_FAI_RSP.xp",
+		"size_class" : "Small",
+		"movement_class" : "Fast Wheeled",
+		"powerful_engine" : true,
+		"ground_pressure" : "Heavy",
+		"unreliable" : true,
+		"turret" : "RST",
+		"recce" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "0",
+			"turret_side" : "0",
+			"hull_front" : "0",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"rof" : "16.7",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"A small number of Ford A Izhorsky armored cars were sent to ",
+			"the Spanish Republic alongside more capable vehicles. The FAI ",
+			"was hindered by its thin armor and poor offroad performance."
+		],
+		"rarity" : {
+			"1936.10.12" : "5",
+			"1938.01.01" : "0"
+		}
+	},
+
+	"Renault FT (RSP)": {
+		"category" : "Vehicle",
+		"class" : "Light Tank",
+		"origin_nation" : "France",
+		"portrait" : "scw_unit_FT-17C_RSP.xp",
+		"size_class" : "Small",
+		"movement_class" : "Slow Tank",
+		"ground_pressure" : "Light",
+		"turret" : "RST",
+		"unreliable" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "2",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "37",
+				"long_range" : "S",
+				"rof" : "15.0",
+				"rr_size" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "233",
+				"rof_na" : true
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "1", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"First developed during the Great War, the Renault FT was the world's ",
+			"first modern tank. The Second Spanish Republic's limited stock of this ",
+			"tank was supplemented by covert shipments from Poland, and to a lesser ",
+			"extent, France. This model is armed with a short-barreled 37mm main gun."
+		],
+		"rarity" : {
+			"1936.07.17" : "5",
+			"1937.03.08" : "20"
+		}
+	},
+	
+	"Renault FT (MG, RSP)": {
+		"category" : "Vehicle",
+		"class" : "Light Tank",
+		"origin_nation" : "France",
+		"portrait" : "scw_unit_FT-17M_RSP.xp",
+		"size_class" : "Small",
+		"movement_class" : "Slow Tank",
+		"ground_pressure" : "Light",
+		"turret" : "RST",
+		"unreliable" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "2",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"rof" : "16.7",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "1", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"First developed during the Great War, the Renault FT was the world's ",
+			"first modern tank. The Second Spanish Republic's limited stock of this ",
+			"tank was supplemented by covert shipments from Poland, and to a lesser ",
+			"extent, France. This model is armed only with a turret-mounted machine gun."
+		],
+		"rarity" : {
+			"1936.07.17" : "5",
+			"1937.03.08" : "20"
+		}
+	},
+
+	"Sadurni Tractor": {
+		"category" : "Vehicle",
+		"class" : "Tractor",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_Sadurni_Tractor.xp",
+		"size_class" : "Very Small",
+		"movement_class" : "Slow Tank",
+		"towing_capacity" : "Normal",
+		"no_turret" : true,
+		"no_radio" : true,
+		"crew_positions" : [
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"open_top" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
+			},
+			{
+				"name" : "Assistant Driver",
+				"location" : "Hull",
+				"open_top" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
+			}
+		],
+		"description" : [
+			"The tractors of Sant Sadurni d'Anoia proved to be capable vehicles for towing ",
+			"artillery pieces in the Spanish Republican Army. Despite the limited success of ",
+			"armed and armored prototypes, the unarmored tractor itself was reliable enough to ",
+			"stay in production until nearly the end of the civil war."
+		],
+		"rarity" : {
+			"1936.09.01" : "15",
+			"1938.04.01" : "30"
+		}
+	},
+
+	"Schnieder CA 1": {
+		"category" : "Vehicle",
+		"class" : "Medium Tank",
+		"origin_nation" : "France",
+		"portrait" : "scw_unit_Schnieder_CA1.xp",
+		"size_class" : "Large",
+		"movement_class" : "Very Slow Tank",
+		"ground_pressure" : "Heavy",
+		"turret" : "FXT",
+		"very_unreliable" : true,
+		"weak_engine" : true,
+		"no_radio" : true,
+		"no_turret" : true,
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "1"
+		},
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "75",
+				"long_range" : "S",
+				"rof" : "8.0",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "90",
+				"special_ammo" : {
+					"AP" : {
+						"1936.01.01" : "10"
+					}
+				},
+				"unreliable" : true,
+				"blocked_hull_dirs" : ["0"],
+				"extra_facings_covered" : ["1"]
+			},
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"mount" : "Hull",
+				"fired_by" : ["Port MG Gunner"],
+				"firing_group" : 1,
+				"unreliable" : true,
+				"blocked_hull_dirs" : ["0"],
+				"extra_facings_covered" : ["4", "5"]
+			},
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"mount" : "Hull",
+				"fired_by" : ["Starboard MG Gunner"],
+				"firing_group" : 2,
+				"unreliable" : true,
+				"blocked_hull_dirs" : ["0"],
+				"extra_facings_covered" : ["1", "2"]
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Hull",
+				"hatch" : true,
+				"hatch_group" : "0",
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner",
+				"location" : "Hull",
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Loader",
+				"location" : "Hull",
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Port MG Gunner",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"hatch_group" : "1",
+				"ce_visible" : ["2", "3", "4"],
+				"bu_visible" : ["5"]
+			},
+			{
+				"name" : "Starboard MG Gunner",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"hatch_group" : "1",
+				"ce_visible" : ["2", "3", "4"],
+				"bu_visible" : ["1"]
+			}
+		],
+		"description" : [
+			"[WIP. Awaiting code changes to simulate side-mounted guns.] ",
+			"Among the earliest tanks developed during the Great War, the Schnieder CA 1 ",
+			"is a relic of a bygone era. Spain purchased several for use in the Rif War, ",
+			"after which they were retired from service until being called upon to defend ",
+			"the Second Republic. Their usefulness was limited by mechanical issues and an ",
+			"awkward configuration of weapons."
+		],
+		"rarity" : {
+			"1936.01.01" : "5",
+			"1937.01.01" : "0"
+		}
+	},
+
+	"T-26 M33 (RSP)" : {
+		"category" : "Vehicle",
+		"class" : "Light Tank",
+		"origin_nation" : "Soviet Union",
+		"portrait" : "scw_unit_t26_m33_RSP.xp",
+		"size_class" : "Small",
+		"movement_class" : "Slow Tank",
+		"turret" : "ST",
+		"unreliable" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "2",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "1"
+		},
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "45",
+				"long_range" : "L",
+				"rof" : "16.7",
+				"rr_size" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"reloaded_by" : ["Gunner/Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "180",
+				"unreliable" : true
+			},
+			{
+				"type" : "CMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"firing_group" : 0
+			},
+			{
+				"type" : "RMG",
+				"fp" : "2",
+				"mount" : "Turret",
+				"fired_by" : ["Commander", "Gunner/Loader"],
+				"firing_group" : 1,
+				"rear_facing" : true
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner/Loader",
+				"location" : "Turret",
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "1", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"The Soviet T-26 tank would become the most numerous and most ",
+			"deadly armored vehicle in service to the Spanish Republic. So ",
+			"great was its combat performance that the Nationalists advertised ",
+			"a bounty for capturing them intact."
+		],
+		"rarity" : {
+			"1936.10.12" : "50",
+			"1937.03.06" : "70",
+			"1937.05.07" : "90",
+			"1938.07.01" : "50",
+			"1939.01.01" : "20"
+		}
+	},
+
+	"Tractor Blindado Landesa": {
+		"category" : "Vehicle",
+		"class" : "Light Tank",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_Tractor_Blindado_Landesa.xp",
+		"size_class" : "Small",
+		"movement_class" : "Slow Tank",
+		"turret" : "FXT",
+		"unreliable" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "1"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"ce_visible" : ["0", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"Developed in the early days of the Spanish Republic as an ",
+			"artillery tractor, a handful of Landesas were converted ",
+			"into lightly-armed tanks."
+		],
+		"rarity" : {
+			"1934.10.01" : "2",
+			"1937.08.01" : "0"
+		}
+	},
+
+	"Tractor Landesa": {
+		"category" : "Vehicle",
+		"class" : "Tractor",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_Tractor_Landesa.xp",
+		"size_class" : "Very Small",
+		"movement_class" : "Slow Tank",
+		"towing_capacity" : "Normal",
+		"no_turret" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "0",
+			"turret_side" : "0",
+			"hull_front" : "0",
+			"hull_side" : "0"
+		},
+		"crew_positions" : [
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"open_top" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
+			},
+			{
+				"name" : "Assistant Driver",
+				"location" : "Hull",
+				"open_top" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
+			}
+		],
+		"description" : [
+			"The Landesa artillery tractor was developed in the early days of the ",
+			"Spanish Republic. Only a dozen or so were produced, but they proved ",
+			"their reliability by traveling the 370 kilometers from the Trubia arms ",
+			"factory to Madrid under their own power."
+		],
+		"rarity" : {
+			"1934.10.01" : "10",
+			"1937.08.01" : "0"
+		}
+	},
+
+	"Trubia A4": {
+		"category" : "Vehicle",
+		"class" : "Light Tank",
+		"origin_nation" : "Kingdom of Spain",
+		"portrait" : "scw_unit_Trubia_A4.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Slow Tank",
+		"turret" : "RST",
+		"unreliable" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "1"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0
+			},
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner"],
+				"firing_group" : 1
+			},
+			{
+				"type" : "BMG",
+				"fp" : "4",
+				"mount" : "Hull",
+				"fired_by" : ["Driver"],
+				"firing_group" : 2
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner",
+				"location" : "Turret",
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "1", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"The Trubia A4 was an early attempt to create a Spanish tank design that ",
+			"addressed the apparent shortcomings of the Renault FT. Despite innovations ",
+			"such as a unique bisected turret that allowed two machine guns to traverse ",
+			"independently, the tank was not mass-produced and only a few prototypes ",
+			"existed at the outset of the war."
+		],
+		"rarity" : {
+			"1935.01.01" : "1",
+			"1936.10.01" : "0"
+		}
+	},
+
+	"Trubia-Naval": {
+		"category" : "Vehicle",
+		"class" : "Light Tank",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_Trubia-Naval.xp",
+		"size_class" : "Small",
+		"movement_class" : "Slow Tank",
+		"turret" : "RST",
+		"unreliable" : true,
+		"weak_engine" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "1"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 1
+			},
+			{
+				"type" : "BMG",
+				"fp" : "4",
+				"mount" : "Hull",
+				"fired_by" : ["Driver"],
+				"firing_group" : 2
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"A lightly-armed tank based on the Landesa tractor. The Trubia-Naval was ",
+			"the only Spanish-designed tank to enter mass production during the civil ",
+			"war, born of the necessity for armored vehicles in the Basque region."
+		],
+		"rarity" : {
+			"1936.09.01" : "5",
+			"1937.01.01" : "10",
+			"1937.07.21" : "0"
+		}
+	},
+
+	"I-15": {
+		"nick_name" : "Chato",
+		"category" : "Airplane",
+		"class" : "Fighter",
+		"origin_nation" : "Soviet Union",
+		"portrait" : "unit_I-153.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "Ordinance",
+				"name" : "Bombs",
+				"calibre" : "80"
+			},
+			{
+				"type" : "MG",
+				"fp" : "6"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"}
+		],
+		"description" : [
+			"A Soviet biplane of the early 1930s. Originally nicknamed Chaika (gull) ",
+			"for its gulled upper wings, the Spanish Republicans referred to it as ",
+			"Chato (snub-nose). It would prove to be one of the best fighter biplanes ",
+			"of its time."
+		],
+		"rarity" : {
+			"1936.10.28" : "20",
+			"1937.01.01" : "40",
+			"1937.05.01" : "60",
+			"1937.09.01" : "80",
+			"1939.01.01" : "50"
+		}
+	},
+
+	"Tupolev SB (RSP)": {
+		"nick_name" : "Katyusha",
+		"category" : "Airplane",
+		"class" : "Ground Attack",
+		"origin_nation" : "Soviet Union",
+		"portrait" : "scw_unit_Tupolev_SB.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "Ordinance",
+				"name" : "Bombs",
+				"calibre" : "150"
+			},
+			{
+				"type" : "MG",
+				"fp" : "6"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"},
+			{"name" : "Navigator"},
+			{"name" : "Gunner"}
+		],
+		"description" : [
+			"Though not designed for a close air support role, the Tupolev SB was ",
+			"occasionally employed to great effect against Nationalist troop formations ",
+			"in the Spanish Civil War. Its powerful engines could outpace most fighter ",
+			"craft present at the time."
+		],
+		"rarity" : {
+			"1936.10.14" : "20",
+			"1937.06.01" : "40",
+			"1938.03.01" : "60",
+			"1938.09.01" : "40",
+			"1939.04.01" : "10"
+		}
+	},
+
+	"Oerlikon 20mm AA Gun (RSP)": {
+		"category" : "Gun",
+		"class" : "Anti-Aircraft Gun",
+		"origin_nation" : "Switzerland",
+		"portrait" : "unit_20mm_aa.xp",
+		"size_class" : "Small",
+		"movement_class" : "Gun",
+		"turntable" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "20",
+				"fp" : "4",
+				"long_range" : "L",
+				"rof" : "50.0",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "180"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"The Spanish Republic managed to acquire a number of Oerlikon 20mm cannons ",
+			"(and various copies) through international purchases."
+		],
+		"rarity" : {
+			"1936.09.01" : "10"
+		}
+	},
+
+	"37mm M1917": {
+		"category" : "Gun",
+		"class" : "Anti-Tank Gun",
+		"origin_nation" : "United States of America",
+		"portrait" : "scw_unit_37mm_gun.xp",
+		"size_class" : "Small",
+		"movement_class" : "Gun",
+		"gun_shield" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "37",
+				"long_range" : "L",
+				"rof" : "50.0",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "180",
+				"autocannon" : true,
+				"unreliable" : true
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander/Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"}
+		],
+		"description" : [
+			"Sold to the Spanish Republic from old stores of Imperial Russian materiel, ",
+			"the McClean Automatic Cannon was a capable yet unreliable anti-tank weapon."
+		],
+		"rarity" : {
+			"1936.06.01" : "30"
+		}
+	},
+	
+	"7.7cm FK 16": {
+		"category" : "Gun",
+		"class" : "Artillery Gun",
+		"origin_nation" : "Germany",
+		"portrait" : "scw_unit_FK_16.xp",
+		"size_class" : "Small",
+		"movement_class" : "Gun",
+		"gun_shield" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "77",
+				"long_range" : "S",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "180"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"The 7.7 cm Feldkanone 16 is a venerable German field gun purchased from ",
+			"secondary markets by both sides of the Spanish Civil War. Its wooden spoked ",
+			"wheels are ill-suited for towing by motor vehicles."
+
+		],
+		"rarity" : {
+			"1936.01.01" : "20",
+			"1939.01.01" : "10"
+		}
+	},
+
+	"70/16 mod. 1908": {
+		"category" : "Gun",
+		"class" : "Artillery Gun",
+		"origin_nation" : "France",
+		"portrait" : "scw_unit_70mm_gun.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Gun",
+		"gun_shield" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "70",
+				"long_range" : "S",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE"],
+				"max_ammo" : "180"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"The Schneider 70/16 was a French 70mm mountain gun built under license ",
+			"in Spain and later used extensively by both sides of the civil war."
+		],
+		"rarity" : {
+			"1909.07.01" : "30",
+			"1932.07.01" : "60"
+		}
+	},
+
+	"75/28 mod. 1912": {
+		"category" : "Gun",
+		"class" : "Artillery Gun",
+		"origin_nation" : "France",
+		"portrait" : "scw_unit_75mm_gun.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Gun",
+		"gun_shield" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "75",
+				"long_range" : "S",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE"],
+				"max_ammo" : "180"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"The 75/28 was a horse-drawn field gun retired from service at the end of ",
+			"the Great War and later sold on secondary markets."
+		],
+		"rarity" : {
+			"1909.07.01" : "20"
+		}
+	},
+
+	"105/22 mod. 1922": {
+		"category" : "Gun",
+		"class" : "Artillery Gun",
+		"origin_nation" : "Kingdom of Spain",
+		"portrait" : "scw_unit_105mm_gun.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Gun",
+		"gun_shield" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "105",
+				"long_range" : "S",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["AP", "HE"],
+				"max_ammo" : "180"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"A Spanish-produced version of the Vickers 18-pounder Mk IV howitzer ",
+			"modified to shoot 105mm shells."
+		],
+		"rarity" : {
+			"1922.07.01" : "20"
+		}
+	},
+
+	"155/13 mod. 1922": {
+		"category" : "Gun",
+		"class" : "Artillery Gun",
+		"origin_nation" : "France",
+		"portrait" : "unit_155mm_gun.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Gun",
+		"gun_shield" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "155",
+				"long_range" : "S",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE"],
+				"max_ammo" : "180",
+				"unreliable" : true
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"A ubiquitous French field howitzer, first declared standard for Spanish Army ",
+			"use in 1922."
+		],
+		"rarity" : {
+			"1922.11.01" : "20"
+		}
+	},
+
+	"L3/33": {
+		"category" : "Vehicle",
+		"class" : "Tankette",
+		"origin_nation" : "Italy",
+		"portrait" : "unit_L3_35.xp",
+		"size_class" : "Very Small",
+		"movement_class" : "Fast Tank",
+		"ground_pressure" : "Light",
+		"turret" : "FXT",
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "0",
+			"hull_front" : "1",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "3",
+				"rof" : "16.7",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0,
+				"unreliable" : true
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"Developed from the British Mark VI tankette, the L3/33 was adopted ",
+			"by Italian forces in 1933. Although it only has a machinegun and is ",
+			"very lightly armoured, the L3 and its variants are the most common ",
+			"armoured fighting vehicles in the Italian army."
+		],
+		"rarity" : {
+			"1933.01.01" : "100",
+			"1938.07.01" : "90",
+			"1940.06.01" : "100",
+			"1941.01.01" : "90",
+			"1941.02.01" : "80",
+			"1941.03.01" : "60",
+			"1941.04.01" : "80",
+			"1941.12.01" : "60",
+			"1942.01.01" : "50",
+			"1942.02.01" : "40"
+		}
+	},
+
+	"Militia": {
+		"category" : "Infantry",
+		"class" : "Infantry Squad",
+		"portrait" : "scw_unit_militia.xp",
+		"movement_class" : "Infantry",
+		"weapon_list" : [
+			{
+				"type" : "Small Arms",
+				"name" : "Rifles",
+				"fp" : "3",
+				"max_range" : "1"
+			},
+			{
+				"type" : "Close Combat",
+				"name" : "Grenades",
+				"fp" : "4",
+				"max_range" : "1"
+			},
+			{
+				"type" : "Close Combat",
+				"name" : "Molotovs",
+				"fp" : "2",
+				"max_range" : "1"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Squad Leader"},
+			{"name" : "Militiaman"},
+			{"name" : "Militiaman"},
+			{"name" : "Militiaman"},
+			{"name" : "Militiaman"},
+			{"name" : "Militiaman"},
+			{"name" : "Militiaman"},
+			{"name" : "Militiaman"},
+			{"name" : "Militiaman"}
+		],
+		"description" : [
+			"Irregular fighters with diverse levels of arms and training. They ",
+			"typically carry a variety of small arms and improvised explosives."
+		],
+		"rarity" : {
+			"1936.01.01" : "100"
+		}
+	}
+}
