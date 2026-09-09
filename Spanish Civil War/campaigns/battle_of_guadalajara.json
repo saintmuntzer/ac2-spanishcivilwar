@@ -3,7 +3,7 @@
 	"creator" : "saintmuntzer / sparksflyupward",
 	"comments" : "The roster of tanks on the Republican side is historically dubious, as the only documented model at the Battle of Guadalajara was the T-26. For the sake of variety, other tanks and armored cars used by the Republic in this period may be available.",
 	"last_updated" : "1.3.7",
-	"difficulty" : "6",
+	"difficulty" : "5",
 	"start_date" : "1937.03.08",
 	"end_date" : "1937.03.27",
 	"player_nation" : "Second Spanish Republic",
@@ -41,18 +41,18 @@
 		"FAI (RSP)" : ["Bilbao Modelo 1932", "BA-3 (RSP)", "BA-6 (RSP)", "FAI (RSP)"]
 	},
 	"tank_vp_modifiers" : {
-		"BA-3 (RSP)" : 1.2,
-		"BA-6 (RSP)" : 1.1,
-		"Bilbao Modelo 1932" : 1.4,
-		"Carro IGC Sadurni" : 1.3,
+		"BA-3 (RSP)" : 1.1,
+		"BA-6 (RSP)" : 1.0,
+		"Bilbao Modelo 1932" : 1.3,
+		"Carro IGC Sadurni" : 1.2,
 		"FAI (RSP)" : 1.4,
-		"Renault FT (RSP)" : 1.1,
-		"Renault FT (MG, RSP)" : 1.2,
+		"Renault FT (RSP)" : 1.0,
+		"Renault FT (MG, RSP)" : 1.1,
 		"Schnieder CA 1" : 1.2,
 		"T-26 M33 (RSP)" : 0.7,
-		"Tractor Blindado Landesa" : 1.3,
-		"Trubia A4" : 1.2,
-		"Trubia-Naval" : 1.2
+		"Tractor Blindado Landesa" : 1.2,
+		"Trubia A4" : 1.1,
+		"Trubia-Naval" : 1.1
 	},
 	"campaign_skills" : [
 		"Defend the Motherland"
@@ -107,16 +107,14 @@
 		]
 	},
 	"enemy_unit_class_odds" : {
-		"Tankette" : 60,
-		"Light Tank" : 0,
-		"Medium Tank" : 0,
+		"Tankette" : 50,
 		"Armoured Car" : 10,
 		"Anti-Tank Gun" : 50,
 		"Artillery Gun" : 20,
 		"Anti-Aircraft Gun" : 10,
-		"Truck" : 50,
-		"Infantry Squad" : 80,
-		"Support Weapon Team" : 50,
+		"Truck" : 40,
+		"Infantry Squad" : 60,
+		"Support Weapon Team" : 40,
 		"Motorcycle Team" : 10
 	},
 	"enemy_transported_units_by_class" : {
@@ -143,7 +141,7 @@
 			"end_date" : "1937.03.11",
 			"location" : "40.63,3.16",
 			"combat_chance" : 100,
-			"average_resistance" : 8,
+			"average_resistance" : 9,
 			"week_title" : "Italian Offensive",
 			"week_description" : "The Fascists have unexpectedly attacked from the northeast, advancing toward Madrid. The People's Republican Army 12th Division must hold out against the Italian vanguard until reinforcements arrive.",
 			"mission_odds" : {
@@ -165,7 +163,7 @@
 			"end_date" : "1937.03.14",
 			"location" : "40.63,3.16",
 			"combat_chance" : 100,
-			"average_resistance" : 6,
+			"average_resistance" : 8,
 			"week_title" : "Halting the Advance",
 			"week_description" : "Though we were forced to withdraw southward, reinforcements have bolstered our strength and the Fascists are wavering. The Republican Air Force stands ready to support our counter-attack.",
 			"mission_odds" : {
@@ -196,9 +194,9 @@
 			"end_date" : "1937.03.23",
 			"location" : "40.63,3.16",
 			"combat_chance" : 80,
-			"average_resistance" : 5,
+			"average_resistance" : 7,
 			"week_title" : "Crossing the Tajuña",
-			"week_description" : "We have concentrated our forces to cross the Tajuña River and retake this territory from the traitorous Fascists.",
+			"week_description" : "We have concentrated our forces to cross the Tajuña River and retake our lost territory. Rout the Fascist traitors and their Italian mercenaries.",
 			"mission_odds" : {
 				"Advance" : 70,
 				"Battle": 20,
@@ -213,7 +211,9 @@
 			"arty_support_level" : 50.0,
 			"unit_support_level" : 60.0,
 			"enemy_class_odds_modifier" : {
-				"Tankette" : 20
+				"Tankette" : 20,
+				"Artillery Gun" : 30,
+				"Anti-Aircraft Gun" : 20
 			},
 			"terrain_odds_modifier" : {
 				"Marsh" : 5,
