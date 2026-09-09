@@ -1,0 +1,72 @@
+{
+    "Second Spanish Republic": {
+		"short_code" : "RSP",
+		"adjective" : "Republican",
+		"flag_image" : "flag_SPN_R.xp",
+		"rank_names" : {
+			"0" : "Soldado",  		 	 	
+			"1" : "Soldado de primera",
+			"2" : "Cabo",
+			"3" : "Cabo primero ",
+			"4" : "Cabo mayor",
+			"5" : "Sargento",
+			"6" : "Sargento primero"
+		},
+		"decorations" : {
+            "1" : "Orden de la Republica Espanola",
+			"2" : "Medalla del Valor",
+			"3" : "Medalla de la Libertad",
+			"4" : "Medalla de la Segunda Guerra de la Independencia",
+			"x" : "Medalla de Sufrimientos por la Patria"
+		},
+		"first_names" : [
+			"Abelardo", "Abrahan", "Acilino" , "Adalberto", "Adelio", 	
+			"Adolfo", "Alante", "Alberto", "Alejandro", "Alfonso",
+			"Alfredo", "Aloisio", "Alonzo", "Alroy", "Alvaro",  	 
+			"Alvino", "Amador", "Amistad", "Amoldo", "Andrez",	
+			"Antjuan","Araldo", "Arcadio", "Armando", "Arnaldo",
+			"Arrio", "Artemio", "Asafo", "Barto", "Beinvenido",
+			"Benedicto", "Bernardino", "Bernardo", "Bernbe",
+			"Blanco", "Bonaro", "Buinton", "Carlos", "Cedro",
+			"Celso", "Cesar", "Chago", "Cid", "Clemente","Conrado",
+			"Cordero", "Cortez", "Cristobal", "Cuartio", "Cuarto",
+			"Curro", "Dario", "Daunte", "Decarlos", "Deseado", 	
+			"Diderot","Diego", "Dionicio", "Dionysus", "Domingo",
+			"Donaldo", "Duardo", "Edgardo", "Edmundo", "Eduardo",
+			"Elonzo", "Elvio", "Emesto", "Emilio", "Enio", "Enrique",
+			"Ermano", "Ermino", "Ernesto", "Esteban", "Estevao", 
+			"Eugenio", "Euniciano", "Evarado", "Farruco", "Federico",
+			"Felipe", "Felix", "Fermin", "Fernando", "Filiberto", "Fito",
+			"Flaminio", "Floriano", "Francisco", "Frederico", "Fredo", 
+			"Gabrio", "Galeno", "Garcia", "Gerardo", "Giacinto", 
+			"Godfredo", "Gomez", "Gonzalo", "Grimoaldo", "Gualberto", 		
+			"Guillermo", "Gustavo", "Gutierre", "Heraldo", "Jayro", 
+			"Joaquin", "Jorge", "Jose", "Juan", "Juguan", "Juliano",
+			"Justiniano", "Laurencio", "Leandro", "Lisandro", "Lorenzo",
+			"Lucero", "Luis", "Maceo", "Manuel", "Marcos", "Martinez", 
+			"Mateo", "Matias", "Mauricio", "Miguel", "Milagro", "Mincho",
+			"Montego", "Montez", "Nemesio", "Neopolo", "Neron","Norberto",
+			"Normando", "Oalo","Olivero", "Oliveros", "Oswaldo", "Otelo",
+			"Ovidio", "Pablo", "Parisio", "Patricio", "Paulo", "Pedro", 
+			"Perico", "Placido", "Ponce", "Pueblo", "Raimundo", "Ramiro",
+			"Raul", "Renaldo", "Ricardo", "Roberto", "Rodrigo", "Rodriguez",
+			"Rogelio", "Rufino", "Sabelio", "Salamon", "Salvador", "Salviano",
+			"Santiago", "Santos", "Sarito", "Segundo", "Silvestre", "Tauro", "Teobaldo",
+			"Teodoro", "Terciero", "Terencio", "Tiago", "Venturo", "Vermundo", "Vicente", 
+			"Vidal", "Xalvador", "Xaver", "Ximenes", "Zacarias"
+
+		],
+		"surnames" : [
+			"Alvarez", "Alonso", "Alfonso", "Arias", "Ayala", "Aguilar", "Bello", "Belmonte",
+			"Basurto", "Bermudez", "Blanco", "Cabrera", "Campo", "Cruz", "Castro", "Castillo",
+			"Diaz", "Dominguez", "Delgado", "Duran", "Duarte", "De Leon", "Espinosa", "Elizondo",
+			"Espada","Escamilla", "Fernandez", "Flores", "Fuentes", "Garcia", "Garza", "Gomez", "Gallo",
+			"Gaspar", "Hernandez", "Huerta", "Hierro", "Herrera", "Hidalgo", "Ibarra", "Iglesias", "Ibanez",
+			"Izquierdo", "Jimenez", "Juarez", "Jorda", "Jasso", "Loyola", "Lobo", "Lopez", "Maradona", "Marquez",
+			"Imachado", "Martinez", "Medina", "Méndez","Mendoza","Molina", "Morales", "Moreno", "Nunez", "Narvaez",
+			"Olmos", "Ortega", "Oliver","Oriol", "Pena", "Perez", "Porra", "Puerta", "Prieto", "Quintana", "Quinones",
+			"Ramirez", "Ramos","Reyes", "Rana", "Rivera", "Robles", "Rodriguez", "Rocha", "Rojas", "Rosales", "Ruiz",
+			"Salazar", "Salinas", "Sandoval", "Sanchez", "Santiago", "Trujillo", "Travieso", "Urbina", "Urena", "Valencia"
+		]
+    },
+}
