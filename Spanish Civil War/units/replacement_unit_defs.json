@@ -227,7 +227,7 @@
 			"also used as an anti-personnel gun and as a light anti-tank gun."
 		],
 		"rarity" : {
-			"1935.07.01" : "30",
+			"1935.07.01" : "60",
 			"1940.06.01" : "80",
 			"1941.06.01" : "90",
 			"1942.05.01" : "100",
@@ -309,7 +309,7 @@
 			"intended as an anti-tank and infantry support gun."
 		],
 		"rarity" : {
-			"1935.07.01" : "50",
+			"1935.07.01" : "60",
 			"1940.06.01" : "80",
 			"1941.06.01" : "90",
 			"1941.11.01" : "100",
