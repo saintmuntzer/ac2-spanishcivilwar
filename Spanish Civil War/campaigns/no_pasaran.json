@@ -1,20 +1,19 @@
 {
-	"name" : "Battle of Guadalajara",
+	"name" : "No Pasaran!",
 	"creator" : "saintmuntzer / sparksflyupward",
-	"comments" : "The roster of tanks on the Republican side is historically dubious, as the only documented model at the Battle of Guadalajara was the T-26. For the sake of variety, other tanks and armored cars used by the Republic in this period may be available.",
+	"comments" : "WIP.",
 	"last_updated" : "1.3.7",
 	"difficulty" : "5",
-	"start_date" : "1937.03.08",
-	"end_date" : "1937.03.27",
+	"start_date" : "1936.11.08",
+	"end_date" : "1936.11.23",
 	"player_nation" : "Second Spanish Republic",
-	"enemy_nations" : ["Italy", "Nationalist Spain"],
+	"enemy_nations" : ["Nationalist Spain"],
 	"region" : "Central Spain",
-	"desc" : "The Spanish Republican Army and International Brigades must repel an assault led by the Italian Corps of Volunteer Troops, who hope to encircle the defenders of Madrid from the northeast.",
+	"desc" : "Though Madrid held for the Republic during the attempted Nationalist coup, rebel officer Emilio Mola has now led an army to its doorstep. Plans for the impending attack were discovered by the Republican defenders, who must now raise a defense of their capital in the face of Moroccan regulares, Italian tanks, and German aircraft.",
 	"player_unit_list" : [
 		"BA-3 (RSP)",
 		"BA-6 (RSP)",
 		"Bilbao Modelo 1932",
-		"Carro IGC Sadurni",
 		"FAI (RSP)",
 		"Renault FT (RSP)",
 		"Renault FT (MG, RSP)",
@@ -27,7 +26,6 @@
 	"player_squad_list" : {
 		"T-26 M33 (RSP)" : ["T-26 M33 (RSP)"],
 
-		"Carro IGC Sadurni" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
 		"Renault FT (RSP)" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
 		"Renault FT (MG, RSP)" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
 		"Schnieder CA 1" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
@@ -77,11 +75,9 @@
 		}
 	},
 	"enemy_air_support": {
-		"Italy" : ["Fiat CR.32"],
 		"Nationalist Spain" : ["Fiat CR.32"]
 	},
 	"enemy_arty_support": {
-		"Italy" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"],
 		"Nationalist Spain" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"]
 	},
 	"enemy_unit_list" : {
@@ -135,9 +131,9 @@
 	"combat_days" : 8,
 	"calendar_weeks": [
 		{
-			"start_date" : "1937.03.08",
-			"end_date" : "1937.03.11",
-			"location" : "40.63,-3.16",
+			"start_date" : "1936.11.08",
+			"end_date" : "1936.11.11",
+			"location" : "40.41,-3.70",
 			"combat_chance" : 100,
 			"average_resistance" : 9,
 			"week_title" : "Italian Offensive",
@@ -157,9 +153,9 @@
 			}
 		},
 		{
-			"start_date" : "1937.03.12",
-			"end_date" : "1937.03.14",
-			"location" : "40.63,-3.16",
+			"start_date" : "1936.11.12",
+			"end_date" : "1936.11.15",
+			"location" : "40.41,-3.70",
 			"combat_chance" : 100,
 			"average_resistance" : 8,
 			"week_title" : "Halting the Advance",
@@ -183,14 +179,9 @@
 			}
 		},
 		{
-			"start_date" : "1937.03.15",
-			"end_date" : "1937.03.17",
-			"refitting" : "TRUE"
-		},
-		{
-			"start_date" : "1937.03.18",
-			"end_date" : "1937.03.23",
-			"location" : "40.63,-3.16",
+			"start_date" : "1936.11.15",
+			"end_date" : "1936.11.23",
+			"location" : "40.41,-3.70",
 			"combat_chance" : 80,
 			"average_resistance" : 7,
 			"week_title" : "Crossing the Tajuña",
