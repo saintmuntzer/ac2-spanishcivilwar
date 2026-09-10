@@ -1894,6 +1894,41 @@
 		}
 	},
 
+	"Fiat CR.32 (NSP)": {
+		"category" : "Airplane",
+		"class" : "Fighter",
+		"origin_nation" : "Italy",
+		"portrait" : "scw_unit_cr32_NSP.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "Ordinance",
+				"name" : "Bombs",
+				"calibre" : "60"
+			},
+			{
+				"type" : "MG",
+				"fp" : "3"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"}
+		],
+		"description" : [
+			"The Italian CR.32 biplane fighter was the dominant aircraft of the ",
+			"Nationalists in the Spanish Civil War. False documents and obscured ",
+			"insignia were necessary for the Italian pilots to avoid international ",
+			"diplomatic consequences. The CR.32 was armed with either two 7.7mm or ",
+			"12.7mm Breda-SAFAT machine guns and could carry a small bomb payload."
+		],
+		"rarity" : {
+			"1936.08.15" : "10",
+			"1936.11.01" : "30",
+			"1937.01.01" : "50",
+			"1939.04.01" : "40"
+		}
+	},
+
 	"Militia": {
 		"category" : "Infantry",
 		"class" : "Infantry Squad",

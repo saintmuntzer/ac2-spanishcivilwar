@@ -77,8 +77,8 @@
 		}
 	},
 	"enemy_air_support": {
-		"Italy" : ["Fiat CR.32"],
-		"Nationalist Spain" : ["Fiat CR.32"]
+		"Italy" : ["Fiat CR.32 (NSP)"],
+		"Nationalist Spain" : ["Fiat CR.32 (NSP)"]
 	},
 	"enemy_arty_support": {
 		"Italy" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"],
