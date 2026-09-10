@@ -12,9 +12,9 @@
 		"recce" : true,
 		"no_radio" : true,
 		"armour" : {
-			"turret_front" : "1",
-			"turret_side" : "1",
-			"hull_front" : "1",
+			"turret_front" : "0",
+			"turret_side" : "0",
+			"hull_front" : "0",
 			"hull_side" : "0"
 		},
 		"weapon_list" : [
@@ -115,9 +115,9 @@
 		"recce" : true,
 		"no_radio" : true,
 		"armour" : {
-			"turret_front" : "1",
-			"turret_side" : "1",
-			"hull_front" : "1",
+			"turret_front" : "0",
+			"turret_side" : "0",
+			"hull_front" : "0",
 			"hull_side" : "0"
 		},
 		"weapon_list" : [
@@ -195,7 +195,7 @@
 		"armour" : {
 			"turret_front" : "2",
 			"turret_side" : "1",
-			"hull_front" : "1",
+			"hull_front" : "0",
 			"hull_side" : "0"
 		},
 		"weapon_list" : [
@@ -396,6 +396,7 @@
 		"movement_class" : "Wheeled",
 		"turret" : "RST",
 		"recce" : true,
+		"no_radio" : true,
 		"armour" : {
 			"turret_front" : "2",
 			"turret_side" : "1",
@@ -500,7 +501,7 @@
 		"armour" : {
 			"turret_front" : "0",
 			"turret_side" : "0",
-			"hull_front" : "1",
+			"hull_front" : "0",
 			"hull_side" : "0"
 		},
 		"weapon_list" : [
@@ -731,7 +732,7 @@
 		"no_radio" : true,
 		"no_turret" : true,
 		"armour" : {
-			"turret_front" : "1",
+			"turret_front" : "0",
 			"turret_side" : "0",
 			"hull_front" : "1",
 			"hull_side" : "0"
@@ -1318,12 +1319,6 @@
 		"towing_capacity" : "Normal",
 		"no_turret" : true,
 		"no_radio" : true,
-		"armour" : {
-			"turret_front" : "0",
-			"turret_side" : "0",
-			"hull_front" : "0",
-			"hull_side" : "0"
-		},
 		"crew_positions" : [
 			{
 				"name" : "Driver",
@@ -1439,7 +1434,7 @@
 		"armour" : {
 			"turret_front" : "1",
 			"turret_side" : "1",
-			"hull_front" : "1",
+			"hull_front" : "2",
 			"hull_side" : "1"
 		},
 		"weapon_list" : [
@@ -1479,7 +1474,8 @@
 		"description" : [
 			"A lightly-armed tank based on the Landesa tractor. The Trubia-Naval was ",
 			"the only Spanish-designed tank to enter mass production during the civil ",
-			"war, born of the necessity for armored vehicles in the Basque region."
+			"war, born of the necessity for armored vehicles in the Basque region. The ",
+			"hull is protected with a unique multilayered composite armor."
 		],
 		"rarity" : {
 			"1936.09.01" : "5",
