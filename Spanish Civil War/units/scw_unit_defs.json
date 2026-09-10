@@ -1562,7 +1562,7 @@
 		}
 	},
 
-	"Oerlikon 20mm AA Gun (RSP)": {
+	"Oerlikon 20mm (RSP)": {
 		"category" : "Gun",
 		"class" : "Anti-Aircraft Gun",
 		"origin_nation" : "Switzerland",
