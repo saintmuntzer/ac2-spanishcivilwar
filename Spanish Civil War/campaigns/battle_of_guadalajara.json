@@ -137,7 +137,7 @@
 		{
 			"start_date" : "1937.03.08",
 			"end_date" : "1937.03.11",
-			"location" : "40.63,3.16",
+			"location" : "40.63,-3.16",
 			"combat_chance" : 100,
 			"average_resistance" : 9,
 			"week_title" : "Italian Offensive",
@@ -159,7 +159,7 @@
 		{
 			"start_date" : "1937.03.12",
 			"end_date" : "1937.03.14",
-			"location" : "40.63,3.16",
+			"location" : "40.63,-3.16",
 			"combat_chance" : 100,
 			"average_resistance" : 8,
 			"week_title" : "Halting the Advance",
@@ -190,8 +190,8 @@
 		{
 			"start_date" : "1937.03.18",
 			"end_date" : "1937.03.23",
-			"location" : "40.63,3.16",
-			"combat_chance" : 80,
+			"location" : "40.63,-3.16",
+			"combat_chance" : 90,
 			"average_resistance" : 7,
 			"week_title" : "Crossing the Tajuña",
 			"week_description" : "We have concentrated our forces to cross the Tajuña River and retake our lost territory. Rout the Fascist traitors and their Italian mercenaries.",
