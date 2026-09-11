@@ -28,3 +28,4 @@ A number of sources are used as the historical basis for vehicles and weaponry i
     - [X] Heinkel He 51
     - [X] Henschel Hs 123 (NSP)
 - [ ] Add RSP and NSP variants of infantry support team units
+- [ ] Add additional attributes to RSP and NSP nation_defs

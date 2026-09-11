@@ -121,69 +121,67 @@
 			"location" : "40.41,-3.70",
 			"combat_chance" : 100,
 			"average_resistance" : 9,
-			"week_title" : "(WIP) Initial Attack",
-			"week_description" : "(WIP) Opening assault by Nationalists.",
+			"week_title" : "Enemy At the Gates",
+			"week_description" : "The Army of Africa has been relentless in its advance toward Madrid. Their attack will come from the north. We must bring them to a halt.",
 			"mission_odds" : {
-				"Hold the Line" : 30,
-				"Urban Defense" : 70
+				"Hold the Line" : 20,
+				"Urban Defense" : 80
 			},
 			"enemy_nations" : ["Nationalist Spain"],
-			"air_support_level" : 0.0,
-			"arty_support_level" : 20.0,
-			"unit_support_level" : 30.0,
+			"air_support_level" : 40.0,
+			"arty_support_level" : 40.0,
+			"unit_support_level" : 60.0,
 			"terrain_odds_modifier" : {
+				"Flat" : 40,
+				"Forest" : 0,
+				"Hills" : 0,
+				"Mountains" : 0,
+				"Mountain Pass" : 0,
 				"Fields" : 20,
-				"Villages" : 20
+				"Scrub" : 20,
+				"Marsh" : 0,
+				"Villages" : 20,
+				"Lake" : 0,
+				"Fortification" : 2
 			}
 		},
 		{
 			"start_date" : "1936.11.12",
 			"end_date" : "1936.11.15",
 			"location" : "40.41,-3.70",
-			"combat_chance" : 100,
+			"combat_chance" : 90,
 			"average_resistance" : 8,
-			"week_title" : "(WIP) Counterattacks",
-			"week_description" : "(WIP) Newly-reinforced counterattacks on Nationalist positions.",
+			"week_title" : "Valencia Road",
+			"week_description" : "A vital roadway is in danger of being cut off. The International Brigades will counterattack the Nationalist positions south of the city.",
 			"mission_odds" : {
 				"Battle" : 80,
-				"Hold the Line" : 20
+				"Counterattack" : 20
 			},
 			"enemy_nations" : ["Nationalist Spain"],
 			"air_support_level" : 60.0,
-			"arty_support_level" : 40.0,
-			"unit_support_level" : 50.0,
+			"arty_support_level" : 60.0,
+			"unit_support_level" : 80.0,
 			"terrain_odds_modifier" : {
-				"Hills" : 15,
-				"Villages" : 15,
-				"Fortification" : -1
+				"Villages" : 20,
+				"Forest" : 5
 			}
 		},
 		{
 			"start_date" : "1936.11.15",
 			"end_date" : "1936.11.23",
 			"location" : "40.41,-3.70",
-			"combat_chance" : 80,
-			"average_resistance" : 7,
-			"week_title" : "(WIP) Battle of Ciudad Universitaria",
-			"week_description" : "(WIP) Urban combat with constant Nationalist air raids.",
+			"combat_chance" : 100,
+			"average_resistance" : 10,
+			"week_title" : "The Battle of Ciudad Universitaria",
+			"week_description" : "The Nationalists have launched a frontal assault with all of their forces. They seek to occupy the university quarter and push into the heart of Madrid. We will not let them pass.",
 			"mission_odds" : {
 				"Urban Assault" : 30,
-				"Urban Defense" : 60,
-				"Battle" : 10
+				"Urban Defense" : 70
 			},
 			"enemy_nations" : ["Nationalist Spain"],
-			"air_support_level" : 60.0,
-			"arty_support_level" : 50.0,
-			"unit_support_level" : 60.0,
-			"enemy_class_odds_modifier" : {
-				"Tankette" : 20,
-				"Artillery Gun" : 30,
-				"Anti-Aircraft Gun" : 20
-			},
-			"terrain_odds_modifier" : {
-				"Marsh" : 5,
-				"Fortification" : -1
-			}
+			"air_support_level" : 40.0,
+			"arty_support_level" : 60.0,
+			"unit_support_level" : 80.0
 		}
 	]
 }
