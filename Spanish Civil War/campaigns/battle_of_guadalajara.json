@@ -132,7 +132,7 @@
 			}
 		}
 	},
-	"combat_days" : 8,
+	"combat_days" : 12,
 	"calendar_weeks": [
 		{
 			"start_date" : "1937.03.08",
