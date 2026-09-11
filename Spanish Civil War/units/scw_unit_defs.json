@@ -1484,6 +1484,32 @@
 		}
 	},
 
+	"GAZ-AA (RSP)" : {
+		"category" : "Vehicle",
+		"class" : "Truck",
+		"origin_nation" : "Soviet Union",
+		"portrait" : "scw_unit_gaz_aa_RSP.xp",
+		"size_class" : "Small",
+		"movement_class" : "Wheeled",
+		"crew_positions" : [
+			{
+				"name" : "Driver",
+				"location" : "Hull"
+			}
+		],
+		"description" : [
+			"This light truck was based on the American Ford AA. Produced ",
+			"since 1932, it was the most widespread Red Army vehicle, with ",
+			"150,000 available in 1941. The Soviet Union provided many of ",
+			"these vehicles to the Spanish Republic."
+		],
+		"rarity" : {
+			"1936.10.01" : "80",
+			"1938.01.01" : "90",
+			"1939.04.01" : "0"
+		}
+	},
+
 	"I-15": {
 		"nick_name" : "Chato",
 		"category" : "Airplane",
@@ -1891,6 +1917,116 @@
 			"1941.12.01" : "60",
 			"1942.01.01" : "50",
 			"1942.02.01" : "40"
+		}
+	},
+
+	"Panzer I A (NSP)": {
+		"category" : "Vehicle",
+		"class" : "Light Tank",
+		"origin_nation" : "Germany",
+		"portrait" : "scw_unit_pz_I_A_NSP.xp",
+		"size_class" : "Small",
+		"movement_class" : "Tank",
+		"ground_pressure" : "Light",
+		"unreliable" : true,
+		
+		"turret" : "RST",
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "1"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "6",
+				"rof" : "16.7",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0,
+				"unreliable" : true
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"spacious" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"The Panzer I was shipped to Nationalist Spanish forces in considerable numbers, ",
+			"often in spite of pleas for heavier weapons to overcome well-armored Republican tanks."
+		],
+		"rarity" : {
+			"1936.10.15" : "30",
+			"1937.09.01" : "60"
+		}
+	},
+
+	"Panzer I B (NSP)": {
+		"category" : "Vehicle",
+		"class" : "Light Tank",
+		"origin_nation" : "Germany",
+		"portrait" : "scw_unit_pz_I_B_NSP.xp",
+		"size_class" : "Small",
+		"movement_class" : "Tank",
+		"ground_pressure" : "Light",
+		"powerful_engine" : true,
+
+		"turret" : "RST",
+		"armour" : {
+			"turret_front" : "1",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "1"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "6",
+				"rof" : "16.7",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0,
+				"unreliable" : true
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"A small number of upgraded Panzer I tanks were supplied to the Nationalist forces, ",
+			"providing effective anti-infantry support yet still lacking the firepower to defeat ",
+			"Soviet-supplied armor."
+		],
+		"rarity" : {
+			"1936.11.01" : "20",
+			"1937.09.01" : "10"
 		}
 	},
 

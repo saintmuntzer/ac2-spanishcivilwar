@@ -1,15 +1,15 @@
 {
-	"name" : "No Pasaran!",
+	"name" : "(WIP) No Pasaran!",
 	"creator" : "saintmuntzer / sparksflyupward",
-	"comments" : "WIP.",
+	"comments" : "Work in progress.",
 	"last_updated" : "1.3.7",
-	"difficulty" : "5",
+	"difficulty" : "4",
 	"start_date" : "1936.11.08",
 	"end_date" : "1936.11.23",
 	"player_nation" : "Second Spanish Republic",
 	"enemy_nations" : ["Nationalist Spain"],
 	"region" : "Central Spain",
-	"desc" : "Though Madrid held for the Republic during the attempted Nationalist coup, rebel officer Emilio Mola has now led an army to its doorstep. Plans for the impending attack were discovered by the Republican defenders, who must now raise a defense of their capital in the face of Moroccan regulares, Italian tanks, and German aircraft.",
+	"desc" : "Though Madrid held for the Republic during the attempted military coup, rebel officer Emilio Mola has now led an army to its doorstep. Plans for the impending attack fell into Republican hands, who must now raise a desperate defense of their capital.",
 	"player_unit_list" : [
 		"BA-3 (RSP)",
 		"BA-6 (RSP)",
@@ -63,7 +63,7 @@
 	"player_unit_support" : {
 		"Armour" : ["T-26 M33 (RSP)"],
 		"Anti-Armour" : ["37mm M1917", "37mm obr. 30", "45mm obr. 32/37"],
-		"Anti-Infantry" : ["Chevrolet 4x2 RD", "ZIS-5 Truck", "3-ton Truck", "HMG Team", "Riflemen", "Militia"],
+		"Anti-Infantry" : ["Chevrolet 4x2 RD", "GAZ-AA (RSP)", "ZIS-5 Truck", "3-ton Truck", "HMG Team", "Riflemen", "Militia"],
 		"Recon" : ["Bilbao Modelo 1932", "BA-3 (RSP)", "BA-6 (RSP)", "FAI (RSP)"],
 		"Artillery" : ["Light Mortar Team", "76.2mm PP obr. 27", "76.2mm obr. 00/02P", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912"]
 	},
@@ -81,27 +81,19 @@
 		"Nationalist Spain" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"]
 	},
 	"enemy_unit_list" : {
-		"Italy" : [
-			"L3/33", "L3/35", "L3 Lf", "L3 Lf (Trailer)",
-			"AB Lancia 1Z",
-			"37/45", "47/32",
-			"75/27",
-			"20/65",
-			"SPA 38R", "SPA Dovunque 35",
-			"Riflemen",
-			"HMG Team", "Light Mortar Team",
-			"Motorcycle MG Team"
-		],
 		"Nationalist Spain" : [
+			"L3/33", "L3 Lf",
+			"Panzer I A (NSP)", "Panzer I B (NSP)",
 			"7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912",
-			"Chevrolet 4x2 RD", "3-ton Truck",
+			"SPA 38R", "SPA Dovunque 35",
 			"Riflemen", "Militia",
 			"HMG Team", "Light Mortar Team",
 			"Motorcycle MG Team"
 		]
 	},
 	"enemy_unit_class_odds" : {
-		"Tankette" : 50,
+		"Tankette" : 10,
+		"Light Tank" : 30,
 		"Armoured Car" : 10,
 		"Anti-Tank Gun" : 50,
 		"Artillery Gun" : 20,
@@ -112,13 +104,6 @@
 		"Motorcycle Team" : 10
 	},
 	"enemy_transported_units_by_class" : {
-		"Italy": {
-			"Truck" : {
-				"Riflemen" : 80,
-				"HMG Team" : 10,
-				"Light Mortar Team" : 10
-			}
-		},
 		"Nationalist Spain": {
 			"Truck" : {
 				"Riflemen" : 50,
@@ -136,20 +121,19 @@
 			"location" : "40.41,-3.70",
 			"combat_chance" : 100,
 			"average_resistance" : 9,
-			"week_title" : "Italian Offensive",
-			"week_description" : "The Fascists have unexpectedly attacked from the northeast, advancing toward Madrid. The People's Republican Army 12th Division must hold out against the Italian vanguard until reinforcements arrive.",
+			"week_title" : "(WIP) Initial Attack",
+			"week_description" : "(WIP) Opening assault by Nationalists.",
 			"mission_odds" : {
-				"Fighting Withdrawal" : 40,
-				"Hold the Line" : 60
+				"Hold the Line" : 30,
+				"Urban Defense" : 70
 			},
-			"enemy_nations" : ["Italy"],
+			"enemy_nations" : ["Nationalist Spain"],
 			"air_support_level" : 0.0,
 			"arty_support_level" : 20.0,
 			"unit_support_level" : 30.0,
 			"terrain_odds_modifier" : {
-				"Hills" : 15,
-				"Villages" : 15,
-				"Fortification" : -1
+				"Fields" : 20,
+				"Villages" : 20
 			}
 		},
 		{
@@ -158,17 +142,13 @@
 			"location" : "40.41,-3.70",
 			"combat_chance" : 100,
 			"average_resistance" : 8,
-			"week_title" : "Halting the Advance",
-			"week_description" : "Though we were forced to withdraw southward, reinforcements have bolstered our strength and the Fascists are wavering. The Republican Air Force stands ready to support our counter-attack.",
+			"week_title" : "(WIP) Counterattacks",
+			"week_description" : "(WIP) Newly-reinforced counterattacks on Nationalist positions.",
 			"mission_odds" : {
 				"Battle" : 80,
 				"Hold the Line" : 20
 			},
-			"enemy_nations" : ["Italy", "Nationalist Spain"],
-			"enemy_nation_odds" : {
-				"Italy" : "80",
-				"Nationalist Spain" : "20"
-			},
+			"enemy_nations" : ["Nationalist Spain"],
 			"air_support_level" : 60.0,
 			"arty_support_level" : 40.0,
 			"unit_support_level" : 50.0,
@@ -184,18 +164,14 @@
 			"location" : "40.41,-3.70",
 			"combat_chance" : 80,
 			"average_resistance" : 7,
-			"week_title" : "Crossing the Tajuña",
-			"week_description" : "We have concentrated our forces to cross the Tajuña River and retake our lost territory. Rout the Fascist traitors and their Italian mercenaries.",
+			"week_title" : "(WIP) Battle of Ciudad Universitaria",
+			"week_description" : "(WIP) Urban combat with constant Nationalist air raids.",
 			"mission_odds" : {
-				"Advance" : 70,
-				"Battle": 20,
-				"Counterattack" : 10
+				"Urban Assault" : 30,
+				"Urban Defense" : 60,
+				"Battle" : 10
 			},
-			"enemy_nations" : ["Italy", "Nationalist Spain"],
-			"enemy_nation_odds" : {
-				"Italy" : "70",
-				"Nationalist Spain" : "30"
-			},
+			"enemy_nations" : ["Nationalist Spain"],
 			"air_support_level" : 60.0,
 			"arty_support_level" : 50.0,
 			"unit_support_level" : 60.0,

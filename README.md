@@ -19,3 +19,12 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 [Tank Encyclopedia](https://tanks-encyclopedia.com/)
 
 [Vehiculos Blindados de la Guerra Civil](https://vehiculosblindadosdelaguerracivil.blogspot.com/)
+
+# To-Do
+
+- [ ] German planes
+    - [ ] Dornier Do 17
+    - [ ] Heinkel He 45
+    - [ ] Heinkel He 51
+    - [ ] Heinkel He 112
+- [ ] Add RSP and NSP variants of infantry support team units
