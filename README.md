@@ -25,6 +25,6 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 - [ ] German planes
     - [ ] Dornier Do 17
     - [ ] Heinkel He 45
-    - [ ] Heinkel He 51
-    - [ ] Heinkel He 112
+    - [X] Heinkel He 51
+    - [X] Henschel Hs 123 (NSP)
 - [ ] Add RSP and NSP variants of infantry support team units

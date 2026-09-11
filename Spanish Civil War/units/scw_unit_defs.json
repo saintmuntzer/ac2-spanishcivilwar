@@ -2030,6 +2030,94 @@
 		}
 	},
 
+	"He 51 (NSP)": {
+		"category" : "Airplane",
+		"class" : "Fighter",
+		"origin_nation" : "Germany",
+		"portrait" : "scw_unit_He_51_NSP.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "MG",
+				"fp" : "4"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"}
+		],
+		"description" : [
+			"The Heinkel He 51 was a German-built biplane fighter that could defeat the obsolete ",
+			"aircraft of the early Spanish Republican Air Force. Its limited speed would eventually ",
+			"relegate it to a ground attack role."
+		],
+		"rarity" : {
+			"1936.08.15" : "10",
+			"1936.09.15" : "20"
+		}
+	},
+
+	"He 51C-1 (NSP)": {
+		"category" : "Airplane",
+		"class" : "Fighter",
+		"origin_nation" : "Germany",
+		"portrait" : "scw_unit_He_51_NSP.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "Ordinance",
+				"name" : "Bombs",
+				"calibre" : "40"
+			},
+			{
+				"type" : "MG",
+				"fp" : "4"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"}
+		],
+		"description" : [
+			"The C-1 variant of the Heinkel He 51 was purpose-built for ground attack operations, ",
+			"carrying six 10 kg fragmentation bombs under its wings."
+		],
+		"rarity" : {
+			"1936.11.01" : "50",
+			"1938.01.01" : "40"
+		}
+	},
+
+	"Hs 123 (NSP)": {
+		"category" : "Airplane",
+		"nick_name" : "Angelito",
+		"class" : "Ground Attack",
+		"origin_nation" : "Germany",
+		"portrait" : "scw_unit_Hs_123_NSP.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "Ordinance",
+				"name" : "Bombs",
+				"calibre" : "80"
+			},
+			{
+				"type" : "MG",
+				"fp" : "4"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"}
+		],
+		"description" : [
+			"The Henschel Hs 123 was deployed to Spain to serve as a tactical bomber in the Condor Legion. ",
+			"Its small bomb capacity and short range led to its use in close ground support missions instead, ",
+			"at which it proved extremely proficient."
+		],
+		"rarity" : {
+			"1936.12.01" : "30",
+			"1938.10.01" : "40"
+		}
+	},
+
 	"Militia": {
 		"category" : "Infantry",
 		"class" : "Infantry Squad",
