@@ -75,7 +75,7 @@
 		}
 	},
 	"enemy_air_support": {
-		"Nationalist Spain" : ["Fiat CR.32"]
+		"Nationalist Spain" : ["Fiat CR.32 (NSP)", "He 51 (NSP)", "He 51C-1 (NSP)"]
 	},
 	"enemy_arty_support": {
 		"Nationalist Spain" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"]
@@ -113,7 +113,7 @@
 			}
 		}
 	},
-	"combat_days" : 8,
+	"combat_days" : 15,
 	"calendar_weeks": [
 		{
 			"start_date" : "1936.11.08",
