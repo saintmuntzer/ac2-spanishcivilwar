@@ -1,8 +1,8 @@
 {
 	"name" : "Battle of Guadalajara",
 	"creator" : "saintmuntzer / sparksflyupward",
-	"comments" : "The roster of tanks on the Republican side is historically dubious, as the only documented model at the Battle of Guadalajara was the T-26. For the sake of variety, other tanks and armored cars used by the Republic in this period may be available.",
-	"last_updated" : "1.3.7",
+	"comments" : "The roster of tanks on the Republican side is likely ahistorical, as the only documented model at the Battle of Guadalajara was the T-26. For the sake of variety, other tanks and armored cars used by the Republic in this period may be available.",
+	"last_updated" : "1.3.8",
 	"difficulty" : "5",
 	"start_date" : "1937.03.08",
 	"end_date" : "1937.03.27",
@@ -71,9 +71,10 @@
 	},
 	"friendly_transported_units_by_class" : {
 		"Truck" : {
-			"Riflemen" : 80,
-			"Light Mortar Team" : 10,
-			"HMG Team" : 10
+			"Riflemen" : 40,
+			"Militia" : 40,
+			"HMG Team" : 10,
+			"Light Mortar Team" : 10
 		}
 	},
 	"enemy_air_support": {
