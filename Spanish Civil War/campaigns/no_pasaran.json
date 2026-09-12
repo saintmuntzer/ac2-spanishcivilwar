@@ -1,15 +1,14 @@
 {
 	"name" : "No Pasaran!",
 	"creator" : "saintmuntzer / sparksflyupward",
-	"comments" : "Work in progress.",
-	"last_updated" : "1.3.7",
-	"difficulty" : "4",
+	"last_updated" : "1.3.8",
+	"difficulty" : "6",
 	"start_date" : "1936.11.08",
 	"end_date" : "1936.11.23",
 	"player_nation" : "Second Spanish Republic",
 	"enemy_nations" : ["Nationalist Spain"],
 	"region" : "Central Spain",
-	"desc" : "Though Madrid held for the Republic during the attempted military coup, rebel officer Emilio Mola has now led an army to its doorstep. Plans for the impending attack fell into Republican hands, who must now raise a desperate defense of their capital.",
+	"desc" : "Though Madrid held for the Republic during the coup, rebel officer Emilio Mola has now led an army to its doorstep. The Republicans must raise a desperate defense of their capital.",
 	"player_unit_list" : [
 		"BA-3 (RSP)",
 		"BA-6 (RSP)",
@@ -88,10 +87,9 @@
 		]
 	},
 	"enemy_unit_class_odds" : {
-		"Tankette" : 10,
+		"Tankette" : 20,
 		"Light Tank" : 30,
-		"Armoured Car" : 10,
-		"Anti-Tank Gun" : 50,
+		"Anti-Tank Gun" : 40,
 		"Artillery Gun" : 20,
 		"Anti-Aircraft Gun" : 10,
 		"Truck" : 40,
@@ -117,7 +115,7 @@
 			"location" : "40.41,-3.70",
 			"combat_chance" : 100,
 			"average_resistance" : 9,
-			"week_title" : "Enemy At the Gates",
+			"week_title" : "Enemy at the Gates",
 			"week_description" : "The Army of Africa has been relentless in its advance toward Madrid. Their attack will come from the north. We must bring them to a halt.",
 			"mission_odds" : {
 				"Hold the Line" : 20,
@@ -157,13 +155,24 @@
 			"air_support_level" : 60.0,
 			"arty_support_level" : 60.0,
 			"unit_support_level" : 80.0,
+			"enemy_class_odds_modifier" : {
+				"Light Tank" : 20,
+				"Anti-Tank Gun" : 30,
+				"Artillery Gun" : 30,
+				"Anti-Aircraft Gun" : 20
+			},
 			"terrain_odds_modifier" : {
 				"Villages" : 20,
 				"Forest" : 5
 			}
 		},
 		{
-			"start_date" : "1936.11.15",
+			"start_date" : "1937.03.16",
+			"end_date" : "1937.03.16",
+			"refitting" : "TRUE"
+		},
+		{
+			"start_date" : "1936.11.17",
 			"end_date" : "1936.11.23",
 			"location" : "40.41,-3.70",
 			"combat_chance" : 100,
@@ -177,7 +186,12 @@
 			"enemy_nations" : ["Nationalist Spain"],
 			"air_support_level" : 40.0,
 			"arty_support_level" : 60.0,
-			"unit_support_level" : 80.0
+			"unit_support_level" : 80.0,
+			"enemy_class_odds_modifier" : {
+				"Light Tank" : 40,
+				"Artillery Gun" : 10,
+				"Infantry Squad" : 70
+			}
 		}
 	]
 }
