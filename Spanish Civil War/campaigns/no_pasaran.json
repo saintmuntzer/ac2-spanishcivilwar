@@ -16,7 +16,7 @@
 		"FAI (RSP)",
 		"Renault FT (RSP)",
 		"Renault FT (MG, RSP)",
-		"Schnieder CA 1",
+		"Schneider CA 1",
 		"T-26 M33 (RSP)",
 		"Tractor Blindado Landesa",
 		"Trubia A4",
@@ -26,7 +26,7 @@
 		"T-26 M33 (RSP)" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
 		"Renault FT (RSP)" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
 		"Renault FT (MG, RSP)" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
-		"Schnieder CA 1" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"Schneider CA 1" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
 		"Tractor Blindado Landesa" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
 		"Trubia A4" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
 		"Trubia-Naval" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
@@ -41,7 +41,7 @@
 		"Bilbao Modelo 1932" : 1.1,
 		"Carro IGC Sadurni" : 1.1,
 		"FAI (RSP)" : 1.1,
-		"Schnieder CA 1" : 1.1,
+		"Schneider CA 1" : 1.1,
 		"T-26 M33 (RSP)" : 0.7
 	},
 	"campaign_skills" : [

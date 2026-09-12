@@ -1034,11 +1034,11 @@
 		}
 	},
 
-	"Schnieder CA 1": {
+	"Schneider CA 1": {
 		"category" : "Vehicle",
 		"class" : "Medium Tank",
 		"origin_nation" : "France",
-		"portrait" : "scw_unit_Schnieder_CA1.xp",
+		"portrait" : "scw_unit_Schneider_CA1.xp",
 		"size_class" : "Large",
 		"movement_class" : "Very Slow Tank",
 		"ground_pressure" : "Heavy",
@@ -1078,7 +1078,6 @@
 						"1938.07.01" : "10"
 					}
 				},
-				"unreliable" : true,
 				"blocked_hull_dirs" : ["0"],
 				"extra_facings_covered" : ["1"]
 			},
@@ -1088,7 +1087,6 @@
 				"mount" : "Hull",
 				"fired_by" : ["Port MG Gunner"],
 				"firing_group" : 1,
-				"unreliable" : true,
 				"blocked_hull_dirs" : ["0"],
 				"extra_facings_covered" : ["4", "5"]
 			},
@@ -1098,7 +1096,6 @@
 				"mount" : "Hull",
 				"fired_by" : ["Starboard MG Gunner"],
 				"firing_group" : 2,
-				"unreliable" : true,
 				"blocked_hull_dirs" : ["0"],
 				"extra_facings_covered" : ["1", "2"]
 			}
@@ -1148,7 +1145,7 @@
 		],
 		"description" : [
 			"[WIP. Awaiting code changes to simulate side-mounted guns.] ",
-			"Among the earliest tanks developed during the Great War, the Schnieder CA 1 ",
+			"Among the earliest tanks developed during the Great War, the Schneider CA 1 ",
 			"is a relic of a bygone era. Spain purchased several for use in the Rif War, ",
 			"after which they were retired from service until being called upon to defend ",
 			"the Second Republic. Their usefulness was limited by mechanical issues and an ",
