@@ -1,5 +1,5 @@
 {
-	"name" : "(WIP) No Pasaran!",
+	"name" : "No Pasaran!",
 	"creator" : "saintmuntzer / sparksflyupward",
 	"comments" : "Work in progress.",
 	"last_updated" : "1.3.7",
@@ -24,14 +24,13 @@
 		"Trubia-Naval"
 	],
 	"player_squad_list" : {
-		"T-26 M33 (RSP)" : ["T-26 M33 (RSP)"],
-
-		"Renault FT (RSP)" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
-		"Renault FT (MG, RSP)" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
-		"Schnieder CA 1" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
-		"Tractor Blindado Landesa" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
-		"Trubia A4" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
-		"Trubia-Naval" : ["Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"T-26 M33 (RSP)" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"Renault FT (RSP)" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"Renault FT (MG, RSP)" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"Schnieder CA 1" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"Tractor Blindado Landesa" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"Trubia A4" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"Trubia-Naval" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
 
 		"BA-3 (RSP)" : ["Bilbao Modelo 1932", "BA-3 (RSP)", "BA-6 (RSP)", "FAI (RSP)"],
 		"BA-6 (RSP)" : ["Bilbao Modelo 1932", "BA-3 (RSP)", "BA-6 (RSP)", "FAI (RSP)"],
@@ -39,29 +38,25 @@
 		"FAI (RSP)" : ["Bilbao Modelo 1932", "BA-3 (RSP)", "BA-6 (RSP)", "FAI (RSP)"]
 	},
 	"tank_vp_modifiers" : {
-		"BA-3 (RSP)" : 1.1,
-		"Bilbao Modelo 1932" : 1.3,
-		"Carro IGC Sadurni" : 1.2,
-		"FAI (RSP)" : 1.4,
-		"Renault FT (MG, RSP)" : 1.1,
-		"Schnieder CA 1" : 1.2,
-		"T-26 M33 (RSP)" : 0.7,
-		"Tractor Blindado Landesa" : 1.2,
-		"Trubia A4" : 1.1,
-		"Trubia-Naval" : 1.1
+		"BA-6 (RSP)" : 0.9,
+		"Bilbao Modelo 1932" : 1.1,
+		"Carro IGC Sadurni" : 1.1,
+		"FAI (RSP)" : 1.1,
+		"Schnieder CA 1" : 1.1,
+		"T-26 M33 (RSP)" : 0.7
 	},
 	"campaign_skills" : [
 		"Defend the Motherland"
 	],
 	"player_air_support": [
-		"I-15", "I-16", "Tupolev SB (RSP)"
+		"I-15", "I-16", "NiD 52", "Tupolev SB (RSP)"
 	],
 	"player_arty_support": [
 		"76.2mm PP obr. 27", "76.2mm obr. 00/02P", "107mm obr. 10/30", "122mm G obr. 10/30",
 		"7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"
 	],
 	"player_unit_support" : {
-		"Armour" : ["T-26 M33 (RSP)"],
+		"Armour" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
 		"Anti-Armour" : ["37mm M1917", "37mm obr. 30", "45mm obr. 32/37"],
 		"Anti-Infantry" : ["Chevrolet 4x2 RD", "GAZ-AA (RSP)", "ZIS-5 Truck", "3-ton Truck", "HMG Team", "Riflemen", "Militia"],
 		"Recon" : ["Bilbao Modelo 1932", "BA-3 (RSP)", "BA-6 (RSP)", "FAI (RSP)"],
@@ -69,13 +64,14 @@
 	},
 	"friendly_transported_units_by_class" : {
 		"Truck" : {
-			"Riflemen" : 80,
-			"Light Mortar Team" : 10,
-			"HMG Team" : 10
+			"Riflemen" : 20,
+			"Militia" : 60,
+			"HMG Team" : 10,
+			"Light Mortar Team" : 10
 		}
 	},
 	"enemy_air_support": {
-		"Nationalist Spain" : ["Fiat CR.32 (NSP)", "He 51 (NSP)", "He 51C-1 (NSP)"]
+		"Nationalist Spain" : ["Fiat CR.32 (NSP)", "He 45C (NSP)", "He 51 (NSP)", "He 51C-1 (NSP)", "NiD 52 (NSP)"]
 	},
 	"enemy_arty_support": {
 		"Nationalist Spain" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"]

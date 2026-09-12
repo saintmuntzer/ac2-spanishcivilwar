@@ -71,9 +71,10 @@
 	},
 	"friendly_transported_units_by_class" : {
 		"Truck" : {
-			"Riflemen" : 80,
-			"Light Mortar Team" : 10,
-			"HMG Team" : 10
+			"Riflemen" : 40,
+			"Militia" : 40,
+			"HMG Team" : 10,
+			"Light Mortar Team" : 10
 		}
 	},
 	"enemy_air_support": {
