@@ -24,16 +24,9 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 
 ## General
 
-- [ ] Add RSP and NSP variants of infantry support team units
+- [ ] Add RSP and NSP portrait variants of infantry support team units
 - [ ] Fill out RSP and NSP truck/tractor entries in nation_defs
-- [ ] Dornier Do 17 (NSP)
-
-## Campaign: No Pasaran!
-
-- [X] Nationalist planes
-    - [X] Heinkel He 45 (NSP)
-    - [X] Heinkel He 51 (NSP)
-    - [X] Henschel Hs 123 (NSP)
-    - [X] Nieuport-Delage NiD 52 (NSP)
-- [X] Republican planes
-    - [X] Nieuport-Delage NiD 52 (RSP)
+- [ ] Aircraft
+    - [ ] Dornier Do 17 (NSP)
+- [ ] Tanks
+    - [ ] Modified flamethrower tanks on Nationalist side (late war)
