@@ -19,6 +19,12 @@
 			"4" : "Medalla de la Segunda Guerra de la Independencia",
 			"x" : "Medalla de Sufrimientos por la Patria"
 		},
+		"gun_tractors" : [
+			"Sadurni Tractor", "Tractor Landesa"
+		],
+		"trucks" : [
+			"GAZ-AA (RSP)", "ZIS-5 Truck"
+		],
 		"first_names" : [
 			"Abelardo", "Abrahan", "Acilino" , "Adalberto", "Adelio", 	
 			"Adolfo", "Alante", "Alberto", "Alejandro", "Alfonso",
