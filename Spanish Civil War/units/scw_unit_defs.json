@@ -1079,7 +1079,8 @@
 					}
 				},
 				"blocked_hull_dirs" : ["0"],
-				"extra_facings_covered" : ["1"]
+				"extra_facings_covered" : ["1"],
+				"hd_ok" : true
 			},
 			{
 				"type" : "TMG",
@@ -1088,7 +1089,8 @@
 				"fired_by" : ["Port MG Gunner"],
 				"firing_group" : 1,
 				"blocked_hull_dirs" : ["0"],
-				"extra_facings_covered" : ["4", "5"]
+				"extra_facings_covered" : ["4", "5"],
+				"hd_ok" : true
 			},
 			{
 				"type" : "TMG",
@@ -1097,7 +1099,8 @@
 				"fired_by" : ["Starboard MG Gunner"],
 				"firing_group" : 2,
 				"blocked_hull_dirs" : ["0"],
-				"extra_facings_covered" : ["1", "2"]
+				"extra_facings_covered" : ["1", "2"],
+				"hd_ok" : true
 			}
 		],
 		"crew_positions" : [
