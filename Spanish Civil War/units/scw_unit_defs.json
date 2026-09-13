@@ -1515,7 +1515,7 @@
 		"category" : "Airplane",
 		"class" : "Fighter",
 		"origin_nation" : "Soviet Union",
-		"portrait" : "unit_I-153.xp",
+		"portrait" : "scw_unit_I-15_RSP.xp",
 		"movement_class" : "Airplane",
 		"weapon_list" : [
 			{
@@ -1532,9 +1532,9 @@
 			{"name" : "Pilot"}
 		],
 		"description" : [
-			"A Soviet biplane of the early 1930s. Originally nicknamed Chaika (gull) ",
+			"A Soviet biplane of the early 1930s. Originally nicknamed 'Chaika' ('Gull') ",
 			"for its gulled upper wings, the Spanish Republicans referred to it as ",
-			"Chato (snub-nose). It would prove to be one of the best fighter biplanes ",
+			"'Chato' ('Snub-nose'). It would prove to be one of the best fighter biplanes ",
 			"of its time."
 		],
 		"rarity" : {
@@ -1543,6 +1543,38 @@
 			"1937.05.01" : "60",
 			"1937.09.01" : "80",
 			"1939.01.01" : "50"
+		}
+	},
+
+	"I-16 (RSP)": {
+		"nick_name" : "Mosca",
+		"category" : "Airplane",
+		"class" : "Fighter",
+		"origin_nation" : "Soviet Union",
+		"portrait" : "scw_unit_I-16_RSP.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "MG",
+				"fp" : "8"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"}
+		],
+		"description" : [
+			"The Soviet Union dispatched hundreds of early-model Polikarpov I-16 fighter ",
+			"planes to the Spanish Republic over the course of the civil war. This variant ",
+			"of the I-16 was lightly armed with only 7.62 mm machine guns. Nationalists ",
+			"referred to the stubby fighter as 'Rata' ('Rat'), while the Republicans ",
+			"affectionately called it 'Mosca' ('Fly')."
+		],
+		"rarity" : {
+			"1936.11.01" : "30",
+			"1937.01.01" : "50",
+			"1937.07.01" : "70",
+			"1938.01.01" : "90",
+			"1939.01.01" : "60"
 		}
 	},
 
