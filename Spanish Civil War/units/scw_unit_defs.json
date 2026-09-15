@@ -2277,6 +2277,118 @@
 		}
 	},
 
+	"Artillado (CNT)": {
+		"category" : "Vehicle",
+		"class" : "Armoured Car",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_artillado_CNT.xp",
+		"size_class" : "Small",
+		"movement_class" : "Fast Wheeled",
+		"ground_pressure" : "Normal",
+		"open_topped" : true,
+		"recce" : true,
+		"no_radio" : true,
+		"weapon_list" : [
+			{
+				"type" : "AAMG",
+				"fp" : "2",
+				"rof" : "16.7",
+				"mount" : "Hull",
+				"fired_by" : ["Commander"],
+				"firing_group" : 0
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Hull",
+				"open_top" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"open_top" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
+			}
+		],
+		"description" : [
+			"WIP DESCRIPTION. Possibly change name as 'artillado' is modern terminology."
+		],
+		"rarity" : {
+			"1936.07.01" : "100",
+			"1937.07.01" : "70",
+			"1938.07.01" : "40"
+		}
+	},
+
+	"Tiznao (CNT)": {
+		"category" : "Vehicle",
+		"class" : "Armoured Car",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_tiznao_CNT.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Slow Wheeled",
+		"ground_pressure" : "Heavy",
+		"turret" : "RST",
+		"unreliable" : true,
+		"recce" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "0",
+			"turret_side" : "0",
+			"hull_front" : "0",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "3",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner"],
+				"firing_group" : 0
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Turret",
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner",
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Assistant Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"Due to a lack of resources, time, or government support, many revolutionary militias ",
+			"resorted to crudely armouring civilian vehicles. Most of these were unreliable at best, ",
+			"being too weighed down by improvised armor to maneuver effectively in combat."
+		],
+		"rarity" : {
+			"1936.07.01" : "100",
+			"1937.07.01" : "70",
+			"1938.07.01" : "40"
+		}
+	},
+
 	"Militia": {
 		"category" : "Infantry",
 		"class" : "Infantry Squad",

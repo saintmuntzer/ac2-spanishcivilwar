@@ -74,5 +74,78 @@
 			"Ramirez", "Ramos","Reyes", "Rana", "Rivera", "Robles", "Rodriguez", "Rocha", "Rojas", "Rosales", "Ruiz",
 			"Salazar", "Salinas", "Sandoval", "Sanchez", "Santiago", "Trujillo", "Travieso", "Urbina", "Urena", "Valencia"
 		]
+    },
+
+	"CNT-FAI": {
+		"short_code" : "CNT",
+		"adjective" : "Confederal",
+		"flag_image" : "scw_flag_CNT_FAI.xp",
+		"compatible_nations" : [
+			"Second Spanish Republic"
+		],
+		"rank_names" : {
+			"0" : "Miliciano",  		 	 	
+			"1" : "Miliciano entrenado",
+			"2" : "Miliciano veterano",
+			"3" : "Delegado de grupo",
+			"4" : "Delegado veterano de grupo",
+			"5" : "Delegado de centuria",
+			"6" : "Delegado veterano de centuria"
+		},
+		"trucks" : [
+			"GAZ-AA (RSP)"
+		],
+		"first_names" : [
+			"Abelardo", "Abrahan", "Acilino" , "Adalberto", "Adelio", 	
+			"Adolfo", "Alante", "Alberto", "Alejandro", "Alfonso",
+			"Alfredo", "Aloisio", "Alonzo", "Alroy", "Alvaro",  	 
+			"Alvino", "Amador", "Amistad", "Amoldo", "Andrez",	
+			"Antjuan","Araldo", "Arcadio", "Armando", "Arnaldo",
+			"Arrio", "Artemio", "Asafo", "Barto", "Beinvenido",
+			"Benedicto", "Bernardino", "Bernardo", "Bernbe",
+			"Blanco", "Bonaro", "Buinton", "Carlos", "Cedro",
+			"Celso", "Cesar", "Chago", "Cid", "Clemente","Conrado",
+			"Cordero", "Cortez", "Cristobal", "Cuartio", "Cuarto",
+			"Curro", "Dario", "Daunte", "Decarlos", "Deseado", 	
+			"Diderot","Diego", "Dionicio", "Dionysus", "Domingo",
+			"Donaldo", "Duardo", "Edgardo", "Edmundo", "Eduardo",
+			"Elonzo", "Elvio", "Emesto", "Emilio", "Enio", "Enrique",
+			"Ermano", "Ermino", "Ernesto", "Esteban", "Estevao", 
+			"Eugenio", "Euniciano", "Evarado", "Farruco", "Federico",
+			"Felipe", "Felix", "Fermin", "Fernando", "Filiberto", "Fito",
+			"Flaminio", "Floriano", "Francisco", "Frederico", "Fredo", 
+			"Gabrio", "Galeno", "Garcia", "Gerardo", "Giacinto", 
+			"Godfredo", "Gomez", "Gonzalo", "Grimoaldo", "Gualberto", 		
+			"Guillermo", "Gustavo", "Gutierre", "Heraldo", "Jayro", 
+			"Joaquin", "Jorge", "Jose", "Juan", "Juguan", "Juliano",
+			"Justiniano", "Laurencio", "Leandro", "Lisandro", "Lorenzo",
+			"Lucero", "Luis", "Maceo", "Manuel", "Marcos", "Martinez", 
+			"Mateo", "Matias", "Mauricio", "Miguel", "Milagro", "Mincho",
+			"Montego", "Montez", "Nemesio", "Neopolo", "Neron","Norberto",
+			"Normando", "Oalo","Olivero", "Oliveros", "Oswaldo", "Otelo",
+			"Ovidio", "Pablo", "Parisio", "Patricio", "Paulo", "Pedro", 
+			"Perico", "Placido", "Ponce", "Pueblo", "Raimundo", "Ramiro",
+			"Raul", "Renaldo", "Ricardo", "Roberto", "Rodrigo", "Rodriguez",
+			"Rogelio", "Rufino", "Sabelio", "Salamon", "Salvador", "Salviano",
+			"Santiago", "Santos", "Sarito", "Segundo", "Silvestre", "Tauro", "Teobaldo",
+			"Teodoro", "Terciero", "Terencio", "Tiago", "Venturo", "Vermundo", "Vicente", 
+			"Vidal", "Xalvador", "Xaver", "Ximenes", "Zacarias"
+
+		],
+		"surnames" : [
+			"Alvarez", "Alonso", "Alfonso", "Arias", "Ayala", "Aguilar", "Bello", "Belmonte",
+			"Basurto", "Bermudez", "Blanco", "Cabrera", "Campo", "Cruz", "Castro", "Castillo",
+			"Diaz", "Dominguez", "Delgado", "Duran", "Duarte", "De Leon", "Espinosa", "Elizondo",
+			"Espada","Escamilla", "Fernandez", "Flores", "Fuentes", "Garcia", "Garza", "Gomez", "Gallo",
+			"Gaspar", "Hernandez", "Huerta", "Hierro", "Herrera", "Hidalgo", "Ibarra", "Iglesias", "Ibanez",
+			"Izquierdo", "Jimenez", "Juarez", "Jorda", "Jasso", "Loyola", "Lobo", "Lopez", "Maradona", "Marquez",
+			"Imachado", "Martinez", "Medina", "Méndez","Mendoza","Molina", "Morales", "Moreno", "Nunez", "Narvaez",
+			"Olmos", "Ortega", "Oliver","Oriol", "Pena", "Perez", "Porra", "Puerta", "Prieto", "Quintana", "Quinones",
+			"Ramirez", "Ramos","Reyes", "Rana", "Rivera", "Robles", "Rodriguez", "Rocha", "Rojas", "Rosales", "Ruiz",
+			"Salazar", "Salinas", "Sandoval", "Sanchez", "Santiago", "Trujillo", "Travieso", "Urbina", "Urena", "Valencia"
+		],
+		"inherit" : {
+			"Second Spanish Republic" : ["first_names", "surnames", "gun_tractors"]
+		}
     }
 }
