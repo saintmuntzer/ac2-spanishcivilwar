@@ -1,4 +1,114 @@
 {
+	"Catalonia" : {
+		"cd_terrain_odds" : {
+			"Flat" : 10,
+			"Forest" : 10,
+			"Hills" : 30,
+			"Mountains" : 2,
+			"Mountain Pass" : 2,
+			"Fields" : 10,
+			"Scrub" : 20,
+			"Marsh" : 2,
+			"Villages" : 10,
+			"Lake" : 2,
+			"Fortification" : 2
+		},
+		"dirt_road_odds" : 60.0,
+		"stone_road_odds" : 40.0,
+		"river_odds" : 40.0,
+		"season_weather_odds" : {
+			"Winter" : {
+				"end_date" : "03.20",
+				"ground_conditions" : {
+					"Dry" : 78.0, "Wet" : 10.0, "Muddy" : 10.0,
+					"Snow" : 2.0, "Deep Snow" : 0.0
+				},
+				"temperature" : {
+					"Extreme Cold" : 0.0, "Cold" : 20.0,
+					"Mild" : 70.0, "Warm" : 10.0,
+					"Hot" : 0.0, "Extreme Hot" : 0.0
+				},
+				"cloud_cover" : {
+					"Clear" : 60.0, "Scattered" : 20.0,
+					"Heavy" : 10.0, "Overcast" : 10.0
+				},
+				"precipitation" : {
+					"None" : 78.0, "Mist" : 10.0,
+					"Rain" : 5.0, "Heavy Rain" : 5.0,
+					"Light Snow" : 2.0, "Snow" : 0.0,
+					"Blizzard" : 0.0
+				}
+			},
+			"Spring" : {
+				"end_date" : "06.20",
+				"ground_conditions" : {
+					"Dry" : 90.0, "Wet" : 5.0, "Muddy" : 5.0,
+					"Snow" : 0.0, "Deep Snow" : 0.0
+				},
+				"temperature" : {
+					"Extreme Cold" : 0.0, "Cold" : 0.0,
+					"Mild" : 70.0, "Warm" : 20.0,
+					"Hot" : 10.0, "Extreme Hot" : 0.0
+				},
+				"cloud_cover" : {
+					"Clear" : 70.0, "Scattered" : 20.0,
+					"Heavy" : 5.0, "Overcast" : 5.0
+				},
+				"precipitation" : {
+					"None" : 80.0, "Mist" : 10.0,
+					"Rain" : 5.0, "Heavy Rain" : 5.0,
+					"Light Snow" : 0.0, "Snow" : 0.0,
+					"Blizzard" : 0.0
+				}
+				
+			},
+			"Summer" : {
+				"end_date" : "09.20",
+				"ground_conditions" : {
+					"Dry" : 90.0, "Wet" : 5.0, "Muddy" : 5.0,
+					"Snow" : 0.0, "Deep Snow" : 0.0
+				},
+				"temperature" : {
+					"Extreme Cold" : 0.0, "Cold" : 0.0,
+					"Mild" : 40.0, "Warm" : 30.0,
+					"Hot" : 30.0, "Extreme Hot" : 0.0
+				},
+				"cloud_cover" : {
+					"Clear" : 80.0, "Scattered" : 10.0,
+					"Heavy" : 5.0, "Overcast" : 5.0
+				},
+				"precipitation" : {
+					"None" : 90.0, "Mist" : 5.0,
+					"Rain" : 5.0, "Heavy Rain" : 0.0,
+					"Light Snow" : 0.0, "Snow" : 0.0,
+					"Blizzard" : 0.0
+				}
+				
+			},
+			"Autumn" : {
+				"end_date" : "12.20",
+				"ground_conditions" : {
+					"Dry" : 70.0, "Wet" : 15.0, "Muddy" : 15.0,
+					"Snow" : 0.0, "Deep Snow" : 0.0
+				},
+				"temperature" : {
+					"Extreme Cold" : 0.0, "Cold" : 15.0,
+					"Mild" : 75.0, "Warm" : 10.0,
+					"Hot" : 0.0, "Extreme Hot" : 0.0
+				},
+				"cloud_cover" : {
+					"Clear" : 50.0, "Scattered" : 25.0,
+					"Heavy" : 15.0, "Overcast" : 10.0
+				},
+				"precipitation" : {
+					"None" : 50.0, "Mist" : 20.0,
+					"Rain" : 20.0, "Heavy Rain" : 10.0,
+					"Light Snow" : 0.0, "Snow" : 0.0,
+					"Blizzard" : 0.0
+				}
+			}
+		}
+	},
 	"Central Spain" : {
 		"cd_terrain_odds" : {
 			"Flat" : 15,

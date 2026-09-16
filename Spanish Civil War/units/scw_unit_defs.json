@@ -2093,6 +2093,29 @@
 		}
 	},
 
+	"Chevrolet 4x2 RD (NSP)" : {
+		"category" : "Vehicle",
+		"class" : "Truck",
+		"origin_nation" : "United States of America",
+		"portrait" : "scw_unit_4x2_RD_NSP.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Wheeled",
+		"crew_positions" : [
+			{
+				"name" : "Driver",
+				"location" : "Hull"
+			}
+		],
+		"description" : [
+			"This is the older version of the Chevrolet military truck, with ",
+			"just a rear wheel drive. The Spanish military had an eclectic fleet of ",
+			"trucks at the onset of the civil war."
+		],
+		"rarity" : {
+			"1936.07.01" : "80"
+		}
+	},
+
 	"Fiat CR.32 (NSP)": {
 		"category" : "Airplane",
 		"class" : "Fighter",
@@ -2277,11 +2300,11 @@
 		}
 	},
 
-	"Artillado (CNT)": {
+	"Gun Truck (CNT)": {
 		"category" : "Vehicle",
 		"class" : "Armoured Car",
 		"origin_nation" : "Second Spanish Republic",
-		"portrait" : "scw_unit_artillado_CNT.xp",
+		"portrait" : "scw_unit_gun_truck_CNT.xp",
 		"size_class" : "Small",
 		"movement_class" : "Fast Wheeled",
 		"ground_pressure" : "Normal",
@@ -2291,16 +2314,16 @@
 		"weapon_list" : [
 			{
 				"type" : "AAMG",
-				"fp" : "2",
+				"fp" : "3",
 				"rof" : "16.7",
 				"mount" : "Hull",
-				"fired_by" : ["Commander"],
+				"fired_by" : ["Commander/Gunner"],
 				"firing_group" : 0
 			}
 		],
 		"crew_positions" : [
 			{
-				"name" : "Commander",
+				"name" : "Commander/Gunner",
 				"location" : "Hull",
 				"open_top" : true,
 				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
@@ -2313,12 +2336,14 @@
 			}
 		],
 		"description" : [
-			"WIP DESCRIPTION. Possibly change name as 'artillado' is modern terminology."
+			"An ordinary commercial truck armed with a light machine gun. Many of these ",
+			"vehicles were hastily assembled in the days leading up to the Spanish Civil War, ",
+			"when workers' militias had very little access to arms and armored vehicles."
 		],
 		"rarity" : {
-			"1936.07.01" : "100",
-			"1937.07.01" : "70",
-			"1938.07.01" : "40"
+			"1936.07.01" : "60",
+			"1937.07.01" : "40",
+			"1938.07.01" : "20"
 		}
 	},
 
