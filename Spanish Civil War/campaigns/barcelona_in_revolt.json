@@ -1,0 +1,110 @@
+{
+	"name" : "Barcelona in Revolt",
+	"creator" : "saintmuntzer / sparksflyupward",
+	"comments" : "This campaign must be played with the Armored Cars option enabled; there are no tanks available to the CNT-FAI during this battle.",
+	"last_updated" : "1.3.8",
+	"difficulty" : "9",
+	"start_date" : "1936.07.19",
+	"end_date" : "1936.07.20",
+	"player_nation" : "CNT-FAI",
+    "player_fanatic" : true,
+	"enemy_nations" : ["Nationalist Spain"],
+	"region" : "Catalonia",
+	"desc" : "The anarchist militias of the CNT-FAI have seized arms and constructed crude armored cars in preparation for an imminent Fascist military coup.",
+	"player_unit_list" : [
+		"Gun Truck (CNT)",
+		"Tiznao (CNT)",
+		"Tiznao (FXT, CNT)"
+	],
+	"player_squad_list" : {
+		"Gun Truck (CNT)" : ["Gun Truck (CNT)", "Tiznao (CNT)", "Tiznao (FXT, CNT)"],
+        "Tiznao (CNT)" : ["Gun Truck (CNT)", "Tiznao (CNT)", "Tiznao (FXT, CNT)"],
+		"Tiznao (FXT, CNT)" : ["Gun Truck (CNT)", "Tiznao (CNT)", "Tiznao (FXT, CNT)"]
+	},
+	"tank_vp_modifiers" : {
+		"Gun Truck (CNT)" : 1.5,
+		"Tiznao (CNT)" : 1.2,
+		"Tiznao (FXT, CNT)" : 1.3
+	},
+	"campaign_skills" : [
+		"Defend the Motherland"
+	],
+	"player_arty_support": [
+		"Light Mortar Team"
+	],
+	"player_unit_support" : {
+		"Anti-Armour" : ["70/16 mod. 1908", "75/28 mod. 1912"],
+		"Anti-Infantry" : ["Militia"],
+		"Recon" : ["Gun Truck (CNT)", "Tiznao (CNT)", "Tiznao (FXT, CNT)"],
+		"Artillery" : ["Light Mortar Team"]
+	},
+	"friendly_transported_units_by_class" : {
+		"Truck" : {
+			"Militia" : 95,
+			"Light Mortar Team" : 5
+		}
+	},
+	"enemy_arty_support": {
+		"Nationalist Spain" : ["7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912"]
+	},
+	"enemy_unit_list" : {
+		"Nationalist Spain" : [
+			"7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912",
+			"Chevrolet 4x2 RD (NSP)",
+			"Riflemen", "Militia",
+			"HMG Team", "Light Mortar Team"
+		]
+	},
+	"enemy_unit_class_odds" : {
+		"Artillery Gun" : 30,
+		"Truck" : 40,
+		"Infantry Squad" : 100,
+		"Support Weapon Team" : 20
+	},
+	"enemy_transported_units_by_class" : {
+		"Nationalist Spain": {
+			"Truck" : {
+				"Riflemen" : 50,
+				"Militia" : 30,
+				"HMG Team" : 10,
+				"Light Mortar Team" : 10
+			}
+		}
+	},
+	"combat_days" : 2,
+	"calendar_weeks": [
+		{
+			"start_date" : "1936.07.19",
+			"end_date" : "1936.07.19",
+			"location" : "41.38,2.15",
+			"combat_chance" : 100,
+			"average_resistance" : 10,
+			"week_title" : "A Las Barricadas!",
+			"week_description" : "The Fascists have begun their coup. We have seized arms in light of the government's refusal to arm the workers. It is time for the people of Barcelona to take to the streets.",
+			"mission_odds" : {
+				"Urban Assault": 10,
+				"Urban Defense" : 90
+			},
+			"enemy_nations" : ["Nationalist Spain"],
+			"air_support_level" : 0,
+			"arty_support_level" : 20.0,
+			"unit_support_level" : 50.0
+		},
+		{
+			"start_date" : "1936.07.20",
+			"end_date" : "1936.07.20",
+			"location" : "41.38,2.15",
+			"combat_chance" : 100,
+			"average_resistance" : 8,
+			"week_title" : "Adelante!",
+			"week_description" : "We have all but defeated the Fascist uprising in Barcelona. We will defeat whatever holdouts remain in their neighborhoods and military barracks.",
+			"mission_odds" : {
+				"Urban Assault": 100
+			},
+			"enemy_nations" : ["Nationalist Spain"],
+			"air_support_level" : 0,
+			"arty_support_level" : 40.0,
+			"unit_support_level" : 60.0
+		}
+	]
+}
