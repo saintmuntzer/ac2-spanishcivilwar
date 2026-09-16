@@ -16,12 +16,14 @@
 		"Tiznao (CNT)"
 	],
 	"player_squad_list" : {
-		"Gun Truck (CNT)" : ["Gun Truck (CNT)", "Tiznao (CNT)"],
-        "Tiznao (CNT)" : ["Gun Truck (CNT)", "Tiznao (CNT)"]
+		"Gun Truck (CNT)" : ["Gun Truck (CNT)", "Tiznao (CNT)", "Tiznao (FXT, CNT)"],
+        "Tiznao (CNT)" : ["Gun Truck (CNT)", "Tiznao (CNT)", "Tiznao (FXT, CNT)"],
+		"Tiznao (FXT, CNT)" : ["Gun Truck (CNT)", "Tiznao (CNT)", "Tiznao (FXT, CNT)"]
 	},
 	"tank_vp_modifiers" : {
-		"Gun Truck (CNT)" : 1.4,
-		"Tiznao (CNT)" : 1.2
+		"Gun Truck (CNT)" : 1.5,
+		"Tiznao (CNT)" : 1.2,
+		"Tiznao (FXT, CNT)" : 1.3
 	},
 	"campaign_skills" : [
 		"Defend the Motherland"
@@ -32,7 +34,7 @@
 	"player_unit_support" : {
 		"Anti-Armour" : ["70/16 mod. 1908", "75/28 mod. 1912"],
 		"Anti-Infantry" : ["Militia"],
-		"Recon" : ["Gun Truck (CNT)", "Tiznao (CNT)"],
+		"Recon" : ["Gun Truck (CNT)", "Tiznao (CNT)", "Tiznao (FXT, CNT)"],
 		"Artillery" : ["Light Mortar Team"]
 	},
 	"friendly_transported_units_by_class" : {
