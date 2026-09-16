@@ -2325,7 +2325,9 @@
 			{
 				"name" : "Commander/Gunner",
 				"location" : "Hull",
-				"open_top" : true,
+				"hatch" : true,
+				"large_hatch" : true,
+				"bu_visible" : ["0", "1", "2", "3", "4", "5"],
 				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
 			},
 			{
@@ -2382,7 +2384,7 @@
 			},
 			{
 				"name" : "Gunner",
-				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"location" : "Turret",
 				"bu_visible" : ["0"]
 			},
 			{
@@ -2403,7 +2405,7 @@
 			}
 		],
 		"description" : [
-			"Due to a lack of resources, time, or government support, many revolutionary militias ",
+			"Due to a lack of resources, time, or government support, many revolutionary Spanish militias ",
 			"resorted to crudely armouring civilian vehicles. Most of these were unreliable at best, ",
 			"being too weighed down by improvised armor to maneuver effectively in combat."
 		],
