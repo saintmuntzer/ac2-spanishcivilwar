@@ -74,5 +74,29 @@
 			"Ramirez", "Ramos","Reyes", "Rana", "Rivera", "Robles", "Rodriguez", "Rocha", "Rojas", "Rosales", "Ruiz",
 			"Salazar", "Salinas", "Sandoval", "Sanchez", "Santiago", "Trujillo", "Travieso", "Urbina", "Urena", "Valencia"
 		]
+    },
+
+	"CNT-FAI": {
+		"short_code" : "CNT",
+		"adjective" : "CNT-FAI",
+		"flag_image" : "scw_flag_CNT_FAI.xp",
+		"compatible_nations" : [
+			"Second Spanish Republic"
+		],
+		"rank_names" : {
+			"0" : "Miliciano",  		 	 	
+			"1" : "Miliciano entrenado",
+			"2" : "Miliciano veterano",
+			"3" : "Delegado de grupo",
+			"4" : "Delegado veterano de grupo",
+			"5" : "Delegado de centuria",
+			"6" : "Delegado veterano de centuria"
+		},
+		"trucks" : [
+			"GAZ-AA (RSP)"
+		],
+		"inherit" : {
+			"Second Spanish Republic" : ["decorations", "gun_tractors", "first_names", "surnames"]
+		}
     }
 }

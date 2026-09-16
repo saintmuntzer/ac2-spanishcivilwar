@@ -13,8 +13,12 @@
 	"desc" : "The anarchist militias of the CNT-FAI have seized arms and constructed crude armored cars in preparation for an imminent Fascist military coup.",
 	"player_unit_list" : [
 		"Gun Truck (CNT)",
+<<<<<<< HEAD
 		"Tiznao (CNT)",
 		"Tiznao (FXT, CNT)"
+=======
+		"Tiznao (CNT)"
+>>>>>>> 568e1fe4b6b4987fff0e59d4350cb6674dcb610b
 	],
 	"player_squad_list" : {
 		"Gun Truck (CNT)" : ["Gun Truck (CNT)", "Tiznao (CNT)", "Tiznao (FXT, CNT)"],
