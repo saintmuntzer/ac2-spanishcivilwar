@@ -2382,17 +2382,12 @@
 				"location" : "Turret",
 				"hatch" : true,
 				"large_hatch" : true,
-				"hatch_group" : "0",
 				"ce_visible" : ["2", "3", "4"],
 				"bu_visible" : ["0"]
 			},
 			{
 				"name" : "Gunner",
 				"location" : "Turret",
-				"hatch" : true,
-				"large_hatch" : true,
-				"hatch_group" : "0",
-				"ce_visible" : ["2", "3", "4"],
 				"bu_visible" : ["0"]
 			},
 			{
@@ -2458,17 +2453,12 @@
 				"location" : "Turret",
 				"hatch" : true,
 				"large_hatch" : true,
-				"hatch_group" : "0",
 				"ce_visible" : ["2", "3", "4"],
 				"bu_visible" : ["0"]
 			},
 			{
 				"name" : "Gunner",
 				"location" : "Turret",
-				"hatch" : true,
-				"large_hatch" : true,
-				"hatch_group" : "0",
-				"ce_visible" : ["2", "3", "4"],
 				"bu_visible" : ["0"]
 			},
 			{
