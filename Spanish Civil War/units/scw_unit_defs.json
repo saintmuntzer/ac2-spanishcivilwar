@@ -2308,7 +2308,6 @@
 		"size_class" : "Small",
 		"movement_class" : "Fast Wheeled",
 		"ground_pressure" : "Normal",
-		"open_topped" : true,
 		"recce" : true,
 		"no_radio" : true,
 		"weapon_list" : [
@@ -2325,15 +2324,15 @@
 			{
 				"name" : "Commander/Gunner",
 				"location" : "Hull",
-				"hatch" : true,
-				"large_hatch" : true,
-				"bu_visible" : ["0", "1", "2", "3", "4", "5"],
+				"open_top" : true,
 				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
 			},
 			{
 				"name" : "Driver",
 				"location" : "Hull",
-				"open_top" : true,
+				"hatch" : true,
+				"large_hatch" : true,
+				"bu_visible" : ["0", "1", "2", "3", "4", "5"],
 				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
 			}
 		],
