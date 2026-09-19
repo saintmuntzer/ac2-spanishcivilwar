@@ -57,9 +57,9 @@
 	},
 	"enemy_unit_class_odds" : {
 		"Artillery Gun" : 30,
-		"Truck" : 40,
-		"Infantry Squad" : 100,
-		"Support Weapon Team" : 20
+		"Truck" : 30,
+		"Infantry Squad" : 80,
+		"Support Weapon Team" : 30
 	},
 	"enemy_transported_units_by_class" : {
 		"Nationalist Spain": {
