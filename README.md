@@ -22,6 +22,15 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 
 # To-Do
 
+## Campaigns
+
+- [ ] Battle of Seseña
+- [ ] Battle of Brunete
+- [ ] Battle of the Ebro
+- [ ] Battle of Teruel
+- [ ] Barcelona May Days
+- [ ] La Retirada
+
 ## General
 
 - [ ] Add RSP and NSP portrait variants of infantry support team units
@@ -29,5 +38,6 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 - [ ] Aircraft
     - [ ] Dornier Do 17 (NSP)
     - [ ] Arado Ar 68 (NSP)
+    - [ ] SM 81 (NSP/ITA)
 - [ ] Tanks
     - [ ] Modified flamethrower tanks on Nationalist side (late war)
