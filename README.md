@@ -44,3 +44,6 @@ A number of sources are used as the historical basis for vehicles and weaponry i
     - [ ] Radio-equipped T-26 variant
 - [ ] Armored Cars
     - [ ] Additional tiznao variants
+- [ ] Artillery
+    - [ ] Cannone da 65/17 modello 13 (ITA)
+    - [ ] Canon Court de 105 Montagne modèle 1919 Schneider, AKA Obús Schneider 105/11 Modelo 1919 (NSP)
