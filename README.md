@@ -41,3 +41,6 @@ A number of sources are used as the historical basis for vehicles and weaponry i
     - [ ] SM 81 (NSP/ITA)
 - [ ] Tanks
     - [ ] Modified flamethrower tanks on Nationalist side (late war)
+    - [ ] Radio-equipped T-26 variant
+- [ ] Armored Cars
+    - [ ] Additional tiznao variants
