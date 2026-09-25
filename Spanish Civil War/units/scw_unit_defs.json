@@ -1940,11 +1940,49 @@
 		}
 	},
 
+	"105/11 mod. 1919": {
+		"category" : "Gun",
+		"class" : "Artillery Gun",
+		"origin_nation" : "France",
+		"portrait" : "scw_unit_105mm_gun_short.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Gun",
+		"gun_shield" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "105",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["AP", "HE"],
+				"max_ammo" : "180"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"This 105mm Schneider mountain gun was exported to a number ",
+			"of countries and produced under license in Spain."
+		],
+		"rarity" : {
+			"1936.07.01" : "80"
+		}
+	},
+
 	"105/22 mod. 1922": {
 		"category" : "Gun",
 		"class" : "Artillery Gun",
 		"origin_nation" : "Kingdom of Spain",
-		"portrait" : "scw_unit_105mm_gun.xp",
+		"portrait" : "scw_unit_105mm_gun_long.xp",
 		"size_class" : "Normal",
 		"movement_class" : "Gun",
 		"gun_shield" : true,
@@ -2393,6 +2431,46 @@
 		"rarity" : {
 			"1936.07.01" : "30",
 			"1937.01.01" : "0"
+		}
+	},
+
+	"SM.81": {
+		"nick_name" : "Pipistrello",
+		"category" : "Airplane",
+		"class" : "Light Bomber",
+		"origin_nation" : "Italy",
+		"portrait" : "scw_unit_SM_81.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "Ordinance",
+				"name" : "Bombs",
+				"calibre" : "200"
+			},
+			{
+				"type" : "MG",
+				"fp" : "6"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"},
+			{"name" : "Co-Pilot"},
+			{"name" : "Navigator"},
+			{"name" : "Bombardier"},
+			{"name" : "Gunner"},
+			{"name" : "Gunner"}
+		],
+		"description" : [
+			"The SM.81 'Pipistrello' ('bat') was a three-engine bomber-transport ",
+			"built to serve the Italian colonies of Africa. It was among the first ",
+			"planes sent to aid the Nationalist forces of the Spanish Civil War, ",
+			"where it would be used for both transport and ground attack missions."
+		],
+		"rarity" : {
+			"1935.10.01" : "50",
+			"1936.07.28" : "20",
+			"1937.01.01" : "60",
+			"1938.07.01" : "50"
 		}
 	},
 

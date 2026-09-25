@@ -317,6 +317,54 @@
 		}
 	},
 
+	"65/17": {
+		"category" : "Gun",
+		"class" : "Artillery Gun",
+		"origin_nation" : "Italy",
+		"portrait" : "unit_65mm_gun.xp",
+		"size_class" : "Small",
+		"movement_class" : "Gun",
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "65",
+				"long_range" : "S",
+				"rof" : "16.7",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "HEAT", "AP"],
+				"max_ammo" : "180",
+				"special_ammo" : {
+					"HEAT" : {
+						"1942.09.01" : "6"
+					}
+				},
+				"unreliable" : true
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"This mountain gun was first used in the Great War, and continues to ",
+			"be used as a close support weapon for infantry."
+		],
+		"rarity" : {
+			"1936.07.01" : "100",
+			"1940.06.01" : "90",
+			"1941.01.01" : "80",
+			"1941.11.01" : "70",
+			"1942.05.01" : "60",
+			"1943.01.01" : "50",
+			"1943.06.01" : "0"
+		}
+	},
+
     "75/27": {
 		"category" : "Gun",
 		"class" : "Artillery Gun",
@@ -356,7 +404,7 @@
 			"Italian forces in the war."
 		],
 		"rarity" : {
-            "1935.07.01" : "60",
+            "1936.07.01" : "100",
 			"1940.06.01" : "80",
 			"1943.10.01" : "0"
 		}

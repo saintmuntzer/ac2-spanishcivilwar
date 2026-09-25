@@ -38,12 +38,11 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 - [ ] Aircraft
     - [ ] Dornier Do 17 (NSP)
     - [ ] Arado Ar 68 (NSP)
-    - [ ] SM 81 (NSP/ITA)
+    - [x] SM 81 (NSP/ITA)
 - [ ] Tanks
     - [ ] Modified flamethrower tanks on Nationalist side (late war)
     - [x] Radio-equipped T-26 variant
 - [ ] Armored Cars
     - [ ] Additional tiznao variants
-- [ ] Artillery
-    - [ ] Cannone da 65/17 modello 13 (ITA)
-    - [ ] Canon Court de 105 Montagne modèle 1919 Schneider, AKA Obús Schneider 105/11 Modelo 1919 (NSP)
+- [x] Artillery
+    - [x] "105/11 mod. 1919", Obús Schneider 105/11 Modelo 1919  (NSP/RSP/ITA)

@@ -49,9 +49,13 @@
 			"Light Mortar Team" : 10
 		}
 	},
+	"enemy_air_support": {
+		"Nationalist Spain" : ["Fiat CR.32 (NSP)"],
+		"Italy" : ["Fiat CR.32 (NSP)"]
+	},
 	"enemy_arty_support": {
-		"Nationalist Spain" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"],
-		"Italy" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"]
+		"Nationalist Spain" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/11 mod. 1919", "105/22 mod. 1922", "155/13 mod. 1922"],
+		"Italy" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/11 mod. 1919", "105/22 mod. 1922", "155/13 mod. 1922"]
 	},
 	"enemy_unit_list" : {
 		"Nationalist Spain" : [
@@ -104,7 +108,7 @@
 				"Fighting Withdrawal" : 10
 			},
 			"enemy_nations" : ["Nationalist Spain", "Italy"],
-			"air_support_level" : 30.0,
+			"air_support_level" : 50.0,
 			"arty_support_level" : 20.0,
 			"unit_support_level" : 10.0
 		}
