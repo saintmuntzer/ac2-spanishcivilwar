@@ -1257,6 +1257,102 @@
 		}
 	},
 
+	"T-26RT M33 (RSP)" : {
+		"category" : "Vehicle",
+		"class" : "Light Tank",
+		"origin_nation" : "Soviet Union",
+		"portrait" : "scw_unit_t26rt_m33_RSP.xp",
+		"size_class" : "Small",
+		"movement_class" : "Slow Tank",
+		"turret" : "ST",
+		"unreliable" : true,
+		"armour" : {
+			"turret_front" : "2",
+			"turret_side" : "1",
+			"hull_front" : "1",
+			"hull_side" : "1"
+		},
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "45",
+				"long_range" : "L",
+				"rof" : "16.7",
+				"rr_size" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"reloaded_by" : ["Gunner/Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "180",
+				"special_ammo" : {
+					"HE" : {
+						"1936.10.01" : "60",
+						"1937.07.01" : "40",
+						"1938.07.01" : "20"
+
+					},
+					"AP" : {
+						"1936.10.01" : "30",
+						"1937.07.01" : "20",
+						"1938.07.01" : "10"
+					}
+				},
+				"unreliable" : true
+			},
+			{
+				"type" : "CMG",
+				"fp" : "4",
+				"mount" : "Turret",
+				"fired_by" : ["Gunner/Loader"],
+				"firing_group" : 0
+			},
+			{
+				"type" : "RMG",
+				"fp" : "2",
+				"mount" : "Turret",
+				"fired_by" : ["Commander", "Gunner/Loader"],
+				"firing_group" : 1,
+				"rear_facing" : true
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Turret",
+				"hatch" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"],
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Gunner/Loader",
+				"location" : "Turret",
+				"bu_visible" : ["0"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"ce_visible" : ["0", "1", "5"],
+				"bu_visible" : ["0"]
+			}
+		],
+		"description" : [
+			"One of every three T-26 tanks delivered to the Spanish Republic was ",
+			"equipped with a radio to serve as a command tank. The radio's utility was ",
+			"limited by issues with reliability and Spanish tank crews' lack of training, ",
+			"as well as the distinctive antenna making it a high-priority target for enemy fire."
+		],
+		"rarity" : {
+			"1936.10.12" : "20",
+			"1937.03.06" : "25",
+			"1937.05.07" : "30",
+			"1938.07.01" : "25",
+			"1939.01.01" : "10"
+		}
+	},
+
 	"Tractor Blindado Landesa": {
 		"category" : "Vehicle",
 		"class" : "Light Tank",
