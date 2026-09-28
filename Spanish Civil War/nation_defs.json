@@ -95,6 +95,11 @@
 		"trucks" : [
 			"GAZ-AA (RSP)"
 		],
+		"tank_names" : [
+			"Anarquía", "Andalusia", "Aragon", "Asturias", "Barcelona", "Casas Viejas", 
+			"Conquista del Pan", "Ferro", "Gijón", "Libertaria", "Madrid", "No Pasaran", 
+			"Seísdedos", "Solidaridad", "Tierra y Libertad", "Valencia", "Victoria"
+		],
 		"inherit" : {
 			"Second Spanish Republic" : ["decorations", "gun_tractors", "first_names", "surnames"]
 		}

@@ -22,12 +22,28 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 
 # To-Do
 
+## Campaigns
+
+- [x] Battle of Seseña
+- [ ] Battle of Brunete
+- [ ] Battle of the Ebro
+- [ ] Battle of Teruel
+- [ ] Barcelona May Days
+- [ ] La Retirada
+
 ## General
 
-- [ ] Add RSP and NSP portrait variants of infantry support team units
-- [ ] Fill out RSP and NSP truck/tractor entries in nation_defs
+- [ ] Add RSP, NSP, and CNT portrait variants of infantry support team units
+- [ ] Fill out RSP, NSP, and CNT truck/tractor entries in nation_defs
+- [ ] Review artillery, truck, and tractor usage in general, particularly for Battle of Guadalajara and No Pasaran
 - [ ] Aircraft
     - [ ] Dornier Do 17 (NSP)
     - [ ] Arado Ar 68 (NSP)
+    - [x] SM 81 (NSP/ITA)
 - [ ] Tanks
     - [ ] Modified flamethrower tanks on Nationalist side (late war)
+    - [x] Radio-equipped T-26 variant
+- [ ] Armored Cars
+    - [ ] Additional tiznao variants
+- [x] Artillery
+    - [x] "105/11 mod. 1919", Obús Schneider 105/11 Modelo 1919  (NSP/RSP/ITA)

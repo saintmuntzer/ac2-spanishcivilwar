@@ -18,12 +18,14 @@
 		"Renault FT (MG, RSP)",
 		"Schneider CA 1",
 		"T-26 M33 (RSP)",
+		"T-26RT M33 (RSP)",
 		"Tractor Blindado Landesa",
 		"Trubia A4",
 		"Trubia-Naval"
 	],
 	"player_squad_list" : {
 		"T-26 M33 (RSP)" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
+		"T-26RT M33 (RSP)" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
 		"Renault FT (RSP)" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
 		"Renault FT (MG, RSP)" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
 		"Schneider CA 1" : ["T-26 M33 (RSP)", "Renault FT (RSP)", "Renault FT (MG, RSP)"],
