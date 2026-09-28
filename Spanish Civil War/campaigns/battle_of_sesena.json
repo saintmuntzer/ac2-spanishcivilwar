@@ -11,7 +11,10 @@
 	"region" : "Central Spain",
 	"desc" : "Freshly-arrived Soviet tanks spearhead an assault on Seseña to halt the Nationalist advance.",
 	"player_unit_list" : [
-		"Renault FT (RSP)", "Renault FT (MG, RSP)", "T-26 M33 (RSP)", "T-26RT M33 (RSP)"
+		"Renault FT (RSP)",
+		"Renault FT (MG, RSP)",
+		"T-26 M33 (RSP)",
+		"T-26RT M33 (RSP)"
 	],
 	"player_squad_list" : {
 		"Renault FT (RSP)" : ["T-26 M33 (RSP)"],
@@ -68,7 +71,7 @@
 		]
 	},
 	"enemy_unit_class_odds" : {
-		"Tankette" : 30,
+		"Tankette" : 40,
 		"Artillery Gun" : 30,
 		"Truck" : 20,
 		"Infantry Squad" : 80,
@@ -98,15 +101,19 @@
 			"end_date" : "1936.10.29",
 			"location" : "40.10,3.69",
 			"combat_chance" : 100,
-			"average_resistance" : 7,
+			"average_resistance" : 8,
 			"week_title" : "The Red Cavalry!",
-			"week_description" : "Our new Soviet armor will surely crush the Nationalist forces in their stronghold at Seseña. Lead the charge and break the momentum of the Fascist armies.",
+			"week_description" : "Our new Soviet armor will crush the Nationalist forces in their stronghold at Seseña. Lead the charge and break the momentum of the Fascist armies.",
 			"mission_odds" : {
 				"Spearhead": 80,
 				"Advance" : 10,
 				"Fighting Withdrawal" : 10
 			},
 			"enemy_nations" : ["Nationalist Spain", "Italy"],
+			"enemy_nation_odds" : {
+				"Nationalist Spain" : "50",
+				"Italy" : "50"
+			},
 			"air_support_level" : 30.0,
 			"arty_support_level" : 0.0,
 			"unit_support_level" : 20.0

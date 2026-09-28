@@ -24,7 +24,7 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 
 ## Campaigns
 
-- [ ] Battle of Seseña
+- [x] Battle of Seseña
 - [ ] Battle of Brunete
 - [ ] Battle of the Ebro
 - [ ] Battle of Teruel
@@ -33,8 +33,9 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 
 ## General
 
-- [ ] Add RSP and NSP portrait variants of infantry support team units
-- [ ] Fill out RSP and NSP truck/tractor entries in nation_defs
+- [ ] Add RSP, NSP, and CNT portrait variants of infantry support team units
+- [ ] Fill out RSP, NSP, and CNT truck/tractor entries in nation_defs
+- [ ] Review artillery, truck, and tractor usage in general, particularly for Battle of Guadalajara and No Pasaran
 - [ ] Aircraft
     - [ ] Dornier Do 17 (NSP)
     - [ ] Arado Ar 68 (NSP)
