@@ -29,24 +29,19 @@
 		"Defend the Motherland"
 	],
 	"player_air_support": [
-		"I-15", "I-16 (RSP)", "NiD 52", "Tupolev SB (RSP)"
-	],
-	"player_arty_support": [
-		"76.2mm PP obr. 27", "76.2mm obr. 00/02P", "107mm obr. 10/30", "122mm G obr. 10/30",
-		"7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"
+		"Tupolev SB (RSP)"
 	],
 	"player_unit_support" : {
 		"Armour" : ["T-26 M33 (RSP)", "T-26RT M33 (RSP)"],
-		"Anti-Armour" : ["37mm M1917", "37mm obr. 30", "45mm obr. 32/37"],
-		"Anti-Infantry" : ["Chevrolet 4x2 RD", "GAZ-AA (RSP)", "ZIS-5 Truck", "3-ton Truck", "HMG Team", "Riflemen", "Militia"],
-		"Artillery" : ["Light Mortar Team", "76.2mm PP obr. 27", "76.2mm obr. 00/02P", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912"]
+		"Anti-Infantry" : ["HMG Team", "Riflemen", "Militia"],
+		"Artillery" : ["Light Mortar Team"]
 	},
 	"friendly_transported_units_by_class" : {
 		"Truck" : {
 			"Riflemen" : 40,
-			"Militia" : 40,
-			"HMG Team" : 10,
-			"Light Mortar Team" : 10
+			"Militia" : 50,
+			"HMG Team" : 5,
+			"Light Mortar Team" : 5
 		}
 	},
 	"enemy_air_support": {
@@ -75,17 +70,24 @@
 	"enemy_unit_class_odds" : {
 		"Tankette" : 30,
 		"Artillery Gun" : 30,
-		"Truck" : 30,
+		"Truck" : 20,
 		"Infantry Squad" : 80,
 		"Support Weapon Team" : 30
 	},
 	"enemy_transported_units_by_class" : {
 		"Nationalist Spain": {
 			"Truck" : {
-				"Riflemen" : 50,
+				"Riflemen" : 60,
 				"Militia" : 30,
-				"HMG Team" : 10,
-				"Light Mortar Team" : 10
+				"HMG Team" : 5,
+				"Light Mortar Team" : 5
+			}
+		},
+		"Italy": {
+			"Truck" : {
+				"Riflemen" : 90,
+				"HMG Team" : 5,
+				"Light Mortar Team" : 5
 			}
 		}
 	},
@@ -105,9 +107,9 @@
 				"Fighting Withdrawal" : 10
 			},
 			"enemy_nations" : ["Nationalist Spain", "Italy"],
-			"air_support_level" : 50.0,
-			"arty_support_level" : 20.0,
-			"unit_support_level" : 10.0
+			"air_support_level" : 30.0,
+			"arty_support_level" : 0.0,
+			"unit_support_level" : 20.0
 		}
 	]
 }
