@@ -73,6 +73,12 @@
 			"Olmos", "Ortega", "Oliver","Oriol", "Pena", "Perez", "Porra", "Puerta", "Prieto", "Quintana", "Quinones",
 			"Ramirez", "Ramos","Reyes", "Rana", "Rivera", "Robles", "Rodriguez", "Rocha", "Rojas", "Rosales", "Ruiz",
 			"Salazar", "Salinas", "Sandoval", "Sanchez", "Santiago", "Trujillo", "Travieso", "Urbina", "Urena", "Valencia"
+		],
+		"tank_names" : [
+			"Andalusia", "Aragon", "Asturias", "Barcelona", "Fraternidad",
+			"Igualdad", "León", "Libertad", "Madrid", "No Pasarán", "Resistencia",
+			"Ruso", "Seis de Octubre", "Solidaridad", "Valencia", "Valladolid", 
+			"Victoria", "Zaragoza"
 		]
     },
 
@@ -97,8 +103,8 @@
 		],
 		"tank_names" : [
 			"Anarquía", "Andalusia", "Aragon", "Asturias", "Barcelona", "Casas Viejas", 
-			"Conquista del Pan", "Ferro", "Gijón", "Libertaria", "Madrid", "No Pasaran", 
-			"Seísdedos", "Solidaridad", "Tierra y Libertad", "Valencia", "Victoria"
+			"Conquista del Pan", "Dinamita", "Ferro", "Gijón", "Libertaria", "Madrid", "No Pasarán", 
+			"Resistencia", "Seísdedos", "Solidaridad", "Tierra y Libertad", "Valencia", "Victoria"
 		],
 		"inherit" : {
 			"Second Spanish Republic" : ["decorations", "gun_tractors", "first_names", "surnames"]

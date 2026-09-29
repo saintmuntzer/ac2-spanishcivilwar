@@ -24,12 +24,17 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 
 ## Campaigns
 
-- [x] Battle of Seseña
-- [ ] Battle of Brunete
-- [ ] Battle of the Ebro
-- [ ] Battle of Teruel
-- [ ] Barcelona May Days
-- [ ] La Retirada
+- [x] Battle of Barcelona, July 19-20 1936
+- [x] Battle of Seseña, October 29 1936
+- [x] Battle for Madrid, November 8-23 1936
+- [x] Battle of Guadalajara, March 8-27 1937
+- [ ] Barcelona May Days, May 3-8 1937
+    - [ ] RSP
+    - [ ] CNT
+- [ ] Battle of Brunete, July 6-25 1937
+- [ ] Battle of Teruel, December 15 1937 – February 22 1938
+- [ ] Battle of the Ebro, July 25 – November 16 1938
+- [ ] La Retirada, January 28 – February 15 1939
 
 ## General
 
