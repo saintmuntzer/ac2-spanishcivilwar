@@ -22,6 +22,10 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 
 # To-Do
 
+## General
+
+- [ ] Review artillery usage for historical authenticity, particularly for Battle of Guadalajara and No Pasaran
+
 ## Campaigns
 
 - [x] Battle of Barcelona, July 19-20 1936
@@ -36,11 +40,20 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 - [ ] Battle of the Ebro, July 25 – November 16 1938
 - [ ] La Retirada, January 28 – February 15 1939
 
-## General
+## Units
 
-- [ ] Add RSP, NSP, and CNT portrait variants of infantry support team units
-- [ ] Fill out RSP, NSP, and CNT truck/tractor entries in nation_defs
-- [ ] Review artillery, truck, and tractor usage in general, particularly for Battle of Guadalajara and No Pasaran
+- [ ] RSP, NSP, and CNT portrait variants of infantry support teams
+- [ ] Trucks
+    - [ ] 4x2 Commercial Truck (RSP/NSP/CNT) 
+        - 1.5 ton trucks from various manufacturers like Chevrolet, Dodge
+    - [ ] Ford Model AA (RSP/NSP/CNT)
+    - [ ] Ford Model BB (RSP/NSP/CNT)
+    - [ ] Hispano-Suiza 40/50 (RSP/NSP/CNT)
+    - [ ] Hispano-Suiza T-69 (RSP/NSP/CNT)
+    - [ ] ZIS-5 (RSP)
+    - [x] GAZ-AA (RSP)
+- [ ] Tractors
+    - Pending research
 - [ ] Aircraft
     - [ ] Dornier Do 17 (NSP)
     - [ ] Arado Ar 68 (NSP)
