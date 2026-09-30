@@ -2474,54 +2474,6 @@
 		}
 	},
 
-	"Gun Truck (CNT)": {
-		"category" : "Vehicle",
-		"class" : "Armoured Car",
-		"origin_nation" : "Second Spanish Republic",
-		"portrait" : "scw_unit_gun_truck_CNT.xp",
-		"size_class" : "Small",
-		"movement_class" : "Fast Wheeled",
-		"ground_pressure" : "Normal",
-		"recce" : true,
-		"no_radio" : true,
-		"weapon_list" : [
-			{
-				"type" : "AAMG",
-				"fp" : "3",
-				"rof" : "16.7",
-				"mount" : "Hull",
-				"fired_by" : ["Commander/Gunner"],
-				"firing_group" : 0
-			}
-		],
-		"crew_positions" : [
-			{
-				"name" : "Commander/Gunner",
-				"location" : "Hull",
-				"open_top" : true,
-				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
-			},
-			{
-				"name" : "Driver",
-				"location" : "Hull",
-				"hatch" : true,
-				"large_hatch" : true,
-				"bu_visible" : ["0", "1", "2", "3", "4", "5"],
-				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
-			}
-		],
-		"description" : [
-			"An ordinary commercial truck armed with a light machine gun. Many of these ",
-			"vehicles were hastily assembled in the days leading up to the Spanish Civil War, ",
-			"when workers' militias had very little access to arms and armored vehicles."
-		],
-		"rarity" : {
-			"1936.07.01" : "60",
-			"1937.07.01" : "40",
-			"1938.07.01" : "20"
-		}
-	},
-
 	"Tiznao (CNT)": {
 		"category" : "Vehicle",
 		"class" : "Armoured Car",
@@ -2654,7 +2606,64 @@
 		"description" : [
 			"Due to a lack of resources, time, or government support, many revolutionary Spanish militias ",
 			"resorted to crudely armouring civilian vehicles. Most of these were unreliable at best, ",
-			"being too weighed down by improvised armor to maneuver effectively in combat."
+			"being too weighed down by improvised armor to maneuver effectively in combat. This model has ",
+			"only a forward-facing machine gun for armament."
+		],
+		"rarity" : {
+			"1936.07.01" : "100",
+			"1937.07.01" : "70",
+			"1938.07.01" : "40"
+		}
+	},
+
+	"Tiznao (OT, CNT)": {
+		"category" : "Vehicle",
+		"class" : "Armoured Car",
+		"origin_nation" : "Second Spanish Republic",
+		"portrait" : "scw_unit_tiznao_OT_CNT.xp",
+		"size_class" : "Small",
+		"movement_class" : "Wheeled",
+		"ground_pressure" : "Normal",
+		"recce" : true,
+		"no_radio" : true,
+		"no_turret" : true,
+		"armour" : {
+			"turret_front" : "0",
+			"turret_side" : "0",
+			"hull_front" : "0",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "AAMG",
+				"fp" : "3",
+				"rof" : "16.7",
+				"mount" : "Hull",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander/Gunner",
+				"location" : "Hull",
+				"open_top" : true,
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"bu_visible" : ["0", "1", "2", "3", "4", "5"],
+				"ce_visible" : ["0", "1", "2", "3", "4", "5"]
+			}
+		],
+		"description" : [
+			"Due to a lack of resources, time, or government support, many revolutionary Spanish militias ",
+			"resorted to crudely armouring civilian vehicles. Most of these were unreliable at best, ",
+			"being too weighed down by improvised armor to maneuver effectively in combat. This model is ",
+			"little more than a commercial pickup truck with bolted-on sheet metal and a light machine gun."
 		],
 		"rarity" : {
 			"1936.07.01" : "100",

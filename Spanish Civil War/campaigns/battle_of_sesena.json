@@ -8,6 +8,10 @@
 	"end_date" : "1936.10.29",
 	"player_nation" : "Second Spanish Republic",
 	"enemy_nations" : ["Nationalist Spain", "Italy"],
+	"enemy_nation_odds" : {
+		"Nationalist Spain" : "50",
+		"Italy" : "50"
+	},
 	"region" : "Central Spain",
 	"desc" : "Freshly-arrived Soviet tanks spearhead an assault on Sesena to halt the Nationalist advance.",
 	"player_unit_list" : [
@@ -33,6 +37,9 @@
 	],
 	"player_air_support": [
 		"Tupolev SB (RSP)"
+	],
+	"player_arty_support": [
+		"Light Mortar Team"
 	],
 	"player_unit_support" : {
 		"Armour" : ["T-26 M33 (RSP)", "T-26RT M33 (RSP)"],
