@@ -9,8 +9,8 @@
 	"player_nation" : "Second Spanish Republic",
 	"enemy_nations" : ["Nationalist Spain", "Italy"],
 	"enemy_nation_odds" : {
-		"Italy" : "40",
-		"Nationalist Spain" : "60"
+		"Nationalist Spain" : "60",
+		"Italy" : "40"
 	},
 	"region" : "Northern Spain",
 	"desc" : "Basque and Republican forces have retreated to the fortifications of Bilbao, one of the final areas of Republican resistance in northern Spain.",
@@ -49,6 +49,7 @@
 		"FAI (RSP)" : 1.4,
 		"Renault FT (MG, RSP)" : 1.1,
 		"T-26 M33 (RSP)" : 0.7,
+		"T-26RT M33 (RSP)" : 0.7,
 		"Tractor Blindado Landesa" : 1.2,
 		"Trubia-Naval" : 1.1
 	},
@@ -63,9 +64,9 @@
 		"7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"
 	],
 	"player_unit_support" : {
-		"Armour" : ["T-26 M33 (RSP)"],
+		"Armour" : ["Renault FT (RSP)", "Renault FT (MG, RSP)", "T-26 M33 (RSP)", "T-26RT M33 (RSP)", "Trubia-Naval"],
 		"Anti-Armour" : ["37mm M1917", "37mm obr. 30", "45mm obr. 32/37"],
-		"Anti-Infantry" : ["Chevrolet 4x2 RD", "ZIS-5 Truck", "3-ton Truck", "HMG Team", "Riflemen", "Militia"],
+		"Anti-Infantry" : ["Chevrolet 4x2 RD", "ZIS-5 Truck", "HMG Team", "Riflemen", "Militia"],
 		"Recon" : ["Bilbao Modelo 1932", "BA-3 (RSP)", "BA-6 (RSP)", "FAI (RSP)"],
 		"Artillery" : ["Light Mortar Team", "76.2mm PP obr. 27", "76.2mm obr. 00/02P", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912"]
 	},
@@ -133,7 +134,7 @@
 			}
 		}
 	},
-	"combat_days" : 12,
+	"combat_days" : 30,
 	"calendar_weeks": [
 		{
 			"start_date" : "1937.06.12",
@@ -161,7 +162,7 @@
 			"start_date" : "1937.06.19",
 			"end_date" : "1937.06.30",
 			"location" : "43.36,-3.37",
-			"combat_chance" : 80,
+			"combat_chance" : 70,
 			"average_resistance" : 7,
 			"week_title" : "The Mountain Passes",
 			"week_description" : "We have been forced to retreat westward. Delay the advancing nationalist forces to buy time for our defense at Santander.",
@@ -211,7 +212,7 @@
 			"start_date" : "1937.08.26",
 			"end_date" : "1937.09.30",
 			"location" : "43.42,-4.80",
-			"combat_chance" : 80,
+			"combat_chance" : 70,
 			"average_resistance" : 7,
 			"week_title" : "Retreat to Asturias",
 			"week_description" : "Santander has fallen and the Basque forces have surrendered. We must withdraw toward Asturias and fight in the mountains once again.",
@@ -234,9 +235,9 @@
 			"end_date" : "1937.10.19",
 			"location" : "43.53,-5.66",
 			"combat_chance" : 100,
-			"average_resistance" : 9,
+			"average_resistance" : 10,
 			"week_title" : "Last Stand at Gijón",
-			"week_description" : "(WIP description.) Only Gijón remains as our final holdout in the north...",
+			"week_description" : "Only Gijón remains as our final holdout in the north. For every step the fascists take, ensure they pay a price in blood!",
 			"mission_odds" : {
 				"Battle" : 20,
 				"Fighting Withdrawal" : 20,

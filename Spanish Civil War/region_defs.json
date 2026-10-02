@@ -218,5 +218,114 @@
 				}
 			}
 		}
+	},
+	"Northern Spain" : {
+		"cd_terrain_odds" : {
+			"Flat" : 10,
+			"Forest" : 10,
+			"Hills" : 25,
+			"Mountains" : 10,
+			"Mountain Pass" : 5,
+			"Fields" : 10,
+			"Scrub" : 10,
+			"Villages" : 10,
+			"Lake" : 5,
+			"Fortification" : 5
+		},
+		"dirt_road_odds" : 50.0,
+		"stone_road_odds" : 30.0,
+		"river_odds" : 10.0,
+		"season_weather_odds" : {
+			"Winter" : {
+				"end_date" : "03.20",
+				"ground_conditions" : {
+					"Dry" : 40.0, "Wet" : 30.0, "Muddy" : 20.0,
+					"Snow" : 10.0, "Deep Snow" : 0.0
+				},
+				"temperature" : {
+					"Extreme Cold" : 10.0, "Cold" : 50.0,
+					"Mild" : 40.0, "Warm" : 0.0,
+					"Hot" : 0.0, "Extreme Hot" : 0.0
+				},
+				"cloud_cover" : {
+					"Clear" : 40.0, "Scattered" : 20.0,
+					"Heavy" : 20.0, "Overcast" : 20.0
+				},
+				"precipitation" : {
+					"None" : 40.0, "Mist" : 25.0,
+					"Rain" : 20.0, "Heavy Rain" : 5.0,
+					"Light Snow" : 5.0, "Snow" : 5.0,
+					"Blizzard" : 0.0
+				}
+			},
+			"Spring" : {
+				"end_date" : "06.20",
+				"ground_conditions" : {
+					"Dry" : 40.0, "Wet" : 40.0, "Muddy" : 20.0,
+					"Snow" : 0.0, "Deep Snow" : 0.0
+				},
+				"temperature" : {
+					"Extreme Cold" : 0.0, "Cold" : 10.0,
+					"Mild" : 50.0, "Warm" : 30.0,
+					"Hot" : 10.0, "Extreme Hot" : 0.0
+				},
+				"cloud_cover" : {
+					"Clear" : 40.0, "Scattered" : 30.0,
+					"Heavy" : 20.0, "Overcast" : 10.0
+				},
+				"precipitation" : {
+					"None" : 40.0, "Mist" : 30.0,
+					"Rain" : 20.0, "Heavy Rain" : 10.0,
+					"Light Snow" : 0.0, "Snow" : 0.0,
+					"Blizzard" : 0.0
+				}
+				
+			},
+			"Summer" : {
+				"end_date" : "09.20",
+				"ground_conditions" : {
+					"Dry" : 60.0, "Wet" : 30.0, "Muddy" : 10.0,
+					"Snow" : 0.0, "Deep Snow" : 0.0
+				},
+				"temperature" : {
+					"Extreme Cold" : 0.0, "Cold" : 0.0,
+					"Mild" : 45.0, "Warm" : 30.0,
+					"Hot" : 20.0, "Extreme Hot" : 5.0
+				},
+				"cloud_cover" : {
+					"Clear" : 70.0, "Scattered" : 20.0,
+					"Heavy" : 5.0, "Overcast" : 5.0
+				},
+				"precipitation" : {
+					"None" : 60.0, "Mist" : 20.0,
+					"Rain" : 15.0, "Heavy Rain" : 5.0,
+					"Light Snow" : 0.0, "Snow" : 0.0,
+					"Blizzard" : 0.0
+				}
+				
+			},
+			"Autumn" : {
+				"end_date" : "12.20",
+				"ground_conditions" : {
+					"Dry" : 50.0, "Wet" : 30.0, "Muddy" : 20.0,
+					"Snow" : 0.0, "Deep Snow" : 0.0
+				},
+				"temperature" : {
+					"Extreme Cold" : 0.0, "Cold" : 10.0,
+					"Mild" : 40.0, "Warm" : 40.0,
+					"Hot" : 10.0, "Extreme Hot" : 0.0
+				},
+				"cloud_cover" : {
+					"Clear" : 40.0, "Scattered" : 30.0,
+					"Heavy" : 20.0, "Overcast" : 10.0
+				},
+				"precipitation" : {
+					"None" : 30.0, "Mist" : 30.0,
+					"Rain" : 20.0, "Heavy Rain" : 20.0,
+					"Light Snow" : 0.0, "Snow" : 0.0,
+					"Blizzard" : 0.0
+				}
+			}
+		}
 	}
 }
