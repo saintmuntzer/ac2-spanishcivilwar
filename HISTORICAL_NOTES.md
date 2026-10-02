@@ -4,7 +4,9 @@
 
 "In the late autumn [November 1936] ... the Russian [vessel] *A. Andreev* [brought] the Basques **two squadrons of Chatos [I-15 fighter planes], 30 tanks (T-26 and Renaults) and fourteen Russian armoured cars with 37mm cannon**, 40 mortars, 300 machine-guns and 15,000 rifles." (Antony Beevor, The Battle for Spain, p226)
 
-"The nationalist force was based on ... four Carlist brigades. In addition ... 8,000 Spanish infantry ... supported by **Fiat Ansaldo1s**." (ibid. p227)
+*NOTE: The only "Russian armoured cars with 37mm cannon" are the BA-I, but some sources indicate only 7 of that model were delivered and deployed to Madrid, not Bilbao. Beevor later describes "the destruction of two companies of German light tanks with the 37mm guns of Russian armoured cars" near Brunete in January 1937, which is implausible; Hugh Thomas's work names the vehicles as T-26 tanks instead. Possible this may be a mistake or an inaccurate source.*
+
+"The nationalist force was based on ... four Carlist brigades. In addition ... 8,000 Spanish infantry ... supported by **Fiat Ansaldos**." (ibid. p227)
 
 "The Basques had only a minute fighter force, so the Condor Legion was able to risk using obsolete **Heinkel 51s** as ground-attack aircraft..." (ibid. p228)
 
