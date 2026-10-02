@@ -21,3 +21,5 @@
 ## Asturias
 
 "... approximately half of the republican forces had pulled back into the Asturian mountains, where there was to be a much tougher campaign lasting until the end of October, followed by a further five months of ferocious guerrilla warfare." (ibid. p238)
+
+"The republican air force in the north was down to two flights of **Moscas [I-16s]** and less than a squadron of **Chatos [I-15s]**." (ibid. p301)

@@ -8,6 +8,10 @@
 	"end_date" : "1937.10.20",
 	"player_nation" : "Second Spanish Republic",
 	"enemy_nations" : ["Nationalist Spain", "Italy"],
+	"enemy_nation_odds" : {
+		"Italy" : "40",
+		"Nationalist Spain" : "60"
+	},
 	"region" : "Northern Spain",
 	"desc" : "Basque and Republican forces have retreated to the fortifications of Bilbao, one of the final areas of Republican resistance in northern Spain.",
 	"player_unit_list" : [
@@ -52,7 +56,7 @@
 		"Defend the Motherland"
 	],
 	"player_air_support": [
-		"I-15"
+		"I-15", "I-16 (RSP)"
 	],
 	"player_arty_support": [
 		"76.2mm PP obr. 27", "76.2mm obr. 00/02P", "107mm obr. 10/30", "122mm G obr. 10/30",
@@ -122,8 +126,8 @@
 		},
 		"Nationalist Spain": {
 			"Truck" : {
-				"Riflemen" : 50,
-				"Militia" : 30,
+				"Riflemen" : 40,
+				"Militia" : 40,
 				"HMG Team" : 10,
 				"Light Mortar Team" : 10
 			}
@@ -145,103 +149,108 @@
 				"Urban Defense" : 25
 			},
 			"enemy_nations" : ["Nationalist Spain", "Italy"],
-			"air_support_level" : 0.0,
-			"arty_support_level" : 30.0,
+			"enemy_nation_odds" : {
+				"Italy" : "40",
+				"Nationalist Spain" : "60"
+			},
+			"air_support_level" : 20.0,
+			"arty_support_level" : 40.0,
 			"unit_support_level" : 60.0
 		},
 		{
 			"start_date" : "1937.06.19",
+			"end_date" : "1937.06.30",
+			"location" : "43.36,-3.37",
+			"combat_chance" : 80,
+			"average_resistance" : 7,
+			"week_title" : "The Mountain Passes",
+			"week_description" : "We have been forced to retreat westward. Delay the advancing nationalist forces to buy time for our defense at Santander.",
+			"mission_odds" : {
+				"Patrol" : 30,
+				"Fighting Withdrawal" : 40,
+				"Hold the Line" : 30
+			},
+			"enemy_nations" : ["Nationalist Spain", "Italy"],
+			"enemy_nation_odds" : {
+				"Italy" : "40",
+				"Nationalist Spain" : "60"
+			},
+			"air_support_level" : 10.0,
+			"arty_support_level" : 30.0,
+			"unit_support_level" : 40.0
+		},
+		{
+			"start_date" : "1937.07.01",
 			"end_date" : "1937.08.13",
 			"refitting" : "TRUE"
 		},
 		{
 			"start_date" : "1937.08.14",
-			"end_date" : "1937.08.24",
+			"end_date" : "1937.08.25",
 			"location" : "43.46,-3.80",
 			"combat_chance" : 100,
-			"average_resistance" : 8,
-			"week_title" : "Santander",
-			"week_description" : "WIP. Fighting south of Santander and up to the city.",
+			"average_resistance" : 9,
+			"week_title" : "The Battle of Santander",
+			"week_description" : "A diversionary attack in the south has failed, and the fascists now advance on our position in the port city of Santander.",
 			"mission_odds" : {
-				"Battle" : 80,
-				"Hold the Line" : 20
+				"Battle" : 20,
+				"Fighting Withdrawal" : 20,
+				"Hold the Line" : 40,
+				"Urban Defense" : 20
 			},
-			"enemy_nations" : ["Italy", "Nationalist Spain"],
+			"enemy_nations" : ["Nationalist Spain", "Italy"],
 			"enemy_nation_odds" : {
-				"Italy" : "80",
-				"Nationalist Spain" : "20"
+				"Italy" : "40",
+				"Nationalist Spain" : "60"
 			},
-			"enemy_air_support_level" : 20.0,
-			"air_support_level" : 60.0,
-			"arty_support_level" : 40.0,
-			"unit_support_level" : 50.0,
-			"terrain_odds_modifier" : {
-				"Hills" : 15,
-				"Villages" : 15,
-				"Fortification" : -1
-			}
+			"air_support_level" : 40.0,
+			"arty_support_level" : 60.0,
+			"unit_support_level" : 60.0
 		},
 		{
-			"start_date" : "1937.08.25",
-			"end_date" : "1937.08.28",
-			"location" : "40.63,-3.16",
-			"combat_chance" : 100,
+			"start_date" : "1937.08.26",
+			"end_date" : "1937.09.30",
+			"location" : "43.42,-4.80",
+			"combat_chance" : 80,
 			"average_resistance" : 7,
 			"week_title" : "Retreat to Asturias",
-			"week_description" : "WIP. Retreat from Santander to Asturias.",
+			"week_description" : "Santander has fallen and the Basque forces have surrendered. We must withdraw toward Asturias and fight in the mountains once again.",
 			"mission_odds" : {
-				"Advance" : 70,
-				"Battle": 20,
-				"Counterattack" : 10
+				"Patrol" : 30,
+				"Fighting Withdrawal" : 40,
+				"Hold the Line" : 30
 			},
-			"enemy_nations" : ["Italy", "Nationalist Spain"],
+			"enemy_nations" : ["Nationalist Spain", "Italy"],
 			"enemy_nation_odds" : {
-				"Italy" : "70",
-				"Nationalist Spain" : "30"
+				"Italy" : "40",
+				"Nationalist Spain" : "60"
 			},
-			"air_support_level" : 60.0,
-			"arty_support_level" : 50.0,
-			"unit_support_level" : 60.0,
-			"enemy_class_odds_modifier" : {
-				"Tankette" : 20,
-				"Artillery Gun" : 30,
-				"Anti-Aircraft Gun" : 20
-			},
-			"terrain_odds_modifier" : {
-				"Marsh" : 5,
-				"Fortification" : -1
-			}
+			"air_support_level" : 30.0,
+			"arty_support_level" : 30.0,
+			"unit_support_level" : 40.0
 		},
 		{
-			"start_date" : "1937.08.25",
-			"end_date" : "1937.08.28",
-			"location" : "40.63,-3.16",
+			"start_date" : "1937.10.01",
+			"end_date" : "1937.10.19",
+			"location" : "43.53,-5.66",
 			"combat_chance" : 100,
-			"average_resistance" : 7,
-			"week_title" : "Gijón",
-			"week_description" : "WIP. Final defense of Asturias.",
+			"average_resistance" : 9,
+			"week_title" : "Last Stand at Gijón",
+			"week_description" : "(WIP description.) Only Gijón remains as our final holdout in the north...",
 			"mission_odds" : {
-				"Advance" : 70,
-				"Battle": 20,
-				"Counterattack" : 10
+				"Battle" : 20,
+				"Fighting Withdrawal" : 20,
+				"Hold the Line" : 40,
+				"Urban Defense" : 20
 			},
-			"enemy_nations" : ["Italy", "Nationalist Spain"],
+			"enemy_nations" : ["Nationalist Spain", "Italy"],
 			"enemy_nation_odds" : {
-				"Italy" : "70",
-				"Nationalist Spain" : "30"
+				"Italy" : "40",
+				"Nationalist Spain" : "60"
 			},
-			"air_support_level" : 60.0,
-			"arty_support_level" : 50.0,
-			"unit_support_level" : 60.0,
-			"enemy_class_odds_modifier" : {
-				"Tankette" : 20,
-				"Artillery Gun" : 30,
-				"Anti-Aircraft Gun" : 20
-			},
-			"terrain_odds_modifier" : {
-				"Marsh" : 5,
-				"Fortification" : -1
-			}
+			"air_support_level" : 40.0,
+			"arty_support_level" : 60.0,
+			"unit_support_level" : 60.0
 		}
 	]
 }
