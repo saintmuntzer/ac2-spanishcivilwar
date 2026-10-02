@@ -52,7 +52,7 @@
 		"Defend the Motherland"
 	],
 	"player_air_support": [
-		"I-15", "I-16", "Tupolev SB (RSP)"
+		"I-15"
 	],
 	"player_arty_support": [
 		"76.2mm PP obr. 27", "76.2mm obr. 00/02P", "107mm obr. 10/30", "122mm G obr. 10/30",
@@ -132,35 +132,36 @@
 	"combat_days" : 12,
 	"calendar_weeks": [
 		{
-			"start_date" : "1937.03.08",
-			"end_date" : "1937.03.11",
-			"location" : "40.63,-3.16",
+			"start_date" : "1937.06.12",
+			"end_date" : "1937.06.18",
+			"location" : "43.25,2.92",
 			"combat_chance" : 100,
 			"average_resistance" : 9,
-			"week_title" : "Italian Offensive",
-			"week_description" : "The Fascists have unexpectedly attacked from the northeast, advancing toward Madrid. The People's Republican Army 12th Division must hold out against the Italian vanguard until reinforcements arrive.",
+			"week_title" : "Bilbao's Iron Ring",
+			"week_description" : "The butchers of Guernica have advanced to the edge of Bilbao and now launch their assault. Defend the fortifications as best you can.",
 			"mission_odds" : {
-				"Fighting Withdrawal" : 40,
-				"Hold the Line" : 60
+				"Fighting Withdrawal" : 25,
+				"Hold the Line" : 50,
+				"Urban Defense" : 25
 			},
-			"enemy_nations" : ["Italy"],
+			"enemy_nations" : ["Nationalist Spain", "Italy"],
 			"air_support_level" : 0.0,
-			"arty_support_level" : 20.0,
-			"unit_support_level" : 30.0,
-			"terrain_odds_modifier" : {
-				"Hills" : 15,
-				"Villages" : 15,
-				"Fortification" : -1
-			}
+			"arty_support_level" : 30.0,
+			"unit_support_level" : 60.0
 		},
 		{
-			"start_date" : "1937.03.12",
-			"end_date" : "1937.03.14",
-			"location" : "40.63,-3.16",
+			"start_date" : "1937.06.19",
+			"end_date" : "1937.08.13",
+			"refitting" : "TRUE"
+		},
+		{
+			"start_date" : "1937.08.14",
+			"end_date" : "1937.08.24",
+			"location" : "43.46,-3.80",
 			"combat_chance" : 100,
 			"average_resistance" : 8,
-			"week_title" : "Halting the Advance",
-			"week_description" : "Though we were forced to withdraw southward, reinforcements have bolstered our strength and the Fascists are wavering. The Republican Air Force stands ready to support our counter-attack.",
+			"week_title" : "Santander",
+			"week_description" : "WIP. Fighting south of Santander and up to the city.",
 			"mission_odds" : {
 				"Battle" : 80,
 				"Hold the Line" : 20
@@ -181,18 +182,44 @@
 			}
 		},
 		{
-			"start_date" : "1937.03.15",
-			"end_date" : "1937.03.17",
-			"refitting" : "TRUE"
-		},
-		{
-			"start_date" : "1937.03.18",
-			"end_date" : "1937.03.23",
+			"start_date" : "1937.08.25",
+			"end_date" : "1937.08.28",
 			"location" : "40.63,-3.16",
 			"combat_chance" : 100,
 			"average_resistance" : 7,
-			"week_title" : "Crossing the Tajuña",
-			"week_description" : "We have concentrated our forces to cross the Tajuña River and retake our lost territory. Rout the Fascist traitors and their Italian mercenaries.",
+			"week_title" : "Retreat to Asturias",
+			"week_description" : "WIP. Retreat from Santander to Asturias.",
+			"mission_odds" : {
+				"Advance" : 70,
+				"Battle": 20,
+				"Counterattack" : 10
+			},
+			"enemy_nations" : ["Italy", "Nationalist Spain"],
+			"enemy_nation_odds" : {
+				"Italy" : "70",
+				"Nationalist Spain" : "30"
+			},
+			"air_support_level" : 60.0,
+			"arty_support_level" : 50.0,
+			"unit_support_level" : 60.0,
+			"enemy_class_odds_modifier" : {
+				"Tankette" : 20,
+				"Artillery Gun" : 30,
+				"Anti-Aircraft Gun" : 20
+			},
+			"terrain_odds_modifier" : {
+				"Marsh" : 5,
+				"Fortification" : -1
+			}
+		},
+		{
+			"start_date" : "1937.08.25",
+			"end_date" : "1937.08.28",
+			"location" : "40.63,-3.16",
+			"combat_chance" : 100,
+			"average_resistance" : 7,
+			"week_title" : "Gijón",
+			"week_description" : "WIP. Final defense of Asturias.",
 			"mission_odds" : {
 				"Advance" : 70,
 				"Battle": 20,
