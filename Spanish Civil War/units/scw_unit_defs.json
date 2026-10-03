@@ -2250,6 +2250,69 @@
 		}
 	},
 
+	"Bf 109 (NSP)": {
+		"category" : "Airplane",
+		"class" : "Fighter",
+		"origin_nation" : "Germany",
+		"portrait" : "unit_bf109b.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "MG",
+				"fp" : "4"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"}
+		],
+		"description" : [
+			"Several variants of the Messerschmitt Bf 109 were supplied to Germany's ",
+			"Condor Legion during the Spanish Civil War. Most were armed with only ",
+			"7.92mm machine guns, but were nonetheless effective against the outdated ",
+			"aircraft on the Republican side."
+		],
+		"rarity" : {
+			"1937.01.01" : "30",
+			"1937.07.01" : "50",
+			"1938.01.01" : "70"
+		}
+	},
+
+	"Bf 109E (NSP)": {
+		"category" : "Airplane",
+		"class" : "Fighter",
+		"origin_nation" : "Germany",
+		"portrait" : "unit_bf109e.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "Cannon",
+				"calibre" : "20",
+				"mount" : "Hull",
+				"fired_by" : ["Pilot"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["AP"],
+				"max_ammo" : "60"
+			},
+			{
+				"type" : "MG",
+				"fp" : "4"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"}
+		],
+		"description" : [
+			"Toward the end of the Spanish Civil War, Germany began producing the Bf 109 'Emil' ",
+			"variant, armed with 20mm cannons. Some few dozen of these saw their first combat ",
+			"operations with the Condor Legion in Spain."
+		],
+		"rarity" : {
+			"1938.09.01" : "30",
+			"1939.01.01" : "40"
+		}
+	},
+
 	"Fiat CR.32 (NSP)": {
 		"category" : "Airplane",
 		"class" : "Fighter",

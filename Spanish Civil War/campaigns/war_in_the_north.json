@@ -79,8 +79,8 @@
 		}
 	},
 	"enemy_air_support": {
-		"Italy" : ["Fiat CR.32 (NSP)", "He 51 (NSP)", "He 51C-1 (NSP)", "Hs 123 (NSP)", "SM.81"],
-		"Nationalist Spain" : ["Fiat CR.32 (NSP)", "He 51 (NSP)", "He 51C-1 (NSP)", "Hs 123 (NSP)", "SM.81"]
+		"Italy" : ["Bf 109 (NSP)", "Fiat CR.32 (NSP)", "He 51 (NSP)", "He 51C-1 (NSP)", "Hs 123 (NSP)", "SM.81"],
+		"Nationalist Spain" : ["Bf 109 (NSP)", "Fiat CR.32 (NSP)", "He 51 (NSP)", "He 51C-1 (NSP)", "Hs 123 (NSP)", "SM.81"]
 	},
 	"enemy_arty_support": {
 		"Italy" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"],
