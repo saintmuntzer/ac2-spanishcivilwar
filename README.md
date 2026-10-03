@@ -58,6 +58,9 @@ A number of sources are used as the historical basis for vehicles and weaponry i
     - [ ] Dornier Do 17 (NSP)
     - [ ] Arado Ar 68 (NSP)
     - [x] SM 81 (NSP/ITA)
+    - [ ] Letov Š-231 (RSP) (Northern Spain)
+    - [ ] Polikarpov R-5 (RSP)
+    - [ ] Polikarpov R-Z (RSP)
 - [ ] Tanks
     - [ ] Modified flamethrower tanks on Nationalist side (late war)
     - [x] Radio-equipped T-26 variant
