@@ -69,5 +69,7 @@ A number of sources are used as the historical basis for vehicles and weaponry i
     - [ ] Additional tiznao variants
     - [ ] Bilbao 'Lanzallamas' flamethrower variant (NSP, late 1936 only)
     - [ ] Ferrol armored car (NSP, northern areas only)
+- [ ] Self-Propelled AA
+    - [ ] German AA vehicles on the Nationalist side
 - [x] Artillery
     - [x] "105/11 mod. 1919", Obús Schneider 105/11 Modelo 1919  (NSP/RSP/ITA)

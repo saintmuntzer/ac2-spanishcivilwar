@@ -109,9 +109,9 @@
 	},
 	"enemy_unit_class_odds" : {
 		"Tankette" : 40,
-		"Light Tank" : 40,
+		"Light Tank" : 30,
 		"Armoured Car" : 10,
-		"Anti-Tank Gun" : 50,
+		"Anti-Tank Gun" : 40,
 		"Artillery Gun" : 20,
 		"Anti-Aircraft Gun" : 10,
 		"Truck" : 40,

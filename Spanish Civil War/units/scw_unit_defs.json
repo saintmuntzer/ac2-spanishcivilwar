@@ -2167,7 +2167,7 @@
 			"often in spite of pleas for heavier weapons to overcome well-armored Republican tanks."
 		],
 		"rarity" : {
-			"1936.10.15" : "30",
+			"1936.09.15" : "50",
 			"1937.09.01" : "60"
 		}
 	},
@@ -2222,8 +2222,8 @@
 			"Soviet-supplied armor."
 		],
 		"rarity" : {
-			"1936.11.01" : "20",
-			"1937.09.01" : "10"
+			"1936.10.25" : "30",
+			"1937.09.01" : "20"
 		}
 	},
 
