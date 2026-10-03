@@ -67,5 +67,7 @@ A number of sources are used as the historical basis for vehicles and weaponry i
     - [x] Radio-equipped T-26 variant
 - [ ] Armored Cars
     - [ ] Additional tiznao variants
+    - [ ] Bilbao 'Lanzallamas' flamethrower variant (NSP, late 1936 only)
+    - [ ] Ferrol armored car (NSP, northern areas only)
 - [x] Artillery
     - [x] "105/11 mod. 1919", Obús Schneider 105/11 Modelo 1919  (NSP/RSP/ITA)

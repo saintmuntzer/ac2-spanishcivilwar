@@ -79,14 +79,22 @@
 		}
 	},
 	"enemy_air_support": {
-		"Italy" : ["Bf 109 (NSP)", "Fiat CR.32 (NSP)", "He 51 (NSP)", "He 51C-1 (NSP)", "Hs 123 (NSP)", "SM.81"],
-		"Nationalist Spain" : ["Bf 109 (NSP)", "Fiat CR.32 (NSP)", "He 51 (NSP)", "He 51C-1 (NSP)", "Hs 123 (NSP)", "SM.81"]
+		"Nationalist Spain" : ["Bf 109 (NSP)", "Fiat CR.32 (NSP)", "He 51 (NSP)", "He 51C-1 (NSP)", "Hs 123 (NSP)", "SM.81"],
+		"Italy" : ["Bf 109 (NSP)", "Fiat CR.32 (NSP)", "He 51 (NSP)", "He 51C-1 (NSP)", "Hs 123 (NSP)", "SM.81"]
 	},
 	"enemy_arty_support": {
-		"Italy" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"],
-		"Nationalist Spain" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"]
+		"Nationalist Spain" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"],
+		"Italy" : ["75/27", "7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912", "105/22 mod. 1922", "155/13 mod. 1922"]
 	},
 	"enemy_unit_list" : {
+		"Nationalist Spain" : [
+			"Panzer I A (NSP)", "Panzer I B (NSP)",
+			"7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912",
+			"Chevrolet 4x2 RD", "3-ton Truck",
+			"Riflemen", "Militia",
+			"HMG Team", "Light Mortar Team",
+			"Motorcycle MG Team"
+		],
 		"Italy" : [
 			"L3/33", "L3/35", "L3 Lf", "L3 Lf (Trailer)",
 			"AB Lancia 1Z",
@@ -97,17 +105,11 @@
 			"Riflemen",
 			"HMG Team", "Light Mortar Team",
 			"Motorcycle MG Team"
-		],
-		"Nationalist Spain" : [
-			"7.7cm FK 16", "70/16 mod. 1908", "75/28 mod. 1912",
-			"Chevrolet 4x2 RD", "3-ton Truck",
-			"Riflemen", "Militia",
-			"HMG Team", "Light Mortar Team",
-			"Motorcycle MG Team"
 		]
 	},
 	"enemy_unit_class_odds" : {
-		"Tankette" : 50,
+		"Tankette" : 40,
+		"Light Tank" : 40,
 		"Armoured Car" : 10,
 		"Anti-Tank Gun" : 50,
 		"Artillery Gun" : 20,

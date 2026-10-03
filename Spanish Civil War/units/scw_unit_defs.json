@@ -2282,7 +2282,7 @@
 		"category" : "Airplane",
 		"class" : "Fighter",
 		"origin_nation" : "Germany",
-		"portrait" : "unit_bf109e.xp",
+		"portrait" : "unit_bf109b.xp",
 		"movement_class" : "Airplane",
 		"weapon_list" : [
 			{
