@@ -61,6 +61,7 @@ A number of sources are used as the historical basis for vehicles and weaponry i
     - [ ] Letov Š-231 (RSP) (Northern Spain)
     - [ ] Polikarpov R-5 (RSP)
     - [ ] Polikarpov R-Z (RSP)
+    - [ ] Bf 109B (NSP variant)
 - [ ] Tanks
     - [ ] Modified flamethrower tanks on Nationalist side (late war)
     - [x] Radio-equipped T-26 variant
