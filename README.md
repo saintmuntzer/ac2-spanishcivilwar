@@ -22,6 +22,31 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 
 # To-Do
 
+## War in the North
+
+### General
+
+- [ ] Unit class odds in general and per week
+- [ ] Artillery review
+
+### Units
+
+- [ ] Aircraft
+    - [ ] Dornier Do 17 (NSP)
+    - [ ] Arado Ar 68 (NSP)
+    - [x] SM 81 (NSP/ITA)
+    - [ ] Letov Š-231 (RSP) (Northern Spain)
+    - [ ] Polikarpov R-5 (RSP)
+    - [ ] Polikarpov R-Z (RSP)
+    - [x] Bf 109B (NSP variant)
+    - [ ] Junkers Ju 87 (NSP variant)
+- [ ] Armored Cars
+    - [ ] Ferrol armored car (NSP, northern areas only)
+- [ ] Towed AA
+    - [ ] 8.8cm Flak 18 (Germany)
+    - [ ] 3.7cm Flak 18 (Germany)
+    - [ ] 2cm Flak 30 (Germany)
+
 ## General
 
 - [ ] Review artillery usage for historical authenticity, particularly for Battle of Guadalajara and No Pasaran
@@ -35,7 +60,7 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 - [ ] Barcelona May Days, May 3-8 1937
     - [ ] RSP
     - [ ] CNT
-- [ ] Battle of Brunete, July 6-25 1937
+- [ ] War in the North, June 12 - October 20 1937
 - [ ] Battle of Teruel, December 15 1937 – February 22 1938
 - [ ] Battle of the Ebro, July 25 – November 16 1938
 - [ ] La Retirada, January 28 – February 15 1939
