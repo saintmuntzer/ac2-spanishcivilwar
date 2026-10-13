@@ -78,10 +78,15 @@ A number of sources are used as the historical basis for vehicles and weaponry i
     - [ ] ZIS-5 (RSP)
     - [x] GAZ-AA (RSP)
 - [ ] Tractors
-    - Pending research
+    - Pending research; should include some trucks as well
 - [ ] Aircraft
     - [ ] Dornier Do 17 (NSP)
     - [ ] Arado Ar 68 (NSP)
+    - [ ] Dewoitine D-37 (RSP)
+    - [ ] Fiat G-50 (NSP/ITA)
+    - [ ] Ro 37bis (NSP/ITA)
+    - [ ] Ro 41 (NSP/ITA)
+    - [ ] Hawker Fury Mk. 1 (RSP)
     - [x] SM 81 (NSP/ITA)
     - [ ] Letov Š-231 (RSP) (Northern Spain)
     - [ ] Polikarpov R-5 (RSP)
