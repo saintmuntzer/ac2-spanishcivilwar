@@ -42,10 +42,14 @@ A number of sources are used as the historical basis for vehicles and weaponry i
     - [ ] Junkers Ju 87 (NSP variant)
 - [ ] Armored Cars
     - [ ] Ferrol armored car (NSP, northern areas only)
+
+### Modified Unit Definitions
+
 - [ ] Towed AA
-    - [ ] 8.8cm Flak 18 (Germany)
-    - [ ] 3.7cm Flak 18 (Germany)
-    - [ ] 2cm Flak 30 (Germany)
+    - [ ] 8.8cm Flak 18 (Germany) (exists as 8.8cm Flak 18 o. 36)
+    - [ ] 3.7cm Flak 18 (Germany) (exists as 3.7cm Flak 36/37)
+    - [ ] 2cm Flak 30 (Germany) (exists)
+
 
 ## General
 
@@ -80,29 +84,13 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 - [ ] Tractors
     - Pending research; should include some trucks as well
 - [ ] Aircraft
-    - [ ] Dornier Do 17 (NSP)
-    - [ ] Arado Ar 68 (NSP)
     - [ ] Dewoitine D-37 (RSP)
     - [ ] Fiat G-50 (NSP/ITA)
     - [ ] Ro 37bis (NSP/ITA)
     - [ ] Ro 41 (NSP/ITA)
     - [ ] Hawker Fury Mk. 1 (RSP)
-    - [x] SM 81 (NSP/ITA)
-    - [ ] Letov Š-231 (RSP) (Northern Spain)
-    - [ ] Polikarpov R-5 (RSP)
-    - [ ] Polikarpov R-Z (RSP)
-    - [x] Bf 109B (NSP variant)
-    - [ ] Junkers Ju 87 (NSP variant)
 - [ ] Tanks
     - [ ] Modified flamethrower tanks on Nationalist side (late war)
-    - [x] Radio-equipped T-26 variant
 - [ ] Armored Cars
     - [ ] Additional tiznao variants
     - [ ] Bilbao 'Lanzallamas' flamethrower variant (NSP, late 1936 only)
-    - [ ] Ferrol armored car (NSP, northern areas only)
-- [ ] Towed AA
-    - [ ] 8.8cm Flak 18 (Germany)
-    - [ ] 3.7cm Flak 18 (Germany)
-    - [ ] 2cm Flak 30 (Germany)
-- [x] Artillery
-    - [x] "105/11 mod. 1919", Obús Schneider 105/11 Modelo 1919  (NSP/RSP/ITA)
