@@ -1705,6 +1705,75 @@
 		}
 	},
 
+	"R-5": {
+		"nick_name" : "Rasante",
+		"category" : "Airplane",
+		"class" : "Light Bomber",
+		"origin_nation" : "Soviet Union",
+		"portrait" : "scw_unit_R-5.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "Ordinance",
+				"name" : "Bombs",
+				"calibre" : "120"
+			},
+			{
+				"type" : "MG",
+				"fp" : "2"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"},
+			{"name" : "Gunner"}
+		],
+		"description" : [
+			"The Polikarpov R-5 served as the standard light bomber and reconnaissance aircraft ",
+			"of the Soviet Air Force for much of the 1930s, though it eventually came to be outpaced ",
+			"by modern fighters and relegated to night bombing operations. Several dozen were sold to ",
+			"the Spanish Republic for the same purpose, nicknamed 'Rasante' ('Low-Flying' or 'Skimming')."
+		],
+		"rarity" : {
+			"1936.11.01" : "40",
+			"1938.01.01" : "30",
+			"1939.03.01" : "20"
+		}
+	},
+
+	"R-Z": {
+		"nick_name" : "Natacha",
+		"category" : "Airplane",
+		"class" : "Light Bomber",
+		"origin_nation" : "Soviet Union",
+		"portrait" : "scw_unit_R-Z.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "Ordinance",
+				"name" : "Bombs",
+				"calibre" : "150"
+			},
+			{
+				"type" : "MG",
+				"fp" : "2"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"},
+			{"name" : "Gunner"}
+		],
+		"description" : [
+			"A revised version of the earlier Polikarpov R-5 reconnaisance bomber equipped with a more ",
+			"powerful engine, among other improvements. The R-Z was heavily used for tactical bombing by ",
+			"the Spanish Republican Air Force despite struggling against enemy fighter craft."
+		],
+		"rarity" : {
+			"1937.03.01" : "60",
+			"1938.03.01" : "40",
+			"1939.03.01" : "20"
+		}
+	},
+
 	"Tupolev SB (RSP)": {
 		"nick_name" : "Katyusha",
 		"category" : "Airplane",
