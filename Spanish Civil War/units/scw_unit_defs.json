@@ -2538,6 +2538,40 @@
 		}
 	},
 
+	"Ju 87 Stuka (NSP)": {
+		"category" : "Airplane",
+		"class" : "Dive Bomber",
+		"origin_nation" : "Germany",
+		"portrait" : "scw_unit_ju87_NSP.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "Ordinance",
+				"name" : "Bombs",
+				"calibre" : "150"
+			},
+			{
+				"type" : "MG",
+				"fp" : "3"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"},
+			{"name" : "Radio Operator"}
+		],
+		"description" : [
+			"The Ju 87 first saw service with the German Condor Legion, supporting ",
+			"Spanish nationalist forces. These early variants underwent extensive ",
+			"combat testing and served as ground attack aircraft through the end of ",
+			"the civil war."
+		],
+		"rarity" : {
+			"1937.01.01" : "5",
+			"1938.01.01" : "20",
+			"1938.10.01" : "30"
+		}
+	},
+
 	"NiD 52 (NSP)": {
 		"category" : "Airplane",
 		"class" : "Fighter",

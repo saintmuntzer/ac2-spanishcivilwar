@@ -33,11 +33,10 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 
 - [ ] Aircraft
     - [ ] Dornier Do 17 (NSP)
-    - [ ] Arado Ar 68 (NSP)
     - [x] SM 81 (NSP/ITA)
     - [ ] Letov Š-231 (RSP) (Northern Spain)
-    - [ ] Polikarpov R-5 (RSP)
-    - [ ] Polikarpov R-Z (RSP)
+    - [x] Polikarpov R-5 (RSP)
+    - [x] Polikarpov R-Z (RSP)
     - [x] Bf 109B (NSP variant)
     - [ ] Junkers Ju 87 (NSP variant)
 - [ ] Armored Cars
