@@ -193,6 +193,46 @@
 		}
 	},
 
+	"105/28": {
+		"category" : "Gun",
+		"class" : "Artillery Gun",
+		"origin_nation" : "Italy",
+		"portrait" : "unit_105mm_gun_ITA.xp",
+		"size_class" : "Large",
+		"movement_class" : "Gun",
+		"gun_shield" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "105",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE"],
+				"max_ammo" : "180"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"This is an Italian license-built version of the French 105mm modele ",
+			"1913."
+		],
+		"rarity" : {
+			"1936.07.01" : "40",
+			"1940.06.01" : "60",
+			"1942.01.01" : "70"
+		}
+	},
+
 	"20/65": {
 		"category" : "Gun",
 		"class" : "Anti-Aircraft Gun",
@@ -232,6 +272,53 @@
 			"1941.06.01" : "90",
 			"1942.05.01" : "100",
 			"1943.06.01" : "0"
+		}
+	},
+
+	"2cm FlaK 30": {
+		"category" : "Gun",
+		"class" : "Anti-Aircraft Gun",
+		"origin_nation" : "Germany",
+		"portrait" : "unit_flak_38.xp",
+		"size_class" : "Small",
+		"movement_class" : "Gun",
+		"gun_shield" : true,
+		"turntable" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "20",
+				"long_range" : "L",
+				"rof" : "20.0",
+				"fp" : "4",
+				"autocannon" : true,
+				"rr_size" : "20",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "180"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"This was the first German light anti-aircraft gun developed after the Great ",
+			"War. Several thousand were produced, but it was steadily displaced by the ",
+			"more advanced FlaK 38 during wartime."
+		],
+		"rarity" : {
+			"1936.01.01" : "90",
+			"1939.09.01" : "70",
+			"1940.05.01" : "50",
+			"1941.01.01" : "30",
+			"1943.01.01" : "0"
 		}
 	},
 
@@ -407,46 +494,6 @@
             "1936.07.01" : "100",
 			"1940.06.01" : "80",
 			"1943.10.01" : "0"
-		}
-	},
-
-	"105/28": {
-		"category" : "Gun",
-		"class" : "Artillery Gun",
-		"origin_nation" : "Italy",
-		"portrait" : "unit_105mm_gun_ITA.xp",
-		"size_class" : "Large",
-		"movement_class" : "Gun",
-		"gun_shield" : true,
-		"weapon_list" : [
-			{
-				"type" : "Gun",
-				"calibre" : "105",
-				"mount" : "Hull",
-				"fired_by" : ["Gunner"],
-				"reloaded_by" : ["Loader"],
-				"firing_group" : 0,
-				"ammo_type_list" : ["HE"],
-				"max_ammo" : "180"
-			}
-		],
-		"crew_positions" : [
-			{"name" : "Commander"},
-			{"name" : "Spotter"},
-			{"name" : "Gunner"},
-			{"name" : "Loader"},
-			{"name" : "Ammo Handler"},
-			{"name" : "Ammo Handler"},
-			{"name" : "Ammo Handler"}
-		],
-		"description" : [
-			"This is an Italian license-built version of the French 105mm modele ",
-			"1913."
-		],
-		"rarity" : {
-			"1936.07.01" : "40",
-			"1940.06.01" : "60",
-			"1942.01.01" : "70"
 		}
 	},
 

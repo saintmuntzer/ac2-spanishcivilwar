@@ -38,16 +38,16 @@ A number of sources are used as the historical basis for vehicles and weaponry i
     - [x] Polikarpov R-5 (RSP)
     - [x] Polikarpov R-Z (RSP)
     - [x] Bf 109B (NSP variant)
-    - [ ] Junkers Ju 87 (NSP variant)
+    - [x] Junkers Ju 87 (NSP variant)
 - [ ] Armored Cars
     - [ ] Ferrol armored car (NSP, northern areas only)
 
 ### Modified Unit Definitions
 
-- [ ] Towed AA
-    - [ ] 8.8cm Flak 18 (Germany) (exists as 8.8cm Flak 18 o. 36)
-    - [ ] 3.7cm Flak 18 (Germany) (exists as 3.7cm Flak 36/37)
-    - [ ] 2cm Flak 30 (Germany) (exists)
+- [x] Towed AA
+    - [x] 8.8cm Flak 18 (Germany) (exists as 8.8cm Flak 18 o. 36)
+    - [x] 3.7cm Flak 18 (Germany) (exists as 3.7cm Flak 36/37)
+    - [x] 2cm Flak 30 (Germany) (exists)
 
 
 ## General

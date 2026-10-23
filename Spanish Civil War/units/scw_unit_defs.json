@@ -1811,27 +1811,24 @@
 			"1939.04.01" : "10"
 		}
 	},
-
-	"Oerlikon 20mm (RSP)": {
+	
+	"105/11 mod. 1919": {
 		"category" : "Gun",
-		"class" : "Anti-Aircraft Gun",
-		"origin_nation" : "Switzerland",
-		"portrait" : "unit_20mm_aa.xp",
-		"size_class" : "Small",
+		"class" : "Artillery Gun",
+		"origin_nation" : "France",
+		"portrait" : "scw_unit_105mm_gun_short.xp",
+		"size_class" : "Normal",
 		"movement_class" : "Gun",
-		"turntable" : true,
+		"gun_shield" : true,
 		"weapon_list" : [
 			{
 				"type" : "Gun",
-				"calibre" : "20",
-				"fp" : "4",
-				"long_range" : "L",
-				"rof" : "50.0",
+				"calibre" : "105",
 				"mount" : "Hull",
 				"fired_by" : ["Gunner"],
 				"reloaded_by" : ["Loader"],
 				"firing_group" : 0,
-				"ammo_type_list" : ["HE", "AP"],
+				"ammo_type_list" : ["AP", "HE"],
 				"max_ammo" : "180"
 			}
 		],
@@ -1845,11 +1842,132 @@
 			{"name" : "Ammo Handler"}
 		],
 		"description" : [
-			"The Spanish Republic managed to acquire a number of Oerlikon 20mm cannons ",
-			"(and various copies) through international purchases."
+			"This 105mm Schneider mountain gun was exported to a number ",
+			"of countries and produced under license in Spain."
 		],
 		"rarity" : {
-			"1936.09.01" : "10"
+			"1936.07.01" : "80"
+		}
+	},
+
+	"105/22 mod. 1922": {
+		"category" : "Gun",
+		"class" : "Artillery Gun",
+		"origin_nation" : "Kingdom of Spain",
+		"portrait" : "scw_unit_105mm_gun_long.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Gun",
+		"gun_shield" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "105",
+				"long_range" : "S",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["AP", "HE"],
+				"max_ammo" : "180"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"A Spanish-produced version of the Vickers 18-pounder Mk IV howitzer ",
+			"modified to shoot 105mm shells."
+		],
+		"rarity" : {
+			"1922.07.01" : "20"
+		}
+	},
+
+	"155/13 mod. 1922": {
+		"category" : "Gun",
+		"class" : "Artillery Gun",
+		"origin_nation" : "France",
+		"portrait" : "unit_155mm_gun.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Gun",
+		"gun_shield" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "155",
+				"long_range" : "S",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE"],
+				"max_ammo" : "180",
+				"unreliable" : true
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"A ubiquitous French field howitzer, first declared standard for Spanish Army ",
+			"use in 1922."
+		],
+		"rarity" : {
+			"1922.11.01" : "20"
+		}
+	},
+
+	"3.7cm FlaK 18": {
+		"category" : "Gun",
+		"class" : "Anti-Aircraft Gun",
+		"origin_nation" : "Germany",
+		"portrait" : "unit_flak_37.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Gun",
+		"gun_shield" : true,
+		"turntable" : true,
+		"weapon_list" : [
+			{
+				"type" : "Gun",
+				"calibre" : "37",
+				"long_range" : "LL",
+				"rof" : "16.7",
+				"autocannon" : true,
+				"rr_size" : "6",
+				"fp" : "8",
+				"mount" : "Hull",
+				"fired_by" : ["Gunner"],
+				"reloaded_by" : ["Loader"],
+				"firing_group" : 0,
+				"ammo_type_list" : ["HE", "AP"],
+				"max_ammo" : "180"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Commander"},
+			{"name" : "Spotter"},
+			{"name" : "Gunner"},
+			{"name" : "Loader"},
+			{"name" : "Ammo Handler"}
+		],
+		"description" : [
+			"Though the 3.7cm FlaK 18 was only produced in small numbers, its ",
+			"service in Germany's Condor Legion would prove tremendously ",
+			"effective against Spanish Republican armor and aircraft alike."
+		],
+		"rarity" : {
+			"1936.01.01" : "40"
 		}
 	},
 
@@ -2009,23 +2127,26 @@
 		}
 	},
 
-	"105/11 mod. 1919": {
+	"8.8cm FlaK 18": {
 		"category" : "Gun",
-		"class" : "Artillery Gun",
-		"origin_nation" : "France",
-		"portrait" : "scw_unit_105mm_gun_short.xp",
-		"size_class" : "Normal",
+		"class" : "Anti-Aircraft Gun",
+		"origin_nation" : "Germany",
+		"portrait" : "unit_flak_36.xp",
+		"size_class" : "Large",
 		"movement_class" : "Gun",
 		"gun_shield" : true,
+		"turntable" : true,
 		"weapon_list" : [
 			{
 				"type" : "Gun",
-				"calibre" : "105",
+				"calibre" : "88",
+				"long_range" : "L",
+				"rof" : "33.3",
 				"mount" : "Hull",
 				"fired_by" : ["Gunner"],
 				"reloaded_by" : ["Loader"],
 				"firing_group" : 0,
-				"ammo_type_list" : ["AP", "HE"],
+				"ammo_type_list" : ["HE", "AP"],
 				"max_ammo" : "180"
 			}
 		],
@@ -2039,32 +2160,34 @@
 			{"name" : "Ammo Handler"}
 		],
 		"description" : [
-			"This 105mm Schneider mountain gun was exported to a number ",
-			"of countries and produced under license in Spain."
+			"The earliest variant of the infamous '88' saw its first wartime ",
+			"use in Spain, though in limited numbers."
 		],
 		"rarity" : {
-			"1936.07.01" : "80"
+			"1936.01.01" : "20"
 		}
 	},
 
-	"105/22 mod. 1922": {
+	"Oerlikon 20mm (RSP)": {
 		"category" : "Gun",
-		"class" : "Artillery Gun",
-		"origin_nation" : "Kingdom of Spain",
-		"portrait" : "scw_unit_105mm_gun_long.xp",
-		"size_class" : "Normal",
+		"class" : "Anti-Aircraft Gun",
+		"origin_nation" : "Switzerland",
+		"portrait" : "unit_20mm_aa.xp",
+		"size_class" : "Small",
 		"movement_class" : "Gun",
-		"gun_shield" : true,
+		"turntable" : true,
 		"weapon_list" : [
 			{
 				"type" : "Gun",
-				"calibre" : "105",
-				"long_range" : "S",
+				"calibre" : "20",
+				"fp" : "4",
+				"long_range" : "L",
+				"rof" : "50.0",
 				"mount" : "Hull",
 				"fired_by" : ["Gunner"],
 				"reloaded_by" : ["Loader"],
 				"firing_group" : 0,
-				"ammo_type_list" : ["AP", "HE"],
+				"ammo_type_list" : ["HE", "AP"],
 				"max_ammo" : "180"
 			}
 		],
@@ -2074,54 +2197,15 @@
 			{"name" : "Gunner"},
 			{"name" : "Loader"},
 			{"name" : "Ammo Handler"},
-			{"name" : "Ammo Handler"}
-		],
-		"description" : [
-			"A Spanish-produced version of the Vickers 18-pounder Mk IV howitzer ",
-			"modified to shoot 105mm shells."
-		],
-		"rarity" : {
-			"1922.07.01" : "20"
-		}
-	},
-
-	"155/13 mod. 1922": {
-		"category" : "Gun",
-		"class" : "Artillery Gun",
-		"origin_nation" : "France",
-		"portrait" : "unit_155mm_gun.xp",
-		"size_class" : "Normal",
-		"movement_class" : "Gun",
-		"gun_shield" : true,
-		"weapon_list" : [
-			{
-				"type" : "Gun",
-				"calibre" : "155",
-				"long_range" : "S",
-				"mount" : "Hull",
-				"fired_by" : ["Gunner"],
-				"reloaded_by" : ["Loader"],
-				"firing_group" : 0,
-				"ammo_type_list" : ["HE"],
-				"max_ammo" : "180",
-				"unreliable" : true
-			}
-		],
-		"crew_positions" : [
-			{"name" : "Commander"},
-			{"name" : "Spotter"},
-			{"name" : "Gunner"},
-			{"name" : "Loader"},
-			{"name" : "Ammo Handler"},
 			{"name" : "Ammo Handler"},
 			{"name" : "Ammo Handler"}
 		],
 		"description" : [
-			"A ubiquitous French field howitzer, first declared standard for Spanish Army ",
-			"use in 1922."
+			"The Spanish Republic managed to acquire a number of Oerlikon 20mm cannons ",
+			"(and various copies) through international purchases."
 		],
 		"rarity" : {
-			"1922.11.01" : "20"
+			"1936.09.01" : "20"
 		}
 	},
 
