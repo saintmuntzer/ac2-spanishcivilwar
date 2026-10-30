@@ -1774,6 +1774,37 @@
 		}
 	},
 
+	"S-231": {
+		"category" : "Airplane",
+		"class" : "Fighter",
+		"origin_nation" : "Czechoslovakia",
+		"portrait" : "scw_unit_S-231.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "Ordinance",
+				"name" : "Bombs",
+				"calibre" : "40"
+			},
+			{
+				"type" : "MG",
+				"fp" : "4"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"}
+		],
+		"description" : [
+			"Originally produced for the Czechoslovak Air Force, most of the Letov S-231 fighters ",
+			"were sold off to the Spanish Republican government in 1937. Their performance was subpar ",
+			"but nonetheless valued on the underequipped northern front."
+		],
+		"rarity" : {
+			"1937.03.15" : "30",
+			"1937.05.01" : "50"
+		}
+	},
+
 	"Tupolev SB (RSP)": {
 		"nick_name" : "Katyusha",
 		"category" : "Airplane",
@@ -2380,6 +2411,70 @@
 		}
 	},
 
+	"Ferrol": {
+		"category" : "Vehicle",
+		"class" : "Armoured Car",
+		"origin_nation" : "Nationalist Spain",
+		"portrait" : "scw_unit_Ferrol.xp",
+		"size_class" : "Normal",
+		"movement_class" : "Wheeled",
+		"powerful_engine" : true,
+		"ground_pressure" : "Heavy",
+		"unreliable" : true,
+		"turret" : "RST",
+		"recce" : true,
+		"no_radio" : true,
+		"armour" : {
+			"turret_front" : "0",
+			"turret_side" : "0",
+			"hull_front" : "0",
+			"hull_side" : "0"
+		},
+		"weapon_list" : [
+			{
+				"type" : "TMG",
+				"fp" : "4",
+				"rof" : "16.7",
+				"mount" : "Turret",
+				"fired_by" : ["Commander/Gunner"],
+				"firing_group" : 0
+			}
+		],
+		"crew_positions" : [
+			{
+				"name" : "Commander",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"bu_visible" : ["0"],
+				"ce_visible" : ["0", "1", "2", "3"]
+			},
+			{
+				"name" : "Driver",
+				"location" : "Hull",
+				"hatch" : true,
+				"large_hatch" : true,
+				"bu_visible" : ["0"],
+				"ce_visible" : ["0", "3", "4", "5"]
+			},
+			{
+				"name" : "Gunner",
+				"location" : "Turret",
+				"bu_visible" : ["0", "1", "5"]
+			}
+		],
+		"description" : [
+			"A rare improvised armoured car on the Nationalist side of the Spanish ",
+			"civil war, named for its town of origin. Originally a Hispano-Suiza 30/40 bus, ",
+			"the steel-plated Ferrol would be used for towing equipment, transporting personnel, ",
+			"and occasionally for front-line combat."
+		],
+		"rarity" : {
+			"1936.06.01" : "20",
+			"1938.11.01" : "0"
+		}
+	},
+
 	"Chevrolet 4x2 RD (NSP)" : {
 		"category" : "Vehicle",
 		"class" : "Truck",
@@ -2463,6 +2558,39 @@
 		"rarity" : {
 			"1938.09.01" : "30",
 			"1939.01.01" : "40"
+		}
+	},
+
+	"Do 17 (NSP)": {
+		"category" : "Airplane",
+		"class" : "Light Bomber",
+		"origin_nation" : "Germany",
+		"portrait" : "scw_unit_Do_17.xp",
+		"movement_class" : "Airplane",
+		"weapon_list" : [
+			{
+				"type" : "Ordinance",
+				"name" : "Bombs",
+				"calibre" : "180"
+			},
+			{
+				"type" : "MG",
+				"fp" : "6"
+			}
+		],
+		"crew_positions" : [
+			{"name" : "Pilot"},
+			{"name" : "Bombardier"},
+			{"name" : "Gunner"},
+			{"name" : "Gunner"}
+		],
+		"description" : [
+			"The Dornier Do 17 bomber received its baptism of fire in Spain with Germany's Condor Legion. ",
+			"It was flown at high speeds and low altitudes, making it a challenging target for anti-air defenses."
+		],
+		"rarity" : {
+			"1937.03.01" : "30",
+			"1938.03.01" : "50"
 		}
 	},
 

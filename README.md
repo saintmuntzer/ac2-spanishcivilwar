@@ -31,16 +31,16 @@ A number of sources are used as the historical basis for vehicles and weaponry i
 
 ### Units
 
-- [ ] Aircraft
-    - [ ] Dornier Do 17 (NSP)
+- [x] Aircraft
+    - [x] Dornier Do 17 (NSP)
     - [x] SM 81 (NSP/ITA)
-    - [ ] Letov Š-231 (RSP) (Northern Spain)
+    - [x] Letov Š-231 (RSP) (Northern Spain)
     - [x] Polikarpov R-5 (RSP)
     - [x] Polikarpov R-Z (RSP)
     - [x] Bf 109B (NSP variant)
     - [x] Junkers Ju 87 (NSP variant)
-- [ ] Armored Cars
-    - [ ] Ferrol armored car (NSP, northern areas only)
+- [x] Armored Cars
+    - [x] Ferrol armored car (NSP, northern areas only)
 
 ### Modified Unit Definitions
 
